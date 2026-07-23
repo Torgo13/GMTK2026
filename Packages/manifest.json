@@ -1,17 +1,23 @@
 {
   "dependencies": {
+    "com.microsoft.mrtk.graphicstools.shadergraph.unity": "https://github.com/Torgo13/MixedReality-GraphicsTools-Unity.git?path=/com.microsoft.mrtk.graphicstools.shadergraph.unity#424a706408f60e49a7b3b654b7aab1efad502510",
+    "com.microsoft.mrtk.graphicstools.unity": "https://github.com/Torgo13/MixedReality-GraphicsTools-Unity.git?path=com.microsoft.mrtk.graphicstools.unity#424a706408f60e49a7b3b654b7aab1efad502510",
+    "com.tw0catsgames.builtinextensions": "https://github.com/Torgo13/UnityExtensions.git#534514affff46225a87fb18a689e6c126c3c5d9f",
     "com.tw0catsgames.shader-graph-example-library": "https://github.com/Torgo13/ShaderGraph_ExampleLibrary.git#1a5ae5b60fd0dbbb913798c3365e98baf565654c",
     "com.tw0catsgames.volumetric-fog": "https://github.com/Torgo13/VolumetricFog.git#6f70baecb7bc2a0b7650f6373c17c3a8a9157779",
-    "com.unity.adaptiveperformance": "6.0.0",
-    "com.unity.adaptiveperformance.google.android": "6.0.0",
+    "com.unity.addressables": "2.9.1",
+    "com.unity.burst": "1.8.30",
     "com.unity.cinemachine": "3.1.7",
+    "com.unity.collections": "2.6.8",
     "com.unity.ide.rider": "3.0.40",
     "com.unity.ide.visualstudio": "2.0.27",
-    "com.unity.inputsystem": "1.19.0",
-    "com.unity.probuilder": "6.0.9",
+    "com.unity.inputsystem": "1.20.0",
+    "com.unity.probuilder": "6.1.2",
     "com.unity.render-pipelines.universal": "17.3.0",
-    "com.unity.sponza-urp": "https://github.com/alexmalyutindev/sponza-unity-urp.git#5665fb87d07b2943424eab5827f76d74f314de9d",
-    "com.unity.web.stripping-tool": "1.3.0"
+    "com.unity.web.stripping-tool": "1.3.0",
+    "com.xperiandri.stringbuilderextensions": "https://github.com/Torgo13/StringBuilderExtensionsUnity.git#d517720fdfc44c6d5d33a36795ca90cac4d38eaf",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.audio": "1.0.0"
   },
   "scopedRegistries": [
     {
