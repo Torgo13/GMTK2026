@@ -35,12 +35,12 @@ MonoBehaviour:
       <_float inputValue2WaySpeed="0.5" rotateSpeed="500" rotateSmoothTime="0.1"
       rotateMaxAngle="135" camDirectionOffset="0" minFallTime="0.1" jumpSpeed="9.81"
       jumpDeceleration="10" jumpGravity="20" inAirModifier="0.5" jumpMaxGroundAngle="45"
-      sprintFactor="2" />
+      sprintFactor="2.5" />
 
-      <_bool rootMotionSetControllerGravity="False" use2WaySpeed="False"
-      firstPerson="True" useCamDirection="True" playFallAnimation="False" playLandAnimation="False"
-      useJump="False" useSprint="False" sprintToggleMode="False" useEnergy="False"
-      energyUseStatusValue="False" />
+      <_bool rootMotionSetControllerGravity="False"
+      use2WaySpeed="False" firstPerson="True" useCamDirection="True" playFallAnimation="False"
+      playLandAnimation="False" useJump="False" useSprint="True" sprintToggleMode="False"
+      useEnergy="False" energyUseStatusValue="False" />
 
       <_string>
 
@@ -249,6 +249,9 @@ MonoBehaviour:
       <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
 
       </_string>
+
+      <_asset
+      asset="2" />
 
       </settings>
 
@@ -926,7 +929,7 @@ MonoBehaviour:
       <_floatarrays>
 
       <offset
-      0 0 0.5 />
+      0 0 0 />
 
       </_floatarrays>
 
@@ -964,7 +967,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="2" />
+      asset="3" />
 
       </settings>
 
@@ -1102,7 +1105,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="3" />
+      asset="4" />
 
       </settings>
 
@@ -1666,7 +1669,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="4" />
+      asset="5" />
 
       </settings>
 
@@ -2084,6 +2087,7 @@ MonoBehaviour:
       assets:
       - {fileID: 11400000, guid: c1b6916fc6c86c0429ccd25528a955ee, type: 2}
       - {fileID: 11400000, guid: d698083deaf6a5d4ab51d3479a17e5f6, type: 2}
+      - {fileID: 11400000, guid: ca07f44baaf47d349a742b9712a12111, type: 2}
       - {fileID: 11400000, guid: 944c5a7e151d4b240a16854e5df038d5, type: 2}
       - {fileID: 11400000, guid: 3fbee9ef1d80e5944963de8ffa017b70, type: 2}
       - {fileID: 11400000, guid: 9056af6767a552842bdec9a5669d3c13, type: 2}

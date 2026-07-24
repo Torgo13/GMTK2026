@@ -99,6 +99,13 @@ MonoBehaviour:
 
       </11>
 
+      <12>
+
+      <_asset
+      asset="12" />
+
+      </12>
+
       </assets>
 
       </_subarrays>
@@ -120,4 +127,5 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 04c81538cc488f6439cc9b647ea68605, type: 2}
       - {fileID: 11400000, guid: 3fbee9ef1d80e5944963de8ffa017b70, type: 2}
       - {fileID: 11400000, guid: 944c5a7e151d4b240a16854e5df038d5, type: 2}
+      - {fileID: 11400000, guid: ca07f44baaf47d349a742b9712a12111, type: 2}
     encrypted: 0
