@@ -14,8 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     name: Class Slots
-    byteData: 0000000000000000000000000000000000000000000000000000000000000000000000000000000001000000066173736574730100000001000000000000000000000000000000000000000000000000000000000000000001000000056173736574000000000000000000000000
-    xmlData: 
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_subarrays>
+
+      <assets>
+
+      <0>
+
+      <_asset
+      asset="0" />
+
+      </0>
+
+      </assets>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
     lookUp:
       assets:
       - {fileID: 11400000, guid: a67a16b9a910da04288676a27d056cce, type: 2}

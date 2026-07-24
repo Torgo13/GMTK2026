@@ -14,7 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     name: Scene Connections
-    byteData: 0100000010636f6e6e656374696f6e53656172636800000000000000000000000000000000000000000000000000000000000000000000000000000000010000000b636f6e6e656374696f6e7300000000
+    byteData: 
+    xmlData: '<xmldata connectionSearch="0" >
+
+      <_subarrays>
+
+      <connections>
+
+      </connections>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
     lookUp:
       assets: []
     encrypted: 0

@@ -12,11 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: -1733198343, guid: 2f433824042009943be1767c00adb2ed, type: 3}
   m_Name: 10 - Revive
   m_EditorClassIdentifier: 
-  time: 28.11.2021 01:45:53
-  version: 2.1.0 BETA 16
   data:
     name: settings
-    byteData: 01000000067265616c49440a000000000000000000000002000000046e616d650652657669766504677569640652657669766500000000000000000000000000000000000000000000000000000000
+    byteData: 
+    xmlData: '<xmldata realID="10" >
+
+      <_string>
+
+      <name><![CDATA[Revive]]></name>
+
+      <guid><![CDATA[Revive]]></guid>
+
+      </_string>
+
+      </xmldata>
+
+'
     lookUp:
       assets: []
     encrypted: 0

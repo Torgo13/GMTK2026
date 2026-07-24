@@ -12,11 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 686913358, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
   m_Name: 1 - Damage
   m_EditorClassIdentifier: 
-  time: 14.12.2021 19:16:50
-  version: 2.1.0 BETA 17
   data:
     name: settings
-    byteData: 01000000067265616c494401000000000000000000000002000000046e616d650644616d61676504677569642439353764636431312d613161612d346138612d383861382d65306462633265393266343300000000000000000000000000000000000000000000000000000000
+    byteData: 
+    xmlData: '<xmldata realID="1" >
+
+      <_string>
+
+      <name><![CDATA[Damage]]></name>
+
+      <guid><![CDATA[957dcd11-a1aa-4a8a-88a8-e0dbc2e92f43]]></guid>
+
+      </_string>
+
+      </xmldata>
+
+'
     lookUp:
       assets: []
     encrypted: 0

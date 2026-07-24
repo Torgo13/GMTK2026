@@ -14,7 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     name: Teleports
-    byteData: 0000000000000000000000000000000000000000000000000000000000000000000000000000000001000000066173736574730100000001000000000000000000000000000000000000000000000000000000000000000001000000056173736574000000000000000000000000
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_subarrays>
+
+      <assets>
+
+      <0>
+
+      <_asset
+      asset="0" />
+
+      </0>
+
+      </assets>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
     lookUp:
       assets:
       - {fileID: 11400000, guid: d3c66202d084b2e4abb6f60772e4ab08, type: 2}

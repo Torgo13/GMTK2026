@@ -14,7 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     name: Control Maps
-    byteData: 0000000000000000000000000000000000000000000000000000000000000000000000000000000001000000066173736574730100000001000000000000000000000000000000000000000000000000000000000000000001000000056173736574000000000000000000000000
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_subarrays>
+
+      <assets>
+
+      <0>
+
+      <_asset
+      asset="0" />
+
+      </0>
+
+      </assets>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
     lookUp:
       assets:
       - {fileID: 11400000, guid: 843be98f3a26651428feeaa46496f248, type: 2}

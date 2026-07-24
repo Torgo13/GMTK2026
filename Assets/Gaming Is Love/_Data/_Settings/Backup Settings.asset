@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     name: Backup Settings
-    byteData: 010000000f6e756d6265724f664261636b7570730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-    xmlData: 
+    byteData: 
+    xmlData: '<xmldata numberOfBackups="0" >
+
+      </xmldata>
+
+'
     lookUp:
       assets: []
     encrypted: 0

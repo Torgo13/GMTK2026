@@ -12,11 +12,30 @@ MonoBehaviour:
   m_Script: {fileID: 1709872415, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
   m_Name: 0 - Default
   m_EditorClassIdentifier: 
-  time: 28.11.2021 01:45:54
-  version: 2.1.0 BETA 16
   data:
     name: settings
-    byteData: 02000000066e656564656400000000067265616c494400000000000000000000000002000000046e616d650744656661756c7404677569642464356438373464342d623965652d343031642d386266642d66633133366265383834633300000000000000000000000000000000000000000000000001000000087661726961626c6500000000
+    byteData: 
+    xmlData: '<xmldata needed="0" realID="0" >
+
+      <_string>
+
+      <name><![CDATA[Default]]></name>
+
+      <guid><![CDATA[d5d874d4-b9ee-401d-8bfd-fc136be884c3]]></guid>
+
+      </_string>
+
+      <_subarrays>
+
+      <variable>
+
+      </variable>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
     lookUp:
       assets: []
     encrypted: 0
