@@ -13,16 +13,36 @@ MonoBehaviour:
   m_Name: Default Local Group
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
   m_GroupName: Default Local Group
-  m_GUID: 945a99bab10f1814186245056b61b976
+  m_GUID: 47ce167bcedb1f84fa346e16d9642fb6
   m_SerializeEntries:
-  - m_GUID: 97a8e46aab35a3a41b95e249f42ccc0e
-    m_Address: Scene0
+  - m_GUID: 59aa33973c0e1d944b813425d414f313
+    m_Address: Swamp Battle Arena
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62fe7d009787f7d4e836c0c36254e7a5
+    m_Address: Start Menu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63d95937b65fbe34c995c1640509cb5a
+    m_Address: Forest Battle Arena
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75a4d438a09154748a309234b9181b8f
+    m_Address: UI Environment
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77dfe87c63ad3014a942a0d4221e701a
+    m_Address: World
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
-  m_Settings: {fileID: 11400000, guid: fa32c021e92edc243a29514afb1f719e, type: 2}
+  m_Settings: {fileID: 11400000, guid: cff5af1775ac8be4aa6c85a07ac7e83c, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 7ee5db334b66ea046887e630ec3c4590, type: 2}
-    - {fileID: 11400000, guid: 1ba6173c51e6fc44190c70e9d84f4978, type: 2}
+    - {fileID: 11400000, guid: cfc191390fe0b624aa8dd1acaac8ac81, type: 2}
+    - {fileID: 11400000, guid: 429955fa878987a439ecc7e71046850c, type: 2}

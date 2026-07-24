@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 686913358, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 1 - Damage
+  m_EditorClassIdentifier: 
+  time: 14.12.2021 19:16:50
+  version: 2.1.0 BETA 17
+  data:
+    name: settings
+    byteData: 01000000067265616c494401000000000000000000000002000000046e616d650644616d61676504677569642439353764636431312d613161612d346138612d383861382d65306462633265393266343300000000000000000000000000000000000000000000000000000000
+    lookUp:
+      assets: []
+    encrypted: 0
+  sortAtEnd: 0

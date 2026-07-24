@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 619879560, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: EditorData
+  m_EditorClassIdentifier: 
+  lastProject: {fileID: 11400000, guid: 17f4558f5d7a8c04a92de8cea116cce7, type: 2}
+  lastSaveFormat: 0
+  lastEncrypted: 0
+  editorHelpLanguageTexts: {fileID: 0}
+  section: 2
+  subSection: 0
+  tabIndex: -1
+  scrollY: 960
+  foldoutLimit: 
+  helpDrag: 220
+  subSectionDrag: 250
+  tabListDrag: 250
+  formulaDrag: 458
+  schematicDrag: 350
+  jumpListDrag: 250
+  dataSelectionSorting: 0
+  typeDataSelectionSorting: 0
+  createBackup: 0
+  updateSchematics: 1
+  schematicUpdateFolder: 
+  updatePrefabs: 0
+  updateScenes: 0
+  sceneUpdate: 
+  schematicAsset:
+  - {fileID: 11400000, guid: ed0dad98d18f7ea4e85079df3b4d827f, type: 2}
+  - {fileID: 11400000, guid: 95a4e5947cfe5ce479655477560ce695, type: 2}
+  - {fileID: 11400000, guid: a9dbb66c7ad847b46ab2fc2ba45b3234, type: 2}
+  - {fileID: 11400000, guid: 7d017da5f23788344abef0fb2e4650d6, type: 2}
+  - {fileID: 11400000, guid: cdaf444651bd526449fb9551fcae14b9, type: 2}
+  - {fileID: 11400000, guid: 0444145c7e4144c46b9d188515817ef6, type: 2}
+  - {fileID: 11400000, guid: df2a5fa32e416de4da6ca624efadc7ea, type: 2}
+  - {fileID: 11400000, guid: 08fcee19df5dd854b93c1d693c831e08, type: 2}
+  - {fileID: 11400000, guid: d67a98c5a59646b48bbd1ad2dcaa48be, type: 2}
+  - {fileID: 11400000, guid: a7b1448fdccb61249951dc77d89c17ff, type: 2}
+  - {fileID: 11400000, guid: b7e2d65d80c1dd64d83f2f07ab2ea188, type: 2}
+  - {fileID: 11400000, guid: 324de2a08295a5a4f8ff25fa2acb8127, type: 2}
+  - {fileID: 11400000, guid: 8a7674f4ecd4cca45bd0509fd52c4ca8, type: 2}
+  - {fileID: 11400000, guid: 678e93c07aa929a41ae8342b0a25924a, type: 2}
+  - {fileID: 11400000, guid: b3cba4a8851169745a0a396ffc5683f5, type: 2}
+  - {fileID: 11400000, guid: 800b0dbc6ebfc6d4590b997addd8f3fa, type: 2}
+  - {fileID: 11400000, guid: fdca204b575e44b44bc72f864be6a346, type: 2}
+  - {fileID: 11400000, guid: 6016db33fac30084bb2fed113cb37ce9, type: 2}
+  - {fileID: 11400000, guid: 9907680241e54554594ce341612dbafe, type: 2}
+  - {fileID: 11400000, guid: e8d7001a7c90c174dbc59d4b6e52c9f2, type: 2}
+  dialogueImportSettings:
+    name: 
+    byteData: 
+    xmlData: 
+    lookUp:
+      assets: []
+    encrypted: 0
+  variablesDefined: []
+  variablesEditor:
+  - craftingProficiency
+  variablesSchematic:
+  - useCamera
+  - wait
+  - counter
+  - trapdoorOpen
+  - list
+  - quest
+  - craftingProficiency
+  - action
+  - <name>+
+  variablesScene: []
+  variablesPrefab: []
+  foldoutKeys: []
+  foldoutStates: []
+  popupFavorites: []
