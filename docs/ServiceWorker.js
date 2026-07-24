@@ -1,4 +1,4 @@
-const cacheName = "TW0CATS GAMES LTD-GMTK2026-0.1.0";
+const cacheName = "TW0CATS GAMES LTD-Doomsday DEADline-0.1.0";
 const contentToCache = [
     "Build/docs.loader.js",
     "Build/docs.framework.js.unityweb",
