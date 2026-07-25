@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -238901764, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 6 - Boss Battle Theme
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata startPCM="0" realID="6" >
+
+      <_float maxVolume="1" startTime="0"
+      />
+
+      <_bool doLoop="False" storeTimePosition="False" useStartPCM="False"
+      />
+
+      <_string>
+
+      <name><![CDATA[Boss Battle Theme]]></name>
+
+      <guid><![CDATA[3a26033f-7318-43a1-9a98-f5f2d47dfc98]]></guid>
+
+      </_string>
+
+      <clip>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </clip>
+
+      <_subarrays>
+
+      <clipLoop>
+
+      <0
+      checkPCM="2868000" setPCM="0" >
+
+      <_float checkTime="0" setTime="0" />
+
+      <_bool
+      endLoop="False" keepLooping="False" usePCM="True" />
+
+      </0>
+
+      </clipLoop>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 8300000, guid: f0220d61c0370de4295d231a15f02b7d, type: 3}
+    encrypted: 0
+  sortAtEnd: 0

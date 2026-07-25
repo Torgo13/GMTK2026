@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -434079499, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 8 - Status Value Preview
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata realID="8" >
+
+      <_bool autoDisplay="False" ownSchematics="False"
+      />
+
+      <_string>
+
+      <name><![CDATA[Status Value Preview]]></name>
+
+      <type><![CDATA[GamingIsLove.ORKFramework.UI.CombatantHUDSetting]]></type>
+
+      <guid><![CDATA[c9962956-fc8a-454e-966e-e9d669430fad]]></guid>
+
+      </_string>
+
+      <toggleKey
+      channel="0" >
+
+      <_float volume="1" />
+
+      <_bool toggleStartState="True"
+      useKey="False" onlyWhileKey="False" />
+
+      <toggleKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </toggleKey>
+
+      </toggleKey>
+
+      <inputID>
+
+      <_bool
+      overrideID="False" />
+
+      </inputID>
+
+      <settings playerGroupScope="1"
+      groupStartOffset="0" groupMaximumLength="3" >
+
+      <_bool enableDrop="False"
+      onlyLeader="False" player="False" playerOtherGroups="False" ally="False" enemy="False"
+      invertGroup="False" groupLimitDisplay="False" isTargeted="False" isSelectedTarget="True"
+      isAffectedTarget="False" isAvailableTarget="False" isGroupTarget="False" isIndividualTarget="False"
+      />
+
+      <_string>
+
+      <colorKey><![CDATA[]]></colorKey>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.UI.CombatantHUDSetting]]></_type>
+
+      </_string>
+
+      <layout
+      type="0" relativeTo="0" >
+
+      <_floatarrays>
+
+      <offset 0 0 />
+
+      </_floatarrays>
+
+      </layout>
+
+      <limitedTimeDisplay>
+
+      <_float
+      displayTime="5" />
+
+      <_bool useLimitedTimeDisplay="False" />
+
+      </limitedTimeDisplay>
+
+      <gameState
+      needed="1" >
+
+      <_subarrays>
+
+      <gameState>
+
+      </gameState>
+
+      </_subarrays>
+
+      </gameState>
+
+      <statusConditions
+      needed="0" >
+
+      <_subarrays>
+
+      <condition>
+
+      </condition>
+
+      </_subarrays>
+
+      </statusConditions>
+
+      <variableCondition
+      needed="0" >
+
+      <_subarrays>
+
+      <variable>
+
+      </variable>
+
+      </_subarrays>
+
+      </variableCondition>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.UI.UnityUICombatantHUDSettings]]></_type>
+
+      </_string>
+
+      <layer>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </layer>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </settings>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 444974cb3f8e3bc46aeabc7860a10245, type: 2}
+      - {fileID: 5101892321036619005, guid: 72c68051ca6ba154f99615413f6fcfe4, type: 3}
+    encrypted: 0
+  sortAtEnd: 0

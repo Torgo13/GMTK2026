@@ -1,0 +1,350 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -434079499, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 10 - Quests
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata realID="10" >
+
+      <_bool autoDisplay="True" ownSchematics="True"
+      />
+
+      <_string>
+
+      <name><![CDATA[Quests]]></name>
+
+      <type><![CDATA[GamingIsLove.ORKFramework.UI.QuestHUDSetting]]></type>
+
+      <guid><![CDATA[4e8b8d65-5c9c-47b4-96d9-df97175bd04f]]></guid>
+
+      </_string>
+
+      <toggleKey
+      channel="0" >
+
+      <_float volume="1" />
+
+      <_bool toggleStartState="True"
+      useKey="False" onlyWhileKey="False" />
+
+      <toggleKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </toggleKey>
+
+      </toggleKey>
+
+      <inputID>
+
+      <_bool
+      overrideID="False" />
+
+      </inputID>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.UI.QuestHUDSetting]]></_type>
+
+      </_string>
+
+      <layout>
+
+      <_bool
+      sharedLayout="False" />
+
+      <layout>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </layout>
+
+      </layout>
+
+      <questCondition>
+
+      <_bool
+      hasQuest="True" hasInactive="False" hasActive="True" hasFinished="False" hasFailed="False"
+      useSubTypes="True" />
+
+      <_subarrays>
+
+      <questType>
+
+      </questType>
+
+      </_subarrays>
+
+      </questCondition>
+
+      <gameState
+      needed="1" >
+
+      <_subarrays>
+
+      <gameState>
+
+      <0 conditionType="0"
+      >
+
+      <gameState check="0" >
+
+      <state>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </state>
+
+      </gameState>
+
+      </0>
+
+      </gameState>
+
+      </_subarrays>
+
+      </gameState>
+
+      <variableCondition
+      needed="0" >
+
+      <_subarrays>
+
+      <variable>
+
+      </variable>
+
+      </_subarrays>
+
+      </variableCondition>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.UI.UnityUIQuestHUDSettings]]></_type>
+
+      </_string>
+
+      <layer>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </layer>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </settings>
+
+      <schematics>
+
+      <_bool
+      beforeOpenWait="True" afterOpenWait="False" beforeCloseWait="True" afterCloseWait="False"
+      />
+
+      <beforeOpenSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="3" />
+
+      </settings>
+
+      </beforeOpenSchematicAsset>
+
+      <afterOpenSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </afterOpenSchematicAsset>
+
+      <beforeCloseSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="4" />
+
+      </settings>
+
+      </beforeCloseSchematicAsset>
+
+      <afterCloseSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </afterCloseSchematicAsset>
+
+      <_subarrays>
+
+      <conditionalSchematic>
+
+      </conditionalSchematic>
+
+      </_subarrays>
+
+      </schematics>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: e6f9480e292c22048bd0d421fd11a28c, type: 2}
+      - {fileID: 11400000, guid: 444974cb3f8e3bc46aeabc7860a10245, type: 2}
+      - {fileID: 2341288335462181742, guid: 6c80d235eb335a44e9d710e7ede0a5f1, type: 3}
+      - {fileID: 11400000, guid: d67f02c2623738e4c89fccfe04263b34, type: 2}
+      - {fileID: 11400000, guid: 7755dfe684c32e8409f4109f6d1ef518, type: 2}
+    encrypted: 0
+  sortAtEnd: 0

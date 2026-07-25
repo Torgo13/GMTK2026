@@ -1,0 +1,334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Menu Screens
+  m_EditorClassIdentifier: 
+  data:
+    name: Menu Screens
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_bool allowMenuChange="False" />
+
+      <previousMenuKey>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <audio
+      type="0" channel="0" >
+
+      <_float volume="1" />
+
+      </audio>
+
+      </previousMenuKey>
+
+      <nextMenuKey>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <audio
+      type="0" channel="0" >
+
+      <_float volume="1" />
+
+      </audio>
+
+      </nextMenuKey>
+
+      <_subarrays>
+
+      <defaultMenuBG>
+
+      </defaultMenuBG>
+
+      <generalMenuBG>
+
+      <0>
+
+      <_bool
+      closeWhenClosed="False" />
+
+      <layer>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </layer>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUIBackgroundSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      <schematics>
+
+      <_bool
+      beforeOpenWait="True" afterOpenWait="False" beforeCloseWait="True" afterCloseWait="False"
+      />
+
+      <beforeOpenSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </beforeOpenSchematicAsset>
+
+      <afterOpenSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </afterOpenSchematicAsset>
+
+      <beforeCloseSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="3" />
+
+      </settings>
+
+      </beforeCloseSchematicAsset>
+
+      <afterCloseSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </afterCloseSchematicAsset>
+
+      </schematics>
+
+      </0>
+
+      </generalMenuBG>
+
+      <assets>
+
+      <0>
+
+      <_asset
+      asset="4" />
+
+      </0>
+
+      <1>
+
+      <_asset asset="5" />
+
+      </1>
+
+      <2>
+
+      <_asset
+      asset="6" />
+
+      </2>
+
+      <3>
+
+      <_asset asset="7" />
+
+      </3>
+
+      <4>
+
+      <_asset
+      asset="8" />
+
+      </4>
+
+      <5>
+
+      <_asset asset="9" />
+
+      </5>
+
+      <6>
+
+      <_asset
+      asset="10" />
+
+      </6>
+
+      <7>
+
+      <_asset asset="11" />
+
+      </7>
+
+      <8>
+
+      <_asset
+      asset="12" />
+
+      </8>
+
+      </assets>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 50f51762b67946d4182c680913b77add, type: 2}
+      - {fileID: 2528395615095704576, guid: 312edb3bc3ad85140845fca74c63ae01, type: 3}
+      - {fileID: 11400000, guid: 66592210994b15f4c873d136bead0237, type: 2}
+      - {fileID: 11400000, guid: 9ae3693272b16e24c96dfdbed63cbb97, type: 2}
+      - {fileID: 11400000, guid: e7d321109478dcf49ba6d7c64e1aa0eb, type: 2}
+      - {fileID: 11400000, guid: 3ac11858efd6c3047a7fd6acf701f262, type: 2}
+      - {fileID: 11400000, guid: dbc25c2b90edb994f85de9b751e7bcb9, type: 2}
+      - {fileID: 11400000, guid: 4f076845044d801419d49aeac5e5708e, type: 2}
+      - {fileID: 11400000, guid: 94dd685512b4d5a4880914543f4548dc, type: 2}
+      - {fileID: 11400000, guid: 66dddb768855b1645bf709887bb2a1a8, type: 2}
+      - {fileID: 11400000, guid: 32649a6b253c05e46a3fd4fbf1b14af4, type: 2}
+      - {fileID: 11400000, guid: f8dd8458744bfec4b872ebbc9761059a, type: 2}
+      - {fileID: 11400000, guid: 4306f2df16ab6324f90e430430a606be, type: 2}
+    encrypted: 0

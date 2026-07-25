@@ -1,0 +1,525 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 775130006, guid: 2f433824042009943be1767c00adb2ed, type: 3}
+  m_Name: 3 - 1x Tank, 1x Supporter
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata realID="3" >
+
+      <_bool useFormation="False" lootRandom="False"
+      />
+
+      <_string>
+
+      <name><![CDATA[1x Tank, 1x Supporter]]></name>
+
+      <guid><![CDATA[5815853b-401f-4664-8970-11c93862d126]]></guid>
+
+      </_string>
+
+      <_subarrays>
+
+      <member>
+
+      <0>
+
+      <_bool
+      useRandom="True" useChanceSelection="False" ownBattleSpot="False" />
+
+      <combatant
+      battleGroupIndex="0" >
+
+      <_float chance="100" />
+
+      <_bool useType="False"
+      useSubTypes="False" learnAbilities="True" useStartInventory="True" useStartEquipment="True"
+      useInitSchematic="True" blockConditionalPrefabs="False" isPassive="False" passiveMustDefeat="False"
+      setBattleGroupIndex="False" useLevelZone="True" classUseLevelZone="True" />
+
+      <combatant>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </combatant>
+
+      <level type="0"
+      minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
+
+      <_float
+      formulaInitialValue="0" />
+
+      <_bool onlyBattle="False" />
+
+      <_string>
+
+      <key><![CDATA[]]></key>
+
+      </_string>
+
+      </level>
+
+      <classLevel
+      type="0" minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
+
+      <_float
+      formulaInitialValue="0" />
+
+      <_bool onlyBattle="False" />
+
+      <_string>
+
+      <key><![CDATA[]]></key>
+
+      </_string>
+
+      </classLevel>
+
+      </combatant>
+
+      <requirement>
+
+      <_bool
+      checkDifficulty="False" />
+
+      <variableCondition needed="0" >
+
+      <_subarrays>
+
+      <variable>
+
+      </variable>
+
+      </_subarrays>
+
+      </variableCondition>
+
+      </requirement>
+
+      <_subarrays>
+
+      <randomCombatant>
+
+      <0
+      battleGroupIndex="0" >
+
+      <_float chance="100" />
+
+      <_bool useType="False"
+      useSubTypes="False" learnAbilities="True" useStartInventory="True" useStartEquipment="True"
+      useInitSchematic="True" blockConditionalPrefabs="False" isPassive="False" passiveMustDefeat="False"
+      setBattleGroupIndex="False" useLevelZone="True" classUseLevelZone="True" />
+
+      <combatant>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </combatant>
+
+      <level type="0"
+      minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
+
+      <_float
+      formulaInitialValue="0" />
+
+      <_bool onlyBattle="False" />
+
+      <_string>
+
+      <key><![CDATA[]]></key>
+
+      </_string>
+
+      </level>
+
+      <classLevel
+      type="0" minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
+
+      <_float
+      formulaInitialValue="0" />
+
+      <_bool onlyBattle="False" />
+
+      <_string>
+
+      <key><![CDATA[]]></key>
+
+      </_string>
+
+      </classLevel>
+
+      </0>
+
+      <1
+      battleGroupIndex="0" >
+
+      <_float chance="100" />
+
+      <_bool useType="False"
+      useSubTypes="False" learnAbilities="True" useStartInventory="True" useStartEquipment="True"
+      useInitSchematic="True" blockConditionalPrefabs="False" isPassive="False" passiveMustDefeat="False"
+      setBattleGroupIndex="False" useLevelZone="True" classUseLevelZone="True" />
+
+      <combatant>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </combatant>
+
+      <level type="0"
+      minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
+
+      <_float
+      formulaInitialValue="0" />
+
+      <_bool onlyBattle="False" />
+
+      <_string>
+
+      <key><![CDATA[]]></key>
+
+      </_string>
+
+      </level>
+
+      <classLevel
+      type="0" minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
+
+      <_float
+      formulaInitialValue="0" />
+
+      <_bool onlyBattle="False" />
+
+      <_string>
+
+      <key><![CDATA[]]></key>
+
+      </_string>
+
+      </classLevel>
+
+      </1>
+
+      </randomCombatant>
+
+      </_subarrays>
+
+      </0>
+
+      <1>
+
+      <_bool
+      useRandom="True" useChanceSelection="False" ownBattleSpot="False" />
+
+      <combatant
+      battleGroupIndex="0" >
+
+      <_float chance="100" />
+
+      <_bool useType="False"
+      useSubTypes="False" learnAbilities="True" useStartInventory="True" useStartEquipment="True"
+      useInitSchematic="True" blockConditionalPrefabs="False" isPassive="False" passiveMustDefeat="False"
+      setBattleGroupIndex="False" useLevelZone="True" classUseLevelZone="True" />
+
+      <combatant>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </combatant>
+
+      <level
+      type="0" minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
+
+      <_float
+      formulaInitialValue="0" />
+
+      <_bool onlyBattle="False" />
+
+      <_string>
+
+      <key><![CDATA[]]></key>
+
+      </_string>
+
+      </level>
+
+      <classLevel
+      type="0" minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
+
+      <_float
+      formulaInitialValue="0" />
+
+      <_bool onlyBattle="False" />
+
+      <_string>
+
+      <key><![CDATA[]]></key>
+
+      </_string>
+
+      </classLevel>
+
+      </combatant>
+
+      <requirement>
+
+      <_bool
+      checkDifficulty="False" />
+
+      <variableCondition needed="0" >
+
+      <_subarrays>
+
+      <variable>
+
+      </variable>
+
+      </_subarrays>
+
+      </variableCondition>
+
+      </requirement>
+
+      <_subarrays>
+
+      <randomCombatant>
+
+      <0
+      battleGroupIndex="0" >
+
+      <_float chance="100" />
+
+      <_bool useType="False"
+      useSubTypes="False" learnAbilities="True" useStartInventory="True" useStartEquipment="True"
+      useInitSchematic="True" blockConditionalPrefabs="False" isPassive="False" passiveMustDefeat="False"
+      setBattleGroupIndex="False" useLevelZone="True" classUseLevelZone="True" />
+
+      <combatant>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="3" />
+
+      </settings>
+
+      </combatant>
+
+      <level type="0"
+      minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
+
+      <_float
+      formulaInitialValue="0" />
+
+      <_bool onlyBattle="False" />
+
+      <_string>
+
+      <key><![CDATA[]]></key>
+
+      </_string>
+
+      </level>
+
+      <classLevel
+      type="0" minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
+
+      <_float
+      formulaInitialValue="0" />
+
+      <_bool onlyBattle="False" />
+
+      <_string>
+
+      <key><![CDATA[]]></key>
+
+      </_string>
+
+      </classLevel>
+
+      </0>
+
+      <1
+      battleGroupIndex="0" >
+
+      <_float chance="100" />
+
+      <_bool useType="False"
+      useSubTypes="False" learnAbilities="True" useStartInventory="True" useStartEquipment="True"
+      useInitSchematic="True" blockConditionalPrefabs="False" isPassive="False" passiveMustDefeat="False"
+      setBattleGroupIndex="False" useLevelZone="True" classUseLevelZone="True" />
+
+      <combatant>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="4" />
+
+      </settings>
+
+      </combatant>
+
+      <level type="0"
+      minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
+
+      <_float
+      formulaInitialValue="0" />
+
+      <_bool onlyBattle="False" />
+
+      <_string>
+
+      <key><![CDATA[]]></key>
+
+      </_string>
+
+      </level>
+
+      <classLevel
+      type="0" minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
+
+      <_float
+      formulaInitialValue="0" />
+
+      <_bool onlyBattle="False" />
+
+      <_string>
+
+      <key><![CDATA[]]></key>
+
+      </_string>
+
+      </classLevel>
+
+      </1>
+
+      </randomCombatant>
+
+      </_subarrays>
+
+      </1>
+
+      </member>
+
+      <loot>
+
+      </loot>
+
+      <itemDrop>
+
+      </itemDrop>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 06c63b9ae7b10404f995ef6e62ba3469, type: 2}
+      - {fileID: 11400000, guid: 06c63b9ae7b10404f995ef6e62ba3469, type: 2}
+      - {fileID: 11400000, guid: 5461262552f75a94d9011031a2a1bb98, type: 2}
+      - {fileID: 11400000, guid: e01ef18e719380741a7ff251ea6d89f3, type: 2}
+      - {fileID: 11400000, guid: 6f7bd0e695f26da47a71c05ad451718e, type: 2}
+    encrypted: 0
+  sortAtEnd: 0

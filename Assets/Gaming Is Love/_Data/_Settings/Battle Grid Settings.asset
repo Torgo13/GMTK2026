@@ -1,0 +1,1155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Battle Grid Settings
+  m_EditorClassIdentifier: 
+  data:
+    name: Battle Grid Settings
+    byteData: 
+    xmlData: '<xmldata type="0" hexagonalType="2" rayLayerMask="-1" >
+
+      <_float
+      cellSize="1" rayDistance="100" />
+
+      <_bool squareDiagonalDistanceOne="False"
+      />
+
+      <_floatarrays>
+
+      <cellOffset 0 0 />
+
+      </_floatarrays>
+
+      <horizontalPlane
+      type="0" >
+
+      </horizontalPlane>
+
+      <cellOccupation allyLimit="1" enemyLimit="1"
+      >
+
+      <_bool singleOccupant="True" />
+
+      </cellOccupation>
+
+      <cellSelection
+      channel="0" >
+
+      <_float axisMinimum="0.3" cameraDirectionOffset="0" cursorTimeout="0.25"
+      mouseSelectionRange="5" selectVolume="1" acceptVolume="1" cancelVolume="1"
+      failVolume="1" />
+
+      <_bool useInputSelection="False" useCameraDirection="True"
+      mouseHoverSelect="False" mouseHoverUIBlock="False" mouseMoveOnly="False" mouseAcceptOnlySelected="False"
+      mouseLimitSelectionRange="False" playHoverSelectAudio="False" />
+
+      <verticalInputAxis
+      channel="0" >
+
+      <_float volume="1" />
+
+      <_bool useAxis="True" />
+
+      <axisKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </axisKey>
+
+      <plusKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </plusKey>
+
+      <minusKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </minusKey>
+
+      </verticalInputAxis>
+
+      <horizontalInputAxis
+      channel="0" >
+
+      <_float volume="1" />
+
+      <_bool useAxis="True" />
+
+      <axisKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </axisKey>
+
+      <plusKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </plusKey>
+
+      <minusKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </minusKey>
+
+      </horizontalInputAxis>
+
+      <mouseTouch
+      type="0" mouseClick="0" fingerCount="1" clickCount="1" mode="0" >
+
+      <_float
+      timeout="0" />
+
+      <_bool allModes="False" pressedCursorOver="False" />
+
+      </mouseTouch>
+
+      <selectAudio>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </selectAudio>
+
+      <acceptAudio>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </acceptAudio>
+
+      <cancelAudio>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </cancelAudio>
+
+      <failAudio>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </failAudio>
+
+      </cellSelection>
+
+      <orientationSelection>
+
+      <_bool
+      onlyNeighbourCells="True" blockActionUse="False" rotateOnSelection="True" blockDiagonalRotation="False"
+      examineCell="False" examineCellCombatant="False" ownCancelKey="False" cameraControlTarget="False"
+      ownControlTargetTransition="False" showInfo="False" showAcceptQuestion="False"
+      ownCellSelection="False" />
+
+      <selectionSchematics>
+
+      <_bool stopRunningValid="True"
+      stopRunningInvalid="True" waitAccept="True" waitCancel="True" />
+
+      <validCellSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </validCellSchematicAsset>
+
+      <invalidCellSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </invalidCellSchematicAsset>
+
+      <acceptSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </acceptSchematicAsset>
+
+      <cancelSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </cancelSchematicAsset>
+
+      </selectionSchematics>
+
+      </orientationSelection>
+
+      <combatantPlacement>
+
+      <_bool
+      selectBattleGroup="False" useWholeGroup="True" showSelection="False" cancelRemovePlaced="False"
+      rememberCell="False" placeOnSelection="False" allowCancelCell="True" cellOwnCancelKey="False"
+      examineCell="False" examineCellCombatant="False" selectOrientation="False"
+      allowCancelOrientation="True" cameraControlTarget="False" ownControlTargetTransition="False"
+      showInfo="False" showAcceptQuestion="False" ownCellSelection="False" />
+
+      <combatantSorter
+      sorting="0" >
+
+      <_bool invert="False" />
+
+      </combatantSorter>
+
+      <selectionSchematics>
+
+      <_bool
+      stopRunningValid="True" stopRunningInvalid="True" waitAccept="True" waitCancel="True"
+      />
+
+      <validCellSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </validCellSchematicAsset>
+
+      <invalidCellSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </invalidCellSchematicAsset>
+
+      <acceptSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </acceptSchematicAsset>
+
+      <cancelSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </cancelSchematicAsset>
+
+      </selectionSchematics>
+
+      <_subarrays>
+
+      <combatantInfoDisplay>
+
+      </combatantInfoDisplay>
+
+      </_subarrays>
+
+      </combatantPlacement>
+
+      <moveCommand>
+
+      <_bool
+      useOnlyOnce="False" useOnlyOncePlayer="True" useOnlyOnceAlly="True" useOnlyOnceEnemy="True"
+      markTargetCell="True" allowCancel="False" cancelUserCell="False" ownCancelKey="False"
+      blockActionUse="False" startFromUser="True" rotateToCell="False" gridRotation="False"
+      examineCell="False" examineCellCombatant="False" useShortestPath="False" prioritizeDirection="False"
+      moveToOwnCells="False" moveOverAllies="False" moveOverEnemies="False" squareDiagonalMove="False"
+      squareDiagonalMoveBlockingCombatants="True" costSVShowFlyingText="False" costSVShowConsole="False"
+      cameraControlTarget="False" ownControlTargetTransition="False" showInfo="False"
+      infoOnlyAvailableCells="False" showAcceptQuestion="False" ownCellSelection="False"
+      highlightPotentialAttacks="False" />
+
+      <costStatusValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </costStatusValue>
+
+      <moveRange>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </moveRange>
+
+      <heightLimit>
+
+      <_bool
+      limitUpwardMove="False" limitDownwardMove="False" />
+
+      <maxUpwardDistance>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="1" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </maxUpwardDistance>
+
+      <maxDownwardDistance>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="1" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </maxDownwardDistance>
+
+      </heightLimit>
+
+      <waypoints>
+
+      <_bool
+      useWaypoints="False" canMoveToPath="False" canMoveToPathPassableHighlight="False"
+      useRemoveKey="False" acceptUsesWaypoints="False" acceptUseCurrentCell="True"
+      ownMouseTouch="False" />
+
+      <setWaypointKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </setWaypointKey>
+
+      <mouseModifierKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mouseModifierKey>
+
+      </waypoints>
+
+      <battleAnimation>
+
+      <_subarrays>
+
+      <animation>
+
+      </animation>
+
+      </_subarrays>
+
+      </battleAnimation>
+
+      <selectionSchematics>
+
+      <_bool
+      stopRunningValid="True" stopRunningInvalid="True" waitAccept="True" waitCancel="True"
+      />
+
+      <validCellSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </validCellSchematicAsset>
+
+      <invalidCellSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </invalidCellSchematicAsset>
+
+      <acceptSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </acceptSchematicAsset>
+
+      <cancelSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </cancelSchematicAsset>
+
+      </selectionSchematics>
+
+      <potentialAttacks
+      gridDistanceLimit="5" moveRangeType="0" actionRangeType="0" >
+
+      <_bool
+      cacheResults="False" limitGridDistance="False" actionCanUse="False" stopRunningHighlight="True"
+      stopRunningStopHighlight="True" />
+
+      <highlightSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </highlightSchematicAsset>
+
+      <stopHighlightSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </stopHighlightSchematicAsset>
+
+      <highlight>
+
+      <_subarrays>
+
+      <highlight>
+
+      </highlight>
+
+      </_subarrays>
+
+      </highlight>
+
+      </potentialAttacks>
+
+      </moveCommand>
+
+      <targetCellSelection>
+
+      <_bool
+      allowCancel="False" ownCancelKey="False" blockActionUse="False" startFromUser="True"
+      rotateToCell="False" gridRotation="False" examineCell="False" examineCellCombatant="False"
+      cameraControlTarget="False" ownControlTargetTransition="False" showInfo="False"
+      showAcceptQuestion="False" ownCellSelection="False" />
+
+      <selectionSchematics>
+
+      <_bool
+      stopRunningValid="True" stopRunningInvalid="True" waitAccept="True" waitCancel="True"
+      />
+
+      <validCellSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </validCellSchematicAsset>
+
+      <invalidCellSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </invalidCellSchematicAsset>
+
+      <acceptSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </acceptSchematicAsset>
+
+      <cancelSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </cancelSchematicAsset>
+
+      </selectionSchematics>
+
+      </targetCellSelection>
+
+      <examine
+      channelMoveRange="0" channelAttackRange="0" >
+
+      <_float moveRangeVolume="1"
+      attackRangeVolume="1" />
+
+      <_bool allowCancel="False" ownCancelKey="False"
+      blockActionUse="False" alwaysActive="False" alwaysActiveDuringTargetSelection="False"
+      alwaysActiveDuringActions="False" alwaysActiveOnlyPlayerPhase="False" targetExamineCell="False"
+      targetExamineCellCombatant="False" cameraControlTarget="False" ownControlTargetTransition="False"
+      showInfo="False" ownCellSelection="False" showMoveRange="False" moveRangeMaxEnemy="True"
+      moveRangeMaxAlly="True" moveRangeAuto="False" showAttackRange="False" useCounterRange="False"
+      attackRangeAuto="False" />
+
+      <selectionSchematics>
+
+      <_bool stopRunningValid="True"
+      stopRunningInvalid="True" waitAccept="True" waitCancel="True" />
+
+      <validCellSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </validCellSchematicAsset>
+
+      <invalidCellSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </invalidCellSchematicAsset>
+
+      <acceptSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </acceptSchematicAsset>
+
+      <cancelSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </cancelSchematicAsset>
+
+      </selectionSchematics>
+
+      <combatantHUD>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </combatantHUD>
+
+      <moveRangeKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </moveRangeKey>
+
+      <attackRangeKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </attackRangeKey>
+
+      <_subarrays>
+
+      <cellInfo>
+
+      </cellInfo>
+
+      <combatantInfoDisplay>
+
+      </combatantInfoDisplay>
+
+      </_subarrays>
+
+      </examine>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0

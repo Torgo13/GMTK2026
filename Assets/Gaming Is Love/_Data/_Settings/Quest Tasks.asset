@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Quest Tasks
+  m_EditorClassIdentifier: 
+  data:
+    name: Quest Tasks
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_subarrays>
+
+      <assets>
+
+      <0>
+
+      <_asset
+      asset="0" />
+
+      </0>
+
+      <1>
+
+      <_asset asset="1" />
+
+      </1>
+
+      <2>
+
+      <_asset
+      asset="2" />
+
+      </2>
+
+      <3>
+
+      <_asset asset="3" />
+
+      </3>
+
+      <4>
+
+      <_asset
+      asset="4" />
+
+      </4>
+
+      <5>
+
+      <_asset asset="5" />
+
+      </5>
+
+      <6>
+
+      <_asset
+      asset="6" />
+
+      </6>
+
+      <7>
+
+      <_asset asset="7" />
+
+      </7>
+
+      <8>
+
+      <_asset
+      asset="8" />
+
+      </8>
+
+      </assets>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 6097fbdf21946a343ac522aadf8caecc, type: 2}
+      - {fileID: 11400000, guid: ad98d7815a7f8da4b9b6f37830d1559a, type: 2}
+      - {fileID: 11400000, guid: b2b36a3404a93ab43b9a84d99474c6ee, type: 2}
+      - {fileID: 11400000, guid: ae9888b431cbad1479f9a465d7deb8bf, type: 2}
+      - {fileID: 11400000, guid: caba44b33f23af14abe076e177b7e6d3, type: 2}
+      - {fileID: 11400000, guid: cea940e8b276c0e45a9a087101880081, type: 2}
+      - {fileID: 11400000, guid: 5123d5e7cfa302949b465127892fc907, type: 2}
+      - {fileID: 11400000, guid: 480470da4a5c2064ca61a90b0ae95962, type: 2}
+      - {fileID: 11400000, guid: 6801939474b69474ca0eef0bfb7d1841, type: 2}
+    encrypted: 0

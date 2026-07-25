@@ -1,0 +1,517 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Options
+  m_EditorClassIdentifier: 
+  data:
+    name: Options
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_bool encryptData="False" />
+
+      <_string>
+
+      <fileName><![CDATA[options.settings]]></fileName>
+
+      </_string>
+
+      <fileSettings>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.PersistentDataPathTextFileHandler]]></type>
+
+      </_string>
+
+      <fileSettings>
+
+      <_string>
+
+      <saveFolder><![CDATA[]]></saveFolder>
+
+      <_type><![CDATA[GamingIsLove.Makinom.PersistentDataPathTextFileHandler]]></_type>
+
+      </_string>
+
+      </fileSettings>
+
+      </fileSettings>
+
+      <inputRebinding
+      rebindSameType="0" >
+
+      <_bool showRebindDialogue="False" useTitle="False"
+      />
+
+      <cancelInput>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <audio
+      type="0" channel="0" >
+
+      <_float volume="1" />
+
+      </audio>
+
+      </cancelInput>
+
+      <bindAudio
+      type="0" channel="0" >
+
+      <_float volume="1" />
+
+      </bindAudio>
+
+      <_subarrays>
+
+      <inputSearch>
+
+      </inputSearch>
+
+      </_subarrays>
+
+      </inputRebinding>
+
+      <optionsMenu
+      categoryDisplay="1" display="2" >
+
+      <_bool allCategories="True" enableCategoryTooltip="False"
+      useCategoryKeys="False" useCategoryTitle="False" enableTooltip="False" showDescription="False"
+      />
+
+      <nextCategoryKey>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <audio
+      type="1" channel="0" >
+
+      <_float volume="1" />
+
+      </audio>
+
+      </nextCategoryKey>
+
+      <prevCategoryKey>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <audio
+      type="1" channel="0" >
+
+      <_float volume="1" />
+
+      </audio>
+
+      </prevCategoryKey>
+
+      <uiBox>
+
+      <_bool
+      ownSchematics="False" />
+
+      <box>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </box>
+
+      <layout>
+
+      <_bool
+      sharedLayout="False" />
+
+      <layout>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </layout>
+
+      </layout>
+
+      </uiBox>
+
+      <categoryBackButton
+      type="0" >
+
+      <_bool useCustomButton="False" />
+
+      </categoryBackButton>
+
+      <categoryMessage>
+
+      <mainContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </categoryMessage>
+
+      <categoryContentLayout>
+
+      <customInput
+      useHoldAccept="0" >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      <mainContentLayout
+      type="2" iconType="0" >
+
+      <_bool useContentVariables="False" customAddIcon="False"
+      removeEmptyLines="False" />
+
+      <addHUD type="0" >
+
+      <_bool useEmptyUI="False"
+      />
+
+      <_string>
+
+      <uiKey><![CDATA[]]></uiKey>
+
+      </_string>
+
+      </addHUD>
+
+      </mainContentLayout>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </categoryContentLayout>
+
+      <categoryHeaders>
+
+      <_bool
+      useHeaders="False" />
+
+      </categoryHeaders>
+
+      <uiBox2>
+
+      <_bool
+      ownSchematics="False" />
+
+      <box>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </box>
+
+      <layout>
+
+      <_bool
+      sharedLayout="False" />
+
+      <layout>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </layout>
+
+      </layout>
+
+      </uiBox2>
+
+      <resetInput>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <audio
+      type="0" channel="0" >
+
+      <_float volume="1" />
+
+      </audio>
+
+      </resetInput>
+
+      </optionsMenu>
+
+      <_subarrays>
+
+      <assets>
+
+      <0>
+
+      <_asset
+      asset="0" />
+
+      </0>
+
+      </assets>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 36c648a0fea8bf14a9c54ed7fefc6666, type: 2}
+    encrypted: 0

@@ -1,0 +1,2533 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1699865589, guid: 2f433824042009943be1767c00adb2ed, type: 3}
+  m_Name: 0 - Default
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata channel="0" targetSelectionMode="0" targetSortType="2" descInputAnchor="4"
+      realID="0" >
+
+      <_float updateInterval="0.5" openVolume="1" closeVolume="1"
+      timeScale="1" />
+
+      <_bool useDefaultSelection="False" backInBase="False"
+      atCombatant="False" showTitle="True" showSubMenuTitle="False" showSubMenuMessage="False"
+      useMultiMode="True" multiModeBlockFocus="False" useSubBoxes="False" rememberSelection="True"
+      rememberInRoot="True" selectLastTarget="True" selectSelf="False" resetSelection="False"
+      updateTargetSorting="False" useGroupTarget="False" useIndividualTarget="False"
+      setTimeScale="False" setMakinomScale="False" timeScaleInRoot="True" timeScaleInSub="True"
+      timeScaleInTargetSelections="True" ownCombatantChoice="False" useSubHeaders="False"
+      showPortrait="False" showItemPortraits="False" showEquipPortraits="False" showClassPortraits="False"
+      showAIBehaviourPortraits="False" showAIRulesetPortraits="False" showAbilityPortraits="False"
+      showTargetPortraits="False" showCommandPortraits="False" showChangePortraits="False"
+      useDesc="False" descAlways="False" descInTargetSelection="True" descAtInputPosition="False"
+      userHighlightTargetSelection="False" />
+
+      <_floatarrays>
+
+      <offset
+      0 0 />
+
+      <descInputOffset 0 0 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <name><![CDATA[Default]]></name>
+
+      <guid><![CDATA[8097f307-a416-4047-92ff-cacf44929a2d]]></guid>
+
+      </_string>
+
+      <uiBox>
+
+      <_bool
+      ownSchematics="False" />
+
+      <box>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </box>
+
+      </uiBox>
+
+      <backButton
+      type="0" >
+
+      <_bool useCustomButton="False" />
+
+      </backButton>
+
+      <childObject
+      type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      <title>
+
+      <mainContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </title>
+
+      <message>
+
+      <mainContent>
+
+      <_bool
+      addHUD="False" />
+
+      <content exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </content>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </message>
+
+      <multiModeLayout
+      type="1" relativeTo="7" >
+
+      <_floatarrays>
+
+      <offset 0 0 />
+
+      </_floatarrays>
+
+      </multiModeLayout>
+
+      <dragSettings
+      clickCount="2" >
+
+      <_bool enableTooltip="False" enableDrag="False" enableClick="False"
+      dragInactive="False" />
+
+      </dragSettings>
+
+      <openClip>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </openClip>
+
+      <closeClip>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </closeClip>
+
+      <targetBeforeAction>
+
+      <_bool
+      addSelf="True" addGroup="True" addAllies="True" addEnemies="True" alwaysSelfAbility="False"
+      alwaysSelfItem="False" alwaysDefend="False" alwaysEscape="False" alwaysNone="False"
+      alwaysChangeMember="False" alwaysGridMove="False" alwaysGridOrientation="False"
+      alwaysGridExamine="False" alwaysEquipment="False" alwaysClassSingle="False"
+      alwaysClassSlots="False" alwaysAIBehaviours="False" alwaysAIRulesets="False"
+      />
+
+      </targetBeforeAction>
+
+      <contentLayout>
+
+      <customInput
+      useHoldAccept="0" >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      <mainContentLayout
+      type="2" iconType="0" >
+
+      <_bool useContentVariables="False" customAddIcon="False"
+      removeEmptyLines="False" />
+
+      <addHUD type="0" >
+
+      <_bool useEmptyUI="False"
+      />
+
+      <_string>
+
+      <uiKey><![CDATA[]]></uiKey>
+
+      </_string>
+
+      </addHUD>
+
+      </mainContentLayout>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      <0>
+
+      <_string>
+
+      <contentID><![CDATA[info]]></contentID>
+
+      </_string>
+
+      <content
+      type="4" iconType="0" >
+
+      <_bool useContentVariables="False" customAddIcon="False"
+      removeEmptyLines="False" />
+
+      <addHUD type="0" >
+
+      <_bool useEmptyUI="False"
+      />
+
+      <_string>
+
+      <uiKey><![CDATA[]]></uiKey>
+
+      </_string>
+
+      </addHUD>
+
+      </content>
+
+      </0>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </contentLayout>
+
+      <headerTexts>
+
+      <_bool
+      useHeaders="False" />
+
+      </headerTexts>
+
+      <userHighlight>
+
+      <_subarrays>
+
+      <highlight>
+
+      <0>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.ORKFramework.FadeHUDColorCombatantHighlightType]]></type>
+
+      </_string>
+
+      <settings
+      hudFadeType="2" >
+
+      <_string>
+
+      <colorKey><![CDATA[]]></colorKey>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.FadeHUDColorCombatantHighlightType]]></_type>
+
+      </_string>
+
+      <hudFade>
+
+      <_float
+      time="1" />
+
+      <_bool alpha="True" red="False" green="False" blue="False"
+      fromCurrent="False" />
+
+      <_floatarrays>
+
+      <startColor 0 0 0 1 />
+
+      <endColor
+      0 0 0 0.4980392 />
+
+      </_floatarrays>
+
+      <interpolation>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.QuadraticInOutInterpolation]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.QuadraticInOutInterpolation]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </interpolation>
+
+      </hudFade>
+
+      </settings>
+
+      </0>
+
+      </highlight>
+
+      </_subarrays>
+
+      </userHighlight>
+
+      <_subarrays>
+
+      <item>
+
+      <0>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.ORKFramework.UI.AttackBattleMenuItem]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_bool
+      useAbilityInfo="True" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.UI.AttackBattleMenuItem]]></_type>
+
+      </_string>
+
+      <customInput
+      useHoldAccept="0" >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      </settings>
+
+      <conditions>
+
+      <_bool
+      useConditions="False" />
+
+      </conditions>
+
+      <useConditions>
+
+      <_bool
+      useConditions="False" />
+
+      </useConditions>
+
+      <acceptStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </acceptStatusChanges>
+
+      <cancelStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </cancelStatusChanges>
+
+      <closeStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </closeStatusChanges>
+
+      </0>
+
+      <1>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.ORKFramework.UI.AbilityBattleMenuItem]]></type>
+
+      </_string>
+
+      <settings
+      typeDisplay="1" addTemporaryAbilities="0" >
+
+      <_bool singleAbility="False"
+      singleIgnoreAvailability="False" limitAbilityType="False" checkUseableAbility="False"
+      showEmptyTypes="False" onlyCombatantTypes="False" subMenu="False" addPassiveToggleable="False"
+      ignoreAvailability="False" ownAbilityLayout="False" usePassiveEnabledContentLayout="False"
+      usePassiveDisabledContentLayout="False" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.UI.AbilityBattleMenuItem]]></_type>
+
+      </_string>
+
+      <ability>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </ability>
+
+      <typeSorter
+      sorting="2" >
+
+      <_bool invert="False" />
+
+      </typeSorter>
+
+      <contentSorter
+      sorting="2" >
+
+      <_bool quantityPrice="False" invert="False" />
+
+      <_string>
+
+      <variableKey><![CDATA[]]></variableKey>
+
+      </_string>
+
+      </contentSorter>
+
+      <abilityLayout>
+
+      <customInput
+      useHoldAccept="0" >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      <mainContentLayout
+      type="2" iconType="0" >
+
+      <_bool useContentVariables="False" customAddIcon="False"
+      removeEmptyLines="False" />
+
+      <addHUD type="0" >
+
+      <_bool useEmptyUI="False"
+      />
+
+      <_string>
+
+      <uiKey><![CDATA[]]></uiKey>
+
+      </_string>
+
+      </addHUD>
+
+      </mainContentLayout>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      <0>
+
+      <_string>
+
+      <contentID><![CDATA[info]]></contentID>
+
+      </_string>
+
+      <content
+      type="4" iconType="0" >
+
+      <_bool useContentVariables="False" customAddIcon="False"
+      removeEmptyLines="False" />
+
+      <addHUD type="0" >
+
+      <_bool useEmptyUI="False"
+      />
+
+      <_string>
+
+      <uiKey><![CDATA[]]></uiKey>
+
+      </_string>
+
+      </addHUD>
+
+      </content>
+
+      </0>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </abilityLayout>
+
+      <passiveEnabledContentLayout>
+
+      <customInput
+      useHoldAccept="0" >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      <mainContentLayout
+      type="2" iconType="0" >
+
+      <_bool useContentVariables="False" customAddIcon="False"
+      removeEmptyLines="False" />
+
+      <addHUD type="0" >
+
+      <_bool useEmptyUI="False"
+      />
+
+      <_string>
+
+      <uiKey><![CDATA[]]></uiKey>
+
+      </_string>
+
+      </addHUD>
+
+      </mainContentLayout>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      <0>
+
+      <_string>
+
+      <contentID><![CDATA[info]]></contentID>
+
+      </_string>
+
+      <content
+      type="4" iconType="0" >
+
+      <_bool useContentVariables="False" customAddIcon="False"
+      removeEmptyLines="False" />
+
+      <addHUD type="0" >
+
+      <_bool useEmptyUI="False"
+      />
+
+      <_string>
+
+      <uiKey><![CDATA[]]></uiKey>
+
+      </_string>
+
+      </addHUD>
+
+      </content>
+
+      </0>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </passiveEnabledContentLayout>
+
+      <passiveDisabledContentLayout>
+
+      <customInput
+      useHoldAccept="0" >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      <mainContentLayout
+      type="2" iconType="0" >
+
+      <_bool useContentVariables="False" customAddIcon="False"
+      removeEmptyLines="False" />
+
+      <addHUD type="0" >
+
+      <_bool useEmptyUI="False"
+      />
+
+      <_string>
+
+      <uiKey><![CDATA[]]></uiKey>
+
+      </_string>
+
+      </addHUD>
+
+      </mainContentLayout>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      <0>
+
+      <_string>
+
+      <contentID><![CDATA[info]]></contentID>
+
+      </_string>
+
+      <content
+      type="4" iconType="0" >
+
+      <_bool useContentVariables="False" customAddIcon="False"
+      removeEmptyLines="False" />
+
+      <addHUD type="0" >
+
+      <_bool useEmptyUI="False"
+      />
+
+      <_string>
+
+      <uiKey><![CDATA[]]></uiKey>
+
+      </_string>
+
+      </addHUD>
+
+      </content>
+
+      </0>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </passiveDisabledContentLayout>
+
+      <customInput
+      useHoldAccept="0" >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      </settings>
+
+      <conditions>
+
+      <_bool
+      useConditions="False" />
+
+      </conditions>
+
+      <useConditions>
+
+      <_bool
+      useConditions="False" />
+
+      </useConditions>
+
+      <acceptStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </acceptStatusChanges>
+
+      <cancelStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </cancelStatusChanges>
+
+      <closeStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </closeStatusChanges>
+
+      </1>
+
+      <2>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.ORKFramework.UI.ItemBattleMenuItem]]></type>
+
+      </_string>
+
+      <settings
+      typeDisplay="0" >
+
+      <_bool singleItem="False" limitItemType="False" checkUseableItem="False"
+      showEmptyTypes="False" subMenu="False" ownItemLayout="False" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.UI.ItemBattleMenuItem]]></_type>
+
+      </_string>
+
+      <item>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </item>
+
+      <typeSorter
+      sorting="1" >
+
+      <_bool invert="False" />
+
+      </typeSorter>
+
+      <contentSorter
+      sorting="2" >
+
+      <_bool quantityPrice="False" invert="False" />
+
+      <_string>
+
+      <variableKey><![CDATA[]]></variableKey>
+
+      </_string>
+
+      </contentSorter>
+
+      <button>
+
+      <_bool
+      addTooltip="False" addDescription="False" />
+
+      <content>
+
+      <mainContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[Items]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </content>
+
+      </button>
+
+      <itemLayout>
+
+      <customInput
+      useHoldAccept="0" >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      <mainContentLayout
+      type="2" iconType="0" >
+
+      <_bool useContentVariables="False" customAddIcon="False"
+      removeEmptyLines="False" />
+
+      <addHUD type="0" >
+
+      <_bool useEmptyUI="False"
+      />
+
+      <_string>
+
+      <uiKey><![CDATA[]]></uiKey>
+
+      </_string>
+
+      </addHUD>
+
+      </mainContentLayout>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      <0>
+
+      <_string>
+
+      <contentID><![CDATA[info]]></contentID>
+
+      </_string>
+
+      <content
+      type="4" iconType="0" >
+
+      <_bool useContentVariables="False" customAddIcon="False"
+      removeEmptyLines="False" />
+
+      <addHUD type="0" >
+
+      <_bool useEmptyUI="False"
+      />
+
+      <_string>
+
+      <uiKey><![CDATA[]]></uiKey>
+
+      </_string>
+
+      </addHUD>
+
+      </content>
+
+      </0>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </itemLayout>
+
+      <customInput
+      useHoldAccept="0" >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      </settings>
+
+      <conditions>
+
+      <_bool
+      useConditions="False" />
+
+      </conditions>
+
+      <useConditions>
+
+      <_bool
+      useConditions="False" />
+
+      </useConditions>
+
+      <acceptStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </acceptStatusChanges>
+
+      <cancelStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </cancelStatusChanges>
+
+      <closeStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </closeStatusChanges>
+
+      </2>
+
+      <3>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.ORKFramework.UI.EquipmentBattleMenuItem]]></type>
+
+      </_string>
+
+      <settings
+      onlyContributing="2" blockedSlotDisplay="0" linkedSlotDisplay="0" >
+
+      <_bool
+      unequipOnlyAllowed="False" useEmptyLayout="False" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.UI.EquipmentBattleMenuItem]]></_type>
+
+      </_string>
+
+      <contentSorter
+      sorting="2" >
+
+      <_bool quantityPrice="False" invert="False" />
+
+      <_string>
+
+      <variableKey><![CDATA[]]></variableKey>
+
+      </_string>
+
+      </contentSorter>
+
+      <unequipButton
+      type="0" >
+
+      <_bool useCustomButton="False" />
+
+      </unequipButton>
+
+      <button>
+
+      <_bool
+      addTooltip="False" addDescription="False" />
+
+      <content>
+
+      <mainContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[Equipment]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="3" />
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </content>
+
+      </button>
+
+      <contentLayout>
+
+      <customInput
+      useHoldAccept="0" >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      <mainContentLayout
+      type="2" >
+
+      <_bool useContentVariables="False" customAddIcon="False"
+      customSlotIcon="False" removeEmptyLines="False" />
+
+      <addHUD type="0"
+      >
+
+      <_bool useEmptyUI="False" />
+
+      <_string>
+
+      <uiKey><![CDATA[]]></uiKey>
+
+      </_string>
+
+      </addHUD>
+
+      </mainContentLayout>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      <0>
+
+      <_string>
+
+      <contentID><![CDATA[title]]></contentID>
+
+      </_string>
+
+      <content
+      type="5" >
+
+      <_bool useContentVariables="False" customAddIcon="False"
+      customSlotIcon="False" removeEmptyLines="False" />
+
+      <addHUD type="0"
+      >
+
+      <_bool useEmptyUI="False" />
+
+      <_string>
+
+      <uiKey><![CDATA[]]></uiKey>
+
+      </_string>
+
+      </addHUD>
+
+      </content>
+
+      </0>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </contentLayout>
+
+      <customInput
+      useHoldAccept="0" >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      </settings>
+
+      <conditions>
+
+      <_bool
+      useConditions="False" />
+
+      </conditions>
+
+      <useConditions>
+
+      <_bool
+      useConditions="False" />
+
+      </useConditions>
+
+      <acceptStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </acceptStatusChanges>
+
+      <cancelStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </cancelStatusChanges>
+
+      <closeStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </closeStatusChanges>
+
+      </3>
+
+      <4>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.ORKFramework.UI.ChangeMemberBattleMenuItem]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_bool
+      ownCombatantChoice="False" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.UI.ChangeMemberBattleMenuItem]]></_type>
+
+      </_string>
+
+      <button>
+
+      <_bool
+      addTooltip="False" addDescription="False" />
+
+      <content>
+
+      <mainContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[Switch]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </content>
+
+      </button>
+
+      <customInput
+      useHoldAccept="0" >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      </settings>
+
+      <conditions>
+
+      <_bool
+      useConditions="False" />
+
+      </conditions>
+
+      <useConditions>
+
+      <_bool
+      useConditions="False" />
+
+      </useConditions>
+
+      <acceptStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </acceptStatusChanges>
+
+      <cancelStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </cancelStatusChanges>
+
+      <closeStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </closeStatusChanges>
+
+      </4>
+
+      <5>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.ORKFramework.UI.EscapeBattleMenuItem]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_bool
+      useActionInfo="False" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.UI.EscapeBattleMenuItem]]></_type>
+
+      </_string>
+
+      <button>
+
+      <_bool
+      addTooltip="False" addDescription="False" />
+
+      <content>
+
+      <mainContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[Escape]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </content>
+
+      </button>
+
+      <customInput
+      useHoldAccept="0" >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      </settings>
+
+      <conditions>
+
+      <_bool
+      useConditions="False" />
+
+      </conditions>
+
+      <useConditions>
+
+      <_bool
+      useConditions="False" />
+
+      </useConditions>
+
+      <acceptStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </acceptStatusChanges>
+
+      <cancelStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </cancelStatusChanges>
+
+      <closeStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </closeStatusChanges>
+
+      </5>
+
+      <6>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.ORKFramework.UI.EndBattleMenuItem]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_bool
+      useActionInfo="False" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.UI.EndBattleMenuItem]]></_type>
+
+      </_string>
+
+      <button>
+
+      <_bool
+      addTooltip="False" addDescription="False" />
+
+      <content>
+
+      <mainContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[Skip]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </content>
+
+      </button>
+
+      <customInput
+      useHoldAccept="0" >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      </settings>
+
+      <conditions>
+
+      <_bool
+      useConditions="False" />
+
+      </conditions>
+
+      <useConditions>
+
+      <_bool
+      useConditions="False" />
+
+      </useConditions>
+
+      <acceptStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </acceptStatusChanges>
+
+      <cancelStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </cancelStatusChanges>
+
+      <closeStatusChanges>
+
+      <_subarrays>
+
+      <change>
+
+      </change>
+
+      </_subarrays>
+
+      </closeStatusChanges>
+
+      </6>
+
+      </item>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 08075da7eefbf904daaebd271c59ff86, type: 2}
+      - {fileID: 474605426501780216, guid: a5143b1484411744aa29bd0b1e51cf09, type: 3}
+      - {fileID: -4675178882068479828, guid: 723893fb35af8a142aff64070c1d5c30, type: 3}
+      - {fileID: 3357360333254942192, guid: 723893fb35af8a142aff64070c1d5c30, type: 3}
+    encrypted: 0
+  sortAtEnd: 0

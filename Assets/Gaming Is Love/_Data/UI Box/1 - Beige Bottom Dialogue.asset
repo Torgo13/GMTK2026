@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1294641069, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 1 - Beige Bottom Dialogue
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata autoScrollType="0" realID="1" >
+
+      <_float cursorTimeout="0.25"
+      cursorHoldTimeout="0.25" scrollSpeed="3" />
+
+      <_bool cursorOver="True"
+      useHoldAccept="False" blockFocusCursorOver="False" blockCursorOverSelection="False"
+      resetUnityInput="True" ownCursorTimeouts="False" ownScrollSpeed="False" ownAutoScrollType="False"
+      ownControls="False" ownAudio="False" ownOkContent="False" ownCancelContent="False"
+      ownPreviousTabContent="False" ownNextTabContent="False" ownInactive="False"
+      ownTypewriter="False" ownSchematics="False" ownDragNotification="False" />
+
+      <_string>
+
+      <name><![CDATA[Beige
+      Bottom Dialogue]]></name>
+
+      <guid><![CDATA[7bb64483-df33-4046-aebc-ff76991c3f63]]></guid>
+
+      </_string>
+
+      <layer>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </layer>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUIBoxSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      <overrideSettings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.BaseOverrideUIBoxSettings]]></_type>
+
+      </_string>
+
+      </overrideSettings>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: d6429a68350c95e41a20a215c49db5f0, type: 2}
+      - {fileID: 6122816915529121323, guid: df1d2074d4b39bf4a9c08b4330a0274a, type: 3}
+    encrypted: 0
+  sortAtEnd: 0

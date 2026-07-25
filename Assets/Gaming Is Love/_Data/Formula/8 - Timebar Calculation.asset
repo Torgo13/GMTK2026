@@ -1,0 +1,969 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -188532032, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 8 - Timebar Calculation
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata realID="8" >
+
+      <_string>
+
+      <guid><![CDATA[d2983e91-bd10-4e68-aab3-4c8bcb0cd774]]></guid>
+
+      </_string>
+
+      <setting
+      startIndex="0" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool useMinValue="True"
+      useMaxValue="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      38 38 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <name><![CDATA[Timebar
+      Calculation]]></name>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Formulas.Nodes.FormulaSettings]]></_type>
+
+      </_string>
+
+      <_stringarrays>
+
+      <layer>
+
+      <0><![CDATA[Base
+      Layer]]></0>
+
+      </layer>
+
+      </_stringarrays>
+
+      <formulaType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </formulaType>
+
+      <minValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="1" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </minValue>
+
+      <startValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </startValue>
+
+      <formulaOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.AddFloatOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.AddFloatOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </formulaOperator>
+
+      <_subarrays>
+
+      <node>
+
+      <0
+      next="1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition 266 38 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Formulas.Nodes.ValueNode]]></_type>
+
+      </_string>
+
+      <formulaOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </formulaOperator>
+
+      <value>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="1000" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </value>
+
+      </0>
+
+      <1
+      next="2" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition 494 38 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Formulas.Nodes.ValueNode]]></_type>
+
+      </_string>
+
+      <formulaOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.DivideFloatOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.DivideFloatOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </formulaOperator>
+
+      <value>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_FormulaType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      initialValue="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_FormulaType`1]]></_type>
+
+      </_string>
+
+      <formula>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </formula>
+
+      <userObject type="0"
+      >
+
+      <_bool selectedOnlyGameObjects="False" useRoot="False" />
+
+      <childObject
+      type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </userObject>
+
+      <targetObject
+      type="1" >
+
+      <_bool selectedOnlyGameObjects="False" useRoot="False" />
+
+      <childObject
+      type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </targetObject>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </value>
+
+      </1>
+
+      <2
+      next="3" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition 722 57 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Formulas.Nodes.ValueNode]]></_type>
+
+      </_string>
+
+      <formulaOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.MultiplyFloatOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.MultiplyFloatOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </formulaOperator>
+
+      <value>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_DeltaTimeType`1]]></type>
+
+      </_string>
+
+      <settings
+      timeOrigin="1" >
+
+      <_float offset="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_DeltaTimeType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </value>
+
+      </2>
+
+      <3
+      next="-1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition 494 114 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Formulas.Nodes.StatusForkNode]]></_type>
+
+      </_string>
+
+      <origin
+      origin="0" >
+
+      <_bool groupLeader="False" />
+
+      </origin>
+
+      <_subarrays>
+
+      <condition>
+
+      <0
+      next="4" conditionType="0" needed="0" >
+
+      <status>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.ORKFramework.Conditions.StatusEffectStatusConditionType]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_bool
+      applied="True" checkStacked="False" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.Conditions.StatusEffectStatusConditionType]]></_type>
+
+      </_string>
+
+      <statusEffect>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </statusEffect>
+
+      <check type="0"
+      >
+
+      <value>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </value>
+
+      </check>
+
+      </settings>
+
+      </status>
+
+      <template>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </template>
+
+      </0>
+
+      <1
+      next="5" conditionType="0" needed="0" >
+
+      <status>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.ORKFramework.Conditions.StatusEffectStatusConditionType]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_bool
+      applied="True" checkStacked="False" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.Conditions.StatusEffectStatusConditionType]]></_type>
+
+      </_string>
+
+      <statusEffect>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </statusEffect>
+
+      <check type="0"
+      >
+
+      <value>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </value>
+
+      </check>
+
+      </settings>
+
+      </status>
+
+      <template>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </template>
+
+      </1>
+
+      </condition>
+
+      </_subarrays>
+
+      </3>
+
+      <4
+      next="-1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition 722 171 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Formulas.Nodes.ValueNode]]></_type>
+
+      </_string>
+
+      <formulaOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.MultiplyFloatOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.MultiplyFloatOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </formulaOperator>
+
+      <value>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0.75" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </value>
+
+      </4>
+
+      <5
+      next="-1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition 266 171 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Formulas.Nodes.ValueNode]]></_type>
+
+      </_string>
+
+      <formulaOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.MultiplyFloatOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.MultiplyFloatOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </formulaOperator>
+
+      <value>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="1.2" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </value>
+
+      </5>
+
+      </node>
+
+      <group>
+
+      </group>
+
+      </_subarrays>
+
+      </setting>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: b0e7cc0fd7752ba43bc20f75b5edc6e6, type: 2}
+      - {fileID: 11400000, guid: f074d15b9ba11aa4d887dd537d112b44, type: 2}
+      - {fileID: 11400000, guid: 3ad333df9b23f5d44b89506a98571131, type: 2}
+    encrypted: 0
+  sortAtEnd: 0

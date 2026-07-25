@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1753358023, guid: 2f433824042009943be1767c00adb2ed, type: 3}
+  m_Name: 4 - Random Ability 75%
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata realID="4" >
+
+      <_string>
+
+      <guid><![CDATA[de083dd5-b0f6-4ded-b690-9c7d97426b6d]]></guid>
+
+      </_string>
+
+      <setting
+      startIndex="0" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool clearFoundTargets="False"
+      overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition 38 38
+      />
+
+      </_floatarrays>
+
+      <_string>
+
+      <name><![CDATA[Random Ability
+      75%]]></name>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.AI.BattleAISettings]]></_type>
+
+      </_string>
+
+      <_stringarrays>
+
+      <layer>
+
+      <0><![CDATA[Base
+      Layer]]></0>
+
+      </layer>
+
+      </_stringarrays>
+
+      <_subarrays>
+
+      <node>
+
+      <0
+      next="-1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition 266 38 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.AI.Nodes.ChanceNode]]></_type>
+
+      </_string>
+
+      <_subarrays>
+
+      <range>
+
+      <0
+      next="1" >
+
+      <minimum>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </minimum>
+
+      <maximum>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="75" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </maximum>
+
+      </0>
+
+      </range>
+
+      </_subarrays>
+
+      </0>
+
+      <1
+      level="1" useMode="0" nextFail="-1" next="-1" nodeLayer="0" nodeGroup="-1"
+      >
+
+      <_bool useRandom="True" addHidden="True" limitType="False" knowAbility="True"
+      useHighest="True" endPhase="False" blockBattleCamera="False" forceFoundTargets="False"
+      needTargets="False" active="True" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      494 38 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.AI.Nodes.AbilityNode]]></_type>
+
+      </_string>
+
+      <ability>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </ability>
+
+      </1>
+
+      </node>
+
+      <group>
+
+      </group>
+
+      </_subarrays>
+
+      </setting>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+  sortAtEnd: 0

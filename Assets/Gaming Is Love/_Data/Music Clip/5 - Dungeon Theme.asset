@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -238901764, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 5 - Dungeon Theme
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata startPCM="0" realID="5" >
+
+      <_float maxVolume="1" startTime="0"
+      />
+
+      <_bool doLoop="True" storeTimePosition="False" useStartPCM="False"
+      />
+
+      <_string>
+
+      <name><![CDATA[Dungeon Theme]]></name>
+
+      <guid><![CDATA[01cbd717-92a8-4c05-8f97-d8d8dbb246dd]]></guid>
+
+      </_string>
+
+      <clip>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </clip>
+
+      <_subarrays>
+
+      <clipLoop>
+
+      </clipLoop>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 8300000, guid: a5f2a582b67576e499d9af56af5d6a9f, type: 3}
+    encrypted: 0
+  sortAtEnd: 0

@@ -1,0 +1,1145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -326218779, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: RoundShot
+  m_EditorClassIdentifier: 
+  time: 14.12.2021 20:29:04
+  version: 2.1.0 BETA 17
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata maxNodes="100" startIndex="6" stopIndex="-1" endIndex="-1"
+      nodeLayer="0" nodeGroup="-1" >
+
+      <_bool limitNodes="False" closeAllDialogues="False"
+      blockPlayer="False" blockCamera="False" clearBlocks="False" storeInitialCameraPosition="False"
+      mainCamera="True" cameraTag="False" clearActors="True" clearPrefabs="True"
+      clearVariables="False" clearSelectedData="False" useUnityTimeScale="True" useMakinomTimeScale="True"
+      initVarsEachRun="False" destroyPrefabs="False" removePrefabSaver="True" useEndSlots="False"
+      overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition 38 38
+      />
+
+      </_floatarrays>
+
+      <_string>
+
+      <cameraName><![CDATA[]]></cameraName>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.SchematicSettings]]></_type>
+
+      </_string>
+
+      <_stringarrays>
+
+      <layer>
+
+      <0><![CDATA[Base
+      Layer]]></0>
+
+      </layer>
+
+      </_stringarrays>
+
+      <initialVariables>
+
+      <_subarrays>
+
+      <variable>
+
+      </variable>
+
+      </_subarrays>
+
+      </initialVariables>
+
+      <_subarrays>
+
+      <machineStartVariable>
+
+      </machineStartVariable>
+
+      <actor>
+
+      </actor>
+
+      <prefab>
+
+      <0
+      useOrder="0" >
+
+      <_float destroyAfterTime="1" />
+
+      <_bool autoDestroyAfterTime="True"
+      removePrefabSaver="True" />
+
+      <_string>
+
+      <name><![CDATA[]]></name>
+
+      </_string>
+
+      <_subarrays>
+
+      <prefab>
+
+      <0>
+
+      <_bool
+      usePooling="True" />
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </prefab>
+
+      </0>
+
+      </prefab>
+
+      </_subarrays>
+
+      </0>
+
+      </prefab>
+
+      <audioClip>
+
+      </audioClip>
+
+      <audioMixer>
+
+      </audioMixer>
+
+      <audioMixerGroup>
+
+      </audioMixerGroup>
+
+      <sprite>
+
+      </sprite>
+
+      <texture>
+
+      </texture>
+
+      <material>
+
+      </material>
+
+      <physicMaterial>
+
+      </physicMaterial>
+
+      <physicsMaterial2D>
+
+      </physicsMaterial2D>
+
+      <node>
+
+      <0
+      next="1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool waitBetween="True" useSoundType="True"
+      wait="False" active="True" executeOnStop="False" isBreakpoint="False" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition 494 38 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.PlaySoundNode]]></_type>
+
+      </_string>
+
+      <usedObject
+      type="3" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="False" />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </usedObject>
+
+      <timeBetweenValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </timeBetweenValue>
+
+      <soundType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </soundType>
+
+      <audioClip clipID="0"
+      >
+
+      <clip>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </clip>
+
+      </audioClip>
+
+      <audio
+      rolloff="1" >
+
+      <_float volume="1" minDistance="0" maxDistance="100" pitch="1"
+      pitch2="1" spatialBlend="0" panStereo="0" />
+
+      <_bool oneShot="True" setVolume="False"
+      setOutputMixerGroup="False" setDistance="False" setPitch="False" randomPitch="False"
+      setSpatialBlend="False" setPanStereo="False" setLoop="False" loop="False" setIgnoreLV="False"
+      ignoreLV="False" />
+
+      </audio>
+
+      </0>
+
+      <1 next="7" nodeLayer="0"
+      nodeGroup="-1" >
+
+      <_float waitNormalizedTime="1" />
+
+      <_bool waitBetween="True"
+      stop="False" wait="True" active="True" executeOnStop="False" isBreakpoint="False"
+      overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition 722
+      38 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.Schematics.Nodes.CombatantAnimationNode]]></_type>
+
+      </_string>
+
+      <animate
+      type="3" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="False" />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </animate>
+
+      <timeBetweenValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </timeBetweenValue>
+
+      <type>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </type>
+
+      <storeDuration>
+
+      <_float
+      normalizedTime="0.5" />
+
+      <_bool store="True" />
+
+      <variable origin="0"
+      objectScope="1" listChange="0" >
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[wait]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </variable>
+
+      <floatOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </floatOperator>
+
+      </storeDuration>
+
+      </1>
+
+      <2
+      nextCritical="-1" nextMiss="5" nextBlock="-1" next="3" nodeLayer="0" nodeGroup="-1"
+      >
+
+      <_bool reconsume="False" setFactor="False" useOtherTargets="False"
+      useCritical="False" useMiss="True" useBlock="False" active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      722 152 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.Schematics.Nodes.CalculateActionNode]]></_type>
+
+      </_string>
+
+      <calculationOptions
+      useTargetChanges="0" targetChangeIndex="0" >
+
+      <_bool animate="True" useUserChanges="True"
+      />
+
+      </calculationOptions>
+
+      </2>
+
+      <3 next="4" nodeLayer="0"
+      nodeGroup="-1" >
+
+      <_bool waitBetween="True" useSoundType="True" wait="False"
+      active="True" executeOnStop="False" isBreakpoint="False" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition 494 266 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.PlaySoundNode]]></_type>
+
+      </_string>
+
+      <usedObject
+      type="4" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="False" />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </usedObject>
+
+      <timeBetweenValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </timeBetweenValue>
+
+      <soundType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="3" />
+
+      </settings>
+
+      </soundType>
+
+      <audioClip clipID="0"
+      >
+
+      <clip>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </clip>
+
+      </audioClip>
+
+      <audio
+      rolloff="1" >
+
+      <_float volume="1" minDistance="0" maxDistance="100" pitch="1"
+      pitch2="1" spatialBlend="0" panStereo="0" />
+
+      <_bool oneShot="True" setVolume="False"
+      setOutputMixerGroup="False" setDistance="False" setPitch="False" randomPitch="False"
+      setSpatialBlend="False" setPanStereo="False" setLoop="False" loop="False" setIgnoreLV="False"
+      ignoreLV="False" />
+
+      </audio>
+
+      </3>
+
+      <4 id="0" targetType="0"
+      spawnID="0" objectType="1" useObjectChange="0" next="5" nodeLayer="0" nodeGroup="-1"
+      >
+
+      <_bool addPrefabSaver="False" keepReference="True" usePrefabPosition="False"
+      usePrefabRotation="True" waitBetween="True" setScale="False" mount="False"
+      setName="False" useAudio="False" useSoundType="False" active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <scale
+      1 1 1 />
+
+      <nodePosition 722 266 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.SpawnPrefabNode]]></_type>
+
+      </_string>
+
+      <useObject
+      type="4" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="False" />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </useObject>
+
+      <timeBetweenValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </timeBetweenValue>
+
+      <place>
+
+      <_bool
+      useRotation="True" setScale="False" scaleAfterMount="False" />
+
+      <_floatarrays>
+
+      <offset
+      0 0 0 />
+
+      <rotationOffset 0 0 0 />
+
+      <scale 1 1 1 />
+
+      </_floatarrays>
+
+      <childObject
+      type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      <localSpace>
+
+      <_bool
+      localSpace="True" ignoreScale="False" />
+
+      </localSpace>
+
+      </place>
+
+      </4>
+
+      <5
+      next="-1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool random="False" active="True"
+      executeOnStop="False" isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      950 266 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.WaitNode]]></_type>
+
+      </_string>
+
+      <time>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_FloatVariableType`1]]></type>
+
+      </_string>
+
+      <settings
+      multiValueType="0" >
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_FloatVariableType`1]]></_type>
+
+      </_string>
+
+      <variable
+      origin="0" objectScope="1" listOrigin="0" >
+
+      <_bool removeFromList="False"
+      />
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[wait]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </variable>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </time>
+
+      </5>
+
+      <6
+      next="0" nodeLayer="0" nodeGroup="-1" >
+
+      <_float waitNormalizedTime="1"
+      />
+
+      <_bool waitBetween="True" stop="False" wait="True" active="True"
+      executeOnStop="False" isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      266 38 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.Schematics.Nodes.CombatantAnimationNode]]></_type>
+
+      </_string>
+
+      <animate
+      type="3" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="False" />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </animate>
+
+      <timeBetweenValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </timeBetweenValue>
+
+      <type>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="4" />
+
+      </settings>
+
+      </type>
+
+      <storeDuration>
+
+      <_float
+      normalizedTime="0.5" />
+
+      <_bool store="False" />
+
+      <floatOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </floatOperator>
+
+      </storeDuration>
+
+      </6>
+
+      <7
+      nextFail="0" next="2" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool reset="True"
+      active="True" executeOnStop="False" isBreakpoint="False" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition 950 38 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.LoopNode]]></_type>
+
+      </_string>
+
+      <maxCount>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_GameObjectCountType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_GameObjectCountType`1]]></_type>
+
+      </_string>
+
+      <usedObject
+      type="4" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="False" />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </usedObject>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </maxCount>
+
+      <variable
+      origin="0" objectScope="1" >
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[counter]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </variable>
+
+      </7>
+
+      </node>
+
+      <group>
+
+      </group>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 1714655814155186441, guid: 977719b2f439f244280d6b75c663c6b7, type: 3}
+      - {fileID: 11400000, guid: a912dcf437877224a8ddba86f409e480, type: 2}
+      - {fileID: 11400000, guid: 10a40d0727d1e91459325c0a4779134f, type: 2}
+      - {fileID: 11400000, guid: 0399f452c818c4745ac20c868b566b07, type: 2}
+      - {fileID: 11400000, guid: 6d301c31b79e02e4c9da0daa3d9b434f, type: 2}
+    encrypted: 0

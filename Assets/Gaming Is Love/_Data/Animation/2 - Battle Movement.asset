@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1191014103, guid: 2f433824042009943be1767c00adb2ed, type: 3}
+  m_Name: 2 - Battle Movement
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata realID="2" >
+
+      <_bool randomFirstStartTime="True" mSetSpeed="False"
+      changeAnimatorController="False" />
+
+      <_string>
+
+      <name><![CDATA[Battle
+      Movement]]></name>
+
+      <guid><![CDATA[173a14d3-3c78-4085-a04b-b4f380e9e5cb]]></guid>
+
+      </_string>
+
+      <autoParameters>
+
+      <_bool
+      mSetAutoHorizontal="False" mSetAutoVertical="False" mSetXMoveDirection="False"
+      mSetYMoveDirection="False" mSetZMoveDirection="False" mSetXRotation="False"
+      mSetYRotation="False" mSetZRotation="False" setGrounded="False" />
+
+      <_string>
+
+      <mAutoHoriziontal><![CDATA[]]></mAutoHoriziontal>
+
+      <mAutoVertical><![CDATA[]]></mAutoVertical>
+
+      <mXMoveDirection><![CDATA[]]></mXMoveDirection>
+
+      <mYMoveDirection><![CDATA[]]></mYMoveDirection>
+
+      <mZMoveDirection><![CDATA[]]></mZMoveDirection>
+
+      <groundedParameterName><![CDATA[]]></groundedParameterName>
+
+      </_string>
+
+      <mDampHorizontal>
+
+      <_float
+      dampTime="1" />
+
+      <_bool useDamping="False" />
+
+      </mDampHorizontal>
+
+      <mDampVertical>
+
+      <_float
+      dampTime="1" />
+
+      <_bool useDamping="False" />
+
+      </mDampVertical>
+
+      <mDampXMoveDirection>
+
+      <_float
+      dampTime="1" />
+
+      <_bool useDamping="False" />
+
+      </mDampXMoveDirection>
+
+      <mDampYMoveDirection>
+
+      <_float
+      dampTime="1" />
+
+      <_bool useDamping="False" />
+
+      </mDampYMoveDirection>
+
+      <mDampZMoveDirection>
+
+      <_float
+      dampTime="1" />
+
+      <_bool useDamping="False" />
+
+      </mDampZMoveDirection>
+
+      </autoParameters>
+
+      <_subarrays>
+
+      <legacy>
+
+      <0>
+
+      <_float
+      stopFade="0.1" />
+
+      <type>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </type>
+
+      <_subarrays>
+
+      <animation>
+
+      <0
+      layer="-1" playType="2" playMode="0" queueMode="0" >
+
+      <_float fade="0.1"
+      weight="1" />
+
+      <_bool setLayer="True" setSpeed="False" stopAll="False"
+      />
+
+      <_string>
+
+      <name><![CDATA[IdleBattle]]></name>
+
+      </_string>
+
+      </0>
+
+      </animation>
+
+      </_subarrays>
+
+      </0>
+
+      <1>
+
+      <_float
+      stopFade="0.1" />
+
+      <type>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </type>
+
+      <_subarrays>
+
+      <animation>
+
+      <0
+      layer="0" playType="2" playMode="0" queueMode="0" >
+
+      <_float fade="0.1"
+      weight="1" />
+
+      <_bool setLayer="True" setSpeed="False" stopAll="False"
+      />
+
+      <_string>
+
+      <name><![CDATA[RunBattle]]></name>
+
+      </_string>
+
+      </0>
+
+      </animation>
+
+      </_subarrays>
+
+      </1>
+
+      </legacy>
+
+      <mecanim>
+
+      </mecanim>
+
+      <mecanimStateCheck>
+
+      </mecanimStateCheck>
+
+      <custom>
+
+      </custom>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: d57129463a33e07439fbeb5db28b4cd7, type: 2}
+      - {fileID: 11400000, guid: 0407f8c32bd476744aeb020a75f6e9ea, type: 2}
+    encrypted: 0
+  sortAtEnd: 0

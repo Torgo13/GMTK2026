@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Abilities
+  m_EditorClassIdentifier: 
+  data:
+    name: Abilities
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_subarrays>
+
+      <assets>
+
+      <0>
+
+      <_asset
+      asset="0" />
+
+      </0>
+
+      <1>
+
+      <_asset asset="1" />
+
+      </1>
+
+      <2>
+
+      <_asset
+      asset="2" />
+
+      </2>
+
+      <3>
+
+      <_asset asset="3" />
+
+      </3>
+
+      <4>
+
+      <_asset
+      asset="4" />
+
+      </4>
+
+      <5>
+
+      <_asset asset="5" />
+
+      </5>
+
+      <6>
+
+      <_asset
+      asset="6" />
+
+      </6>
+
+      <7>
+
+      <_asset asset="7" />
+
+      </7>
+
+      <8>
+
+      <_asset
+      asset="8" />
+
+      </8>
+
+      <9>
+
+      <_asset asset="9" />
+
+      </9>
+
+      <10>
+
+      <_asset
+      asset="10" />
+
+      </10>
+
+      <11>
+
+      <_asset asset="11" />
+
+      </11>
+
+      <12>
+
+      <_asset
+      asset="12" />
+
+      </12>
+
+      <13>
+
+      <_asset asset="13" />
+
+      </13>
+
+      <14>
+
+      <_asset
+      asset="14" />
+
+      </14>
+
+      <15>
+
+      <_asset asset="15" />
+
+      </15>
+
+      <16>
+
+      <_asset
+      asset="16" />
+
+      </16>
+
+      <17>
+
+      <_asset asset="17" />
+
+      </17>
+
+      <18>
+
+      <_asset
+      asset="18" />
+
+      </18>
+
+      <19>
+
+      <_asset asset="19" />
+
+      </19>
+
+      <20>
+
+      <_asset
+      asset="20" />
+
+      </20>
+
+      <21>
+
+      <_asset asset="21" />
+
+      </21>
+
+      <22>
+
+      <_asset
+      asset="22" />
+
+      </22>
+
+      <23>
+
+      <_asset asset="23" />
+
+      </23>
+
+      <24>
+
+      <_asset
+      asset="24" />
+
+      </24>
+
+      <25>
+
+      <_asset asset="25" />
+
+      </25>
+
+      <26>
+
+      <_asset
+      asset="26" />
+
+      </26>
+
+      <27>
+
+      <_asset asset="27" />
+
+      </27>
+
+      </assets>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 381e5964fddf52d4085baf2a89cbfb3e, type: 2}
+      - {fileID: 11400000, guid: fd676862cdbf5d244a9f90627c20edc3, type: 2}
+      - {fileID: 11400000, guid: 952058f7ee2e95e4eb726a0883e5aed9, type: 2}
+      - {fileID: 11400000, guid: 3c10af5d13a79a44dae8fc5f38ddff6c, type: 2}
+      - {fileID: 11400000, guid: 9df400fc357857248a840f36222d3b3b, type: 2}
+      - {fileID: 11400000, guid: 873e7299d5a684d409fc716fb3cbbdd8, type: 2}
+      - {fileID: 11400000, guid: 9d8ee38c0d0ac4b42b17e1ef5b7b36eb, type: 2}
+      - {fileID: 11400000, guid: eb28dd9827dde3f4e81c347cb68332f2, type: 2}
+      - {fileID: 11400000, guid: 250f8a2e3f0a34c4889374fd60ec5c96, type: 2}
+      - {fileID: 11400000, guid: e608b2ef9c990c245a898b3bd70eb261, type: 2}
+      - {fileID: 11400000, guid: 266a47e1423863544a8b5a3eac85fff1, type: 2}
+      - {fileID: 11400000, guid: d0f9149a32ef73d4f9ba6202a802dcb3, type: 2}
+      - {fileID: 11400000, guid: 2257bce53edc374448e919a04d531744, type: 2}
+      - {fileID: 11400000, guid: b2aaa29ea0c3dc244af12b037eb0ba5b, type: 2}
+      - {fileID: 11400000, guid: 8c9a3e9d3a6419342b259ad966fe4e2c, type: 2}
+      - {fileID: 11400000, guid: 9abb9fb2bba892c448e72736468b741b, type: 2}
+      - {fileID: 11400000, guid: 2e6a4029a13436e448dc6aae7440f619, type: 2}
+      - {fileID: 11400000, guid: 892b28f1071e9fb4d9ddbdf08ef1abbe, type: 2}
+      - {fileID: 11400000, guid: 42e60e3097017934fa2f4faa99d68841, type: 2}
+      - {fileID: 11400000, guid: 3003764718971a548b76645a8bb076dc, type: 2}
+      - {fileID: 11400000, guid: b42cdf065aef74947a6126aca455c912, type: 2}
+      - {fileID: 11400000, guid: 688b324c3039e4f4b9eeae83af38a24e, type: 2}
+      - {fileID: 11400000, guid: 852eb564f0333274b816cea5e455da9f, type: 2}
+      - {fileID: 11400000, guid: 94f07de1c80ac6e49bad4de83ec1ca84, type: 2}
+      - {fileID: 11400000, guid: 330ebde8d146cb4458b6cd7484ae17e6, type: 2}
+      - {fileID: 11400000, guid: c41b3708bf13c1b448367ffa0f6faa2c, type: 2}
+      - {fileID: 11400000, guid: 8768367c7e7d5d343ba5067c6a66f27a, type: 2}
+      - {fileID: 11400000, guid: bb4bde1cb5755e6499e09e395fcb0f71, type: 2}
+    encrypted: 0

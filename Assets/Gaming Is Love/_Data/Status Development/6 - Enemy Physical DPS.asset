@@ -1,0 +1,465 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1856419377, guid: 2f433824042009943be1767c00adb2ed, type: 3}
+  m_Name: 6 - Enemy Physical DPS
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata minLevel="1" maxLevel="50" percentStartValue="1" realID="6"
+      >
+
+      <_float percentInitialValueFormula="0" />
+
+      <_bool usePercentCurve="True"
+      />
+
+      <_intarrays>
+
+      <percentLevelValue 15 16 18 20 21 23 25 27 28
+      30 32 34 35 37 39 41 42 44 46 47 49 51 53 54 56 58 60 61 63 65 67 68 70 72
+      73 75 77 79 80 82 84 86 87 89 91 93 94 96 98 100 />
+
+      </_intarrays>
+
+      <_string>
+
+      <name><![CDATA[Enemy
+      Physical DPS]]></name>
+
+      <guid><![CDATA[c993bede-352f-4acf-a0a9-9b9ce996a052]]></guid>
+
+      </_string>
+
+      <percentFormula>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </percentFormula>
+
+      <_subarrays>
+
+      <levelLimit>
+
+      </levelLimit>
+
+      <statusValue>
+
+      <0
+      type="1" startValue="1" percentRounding="0" >
+
+      <_float initialValueFormula="0"
+      percentValue="10" />
+
+      <_intarrays>
+
+      <levelValue 200 208 232 274
+      331 406 496 604 727 867 1024 1197 1387 1593 1816 2055 2311 2583 2871 3177 3498
+      3836 4191 4562 4950 5354 5774 6211 6665 7135 7621 8124 8644 9180 9733 10302
+      10887 11489 12108 12743 13394 14062 14746 15447 16165 16899 17649 18416 19200
+      20000 />
+
+      </_intarrays>
+
+      <status>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </status>
+
+      </0>
+
+      <1 type="1"
+      startValue="1" percentRounding="0" >
+
+      <_float initialValueFormula="0"
+      percentValue="10" />
+
+      <_intarrays>
+
+      <levelValue 100 104 116 137
+      165 203 248 302 363 433 512 598 693 796 908 1027 1155 1291 1435 1588 1749 1918
+      2095 2281 2475 2677 2887 3105 3332 3567 3810 4062 4322 4590 4866 5151 5443
+      5744 6054 6371 6697 7031 7373 7723 8082 8449 8824 9208 9600 10000 />
+
+      </_intarrays>
+
+      <status>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </status>
+
+      </1>
+
+      <2 type="1"
+      startValue="1" percentRounding="0" >
+
+      <_float initialValueFormula="0"
+      percentValue="10" />
+
+      <_intarrays>
+
+      <levelValue 0 4 16 37 66 104
+      149 204 266 337 416 503 599 703 816 937 1066 1203 1349 1503 1665 1836 2015
+      2203 2399 2603 2815 3036 3265 3502 3748 4002 4264 4535 4814 5102 5397 5701
+      6014 6334 6663 7001 7346 7700 8063 8433 8812 9200 9596 10000 />
+
+      </_intarrays>
+
+      <status>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </status>
+
+      </2>
+
+      <3 type="3"
+      startValue="1" percentRounding="0" >
+
+      <_float initialValueFormula="0"
+      percentValue="50" />
+
+      <status>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="3" />
+
+      </settings>
+
+      </status>
+
+      </3>
+
+      <4 type="3"
+      startValue="1" percentRounding="0" >
+
+      <_float initialValueFormula="0"
+      percentValue="40" />
+
+      <status>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="4" />
+
+      </settings>
+
+      </status>
+
+      </4>
+
+      <5 type="3"
+      startValue="1" percentRounding="0" >
+
+      <_float initialValueFormula="0"
+      percentValue="20" />
+
+      <status>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="5" />
+
+      </settings>
+
+      </status>
+
+      </5>
+
+      <6 type="3"
+      startValue="1" percentRounding="0" >
+
+      <_float initialValueFormula="0"
+      percentValue="10" />
+
+      <status>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="6" />
+
+      </settings>
+
+      </status>
+
+      </6>
+
+      <7 type="3"
+      startValue="1" percentRounding="0" >
+
+      <_float initialValueFormula="0"
+      percentValue="40" />
+
+      <status>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="7" />
+
+      </settings>
+
+      </status>
+
+      </7>
+
+      <8 type="3"
+      startValue="1" percentRounding="0" >
+
+      <_float initialValueFormula="0"
+      percentValue="60" />
+
+      <status>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="8" />
+
+      </settings>
+
+      </status>
+
+      </8>
+
+      <9 type="3"
+      startValue="1" percentRounding="0" >
+
+      <_float initialValueFormula="0"
+      percentValue="5" />
+
+      <status>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="9" />
+
+      </settings>
+
+      </status>
+
+      </9>
+
+      <10 type="3"
+      startValue="1" percentRounding="0" >
+
+      <_float initialValueFormula="0"
+      percentValue="35" />
+
+      <status>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="10" />
+
+      </settings>
+
+      </status>
+
+      </10>
+
+      </statusValue>
+
+      <upgrade>
+
+      </upgrade>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 8900e9d17785e09439e3f66b4e77840b, type: 2}
+      - {fileID: 11400000, guid: 8cfc7d5a8d7d47a46b3841e2a116f4b5, type: 2}
+      - {fileID: 11400000, guid: 0b066c44aa37d584a92d8d5bcc0d241b, type: 2}
+      - {fileID: 11400000, guid: 2bd058df02f79df44833f47ced039820, type: 2}
+      - {fileID: 11400000, guid: 0a303b946d4f5fe48bef44748226bbef, type: 2}
+      - {fileID: 11400000, guid: d40e5c4bc9395f841b7f3ca0e28c0b64, type: 2}
+      - {fileID: 11400000, guid: e46bc355800aa4a428a44fd11a680e32, type: 2}
+      - {fileID: 11400000, guid: f330ac2fffb5dcd40a8d44b9b422deeb, type: 2}
+      - {fileID: 11400000, guid: 4733c52bbf1ad134d9089ab87e7f4657, type: 2}
+      - {fileID: 11400000, guid: 3d915b668f92ea946855adc4c399579c, type: 2}
+      - {fileID: 11400000, guid: 202abb8438344d34eaf6192ed82520bf, type: 2}
+    encrypted: 0
+  sortAtEnd: 0

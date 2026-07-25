@@ -1,0 +1,329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1307609390, guid: 2f433824042009943be1767c00adb2ed, type: 3}
+  m_Name: 0 - Warrior
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata realID="0" >
+
+      <_string>
+
+      <name><![CDATA[Warrior]]></name>
+
+      <guid><![CDATA[7dc09346-989c-4cac-a1d3-1100f2662399]]></guid>
+
+      </_string>
+
+      <equipment>
+
+      <_bool
+      allSlots="True" excludeEquipment="True" excludeItemTypes="False" />
+
+      <_subarrays>
+
+      <equipSlot>
+
+      </equipSlot>
+
+      <equipment>
+
+      <0>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </0>
+
+      </equipment>
+
+      <itemTypes>
+
+      <0>
+
+      <_bool
+      useSubTypes="False" />
+
+      <itemType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </itemType>
+
+      </0>
+
+      <1>
+
+      <_bool
+      useSubTypes="False" />
+
+      <itemType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </itemType>
+
+      </1>
+
+      <2>
+
+      <_bool
+      useSubTypes="False" />
+
+      <itemType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="3" />
+
+      </settings>
+
+      </itemType>
+
+      </2>
+
+      <3>
+
+      <_bool
+      useSubTypes="False" />
+
+      <itemType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="4" />
+
+      </settings>
+
+      </itemType>
+
+      </3>
+
+      <4>
+
+      <_bool
+      useSubTypes="False" />
+
+      <itemType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="5" />
+
+      </settings>
+
+      </itemType>
+
+      </4>
+
+      <5>
+
+      <_bool
+      useSubTypes="False" />
+
+      <itemType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="6" />
+
+      </settings>
+
+      </itemType>
+
+      </5>
+
+      <6>
+
+      <_bool
+      useSubTypes="False" />
+
+      <itemType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="7" />
+
+      </settings>
+
+      </itemType>
+
+      </6>
+
+      <7>
+
+      <_bool
+      useSubTypes="False" />
+
+      <itemType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="8" />
+
+      </settings>
+
+      </itemType>
+
+      </7>
+
+      </itemTypes>
+
+      </_subarrays>
+
+      </equipment>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 88a83d17bd218e24ca3bc024e530eee5, type: 2}
+      - {fileID: 11400000, guid: 2905df1787cc83a4a8ee5e99850bc569, type: 2}
+      - {fileID: 11400000, guid: bf2f33774da0ef340b2734d98b0eb94e, type: 2}
+      - {fileID: 11400000, guid: da96e41d857611c418098cb94df288f5, type: 2}
+      - {fileID: 11400000, guid: 1e5060f02df0c9c4cbe4fdf13fb175c2, type: 2}
+      - {fileID: 11400000, guid: 3b24b8280165b7c44b4d9e5a4c12ce75, type: 2}
+      - {fileID: 11400000, guid: 00c75157eb8088e499b2bc8c403f8d4c, type: 2}
+      - {fileID: 11400000, guid: 2e069d2f2e6101b4ab6b1cf02091d086, type: 2}
+      - {fileID: 11400000, guid: 45fd8d9f91bf9a847911b5a9892eccf4, type: 2}
+    encrypted: 0
+  sortAtEnd: 0

@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: UI System Settings
+  m_EditorClassIdentifier: 
+  data:
+    name: UI System Settings
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_floatarrays>
+
+      <defaultScreen 1920 1080 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.UI.UnityUISystem]]></type>
+
+      </_string>
+
+      <defaultMaskMaterial>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </defaultMaskMaterial>
+
+      <settings
+      eventSystemType="1" pixelDragThreshold="5" layer="0" >
+
+      <_float planeDistance="0.1"
+      />
+
+      <_bool addCanvasScaler="True" canvasScalerScreenSize="True" pixelPerfect="False"
+      useScreenSpaceCamera="False" nearPlaneOffset="True" useMainCamera="True" mainCameraFallback="True"
+      />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUISystem]]></_type>
+
+      </_string>
+
+      <prefabs>
+
+      <buttonPrefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </buttonPrefab>
+
+      <tabButtonPrefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </tabButtonPrefab>
+
+      <boolInputPrefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </boolInputPrefab>
+
+      <stringInputPrefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="3" />
+
+      </settings>
+
+      </stringInputPrefab>
+
+      <intInputPrefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="4" />
+
+      </settings>
+
+      </intInputPrefab>
+
+      <floatInputPrefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="5" />
+
+      </settings>
+
+      </floatInputPrefab>
+
+      <dropdownInputPrefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="6" />
+
+      </settings>
+
+      </dropdownInputPrefab>
+
+      </prefabs>
+
+      </settings>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 474605426501780216, guid: a5143b1484411744aa29bd0b1e51cf09, type: 3}
+      - {fileID: 4972752806744169440, guid: b2f477ff9929e5c4eafaf1d1649f14ee, type: 3}
+      - {fileID: 6730693850014990196, guid: 322e59aa3fbc7854280965f94df3ba42, type: 3}
+      - {fileID: 3811764632322026258, guid: f7f5b493c135e4d4095650e6c6adc1d7, type: 3}
+      - {fileID: 6295145350296894748, guid: ac6b8fcc95420d5478083722a644b627, type: 3}
+      - {fileID: 5282646175472336735, guid: 18c750564cd85ff468b823afca0dc5fa, type: 3}
+      - {fileID: 7058111668494567112, guid: 8ca5d4566e32a2f46b33a84e03e8858d, type: 3}
+    encrypted: 0

@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1294641069, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 11 - Blue Menu Bottom Scroll
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata autoScrollType="0" realID="11" >
+
+      <_float cursorTimeout="0.25"
+      cursorHoldTimeout="0.25" scrollSpeed="3" />
+
+      <_bool cursorOver="True"
+      useHoldAccept="False" blockFocusCursorOver="False" blockCursorOverSelection="False"
+      resetUnityInput="True" ownCursorTimeouts="False" ownScrollSpeed="False" ownAutoScrollType="False"
+      ownControls="False" ownAudio="False" ownOkContent="False" ownCancelContent="False"
+      ownPreviousTabContent="False" ownNextTabContent="False" ownInactive="False"
+      ownTypewriter="False" ownSchematics="True" ownDragNotification="False" />
+
+      <_string>
+
+      <name><![CDATA[Blue
+      Menu Bottom Scroll]]></name>
+
+      <guid><![CDATA[b7b2289e-4018-4b27-830d-d4c2d79d754c]]></guid>
+
+      </_string>
+
+      <layer>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </layer>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUIBoxSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      <schematics>
+
+      <_bool
+      beforeOpenContextOnly="False" beforeOpenWait="True" afterOpenContextOnly="False"
+      afterOpenWait="False" beforeCloseContextOnly="False" beforeCloseWait="True"
+      afterCloseContextOnly="False" afterCloseWait="False" focusGainedContextOnly="False"
+      focusLostContextOnly="False" />
+
+      <beforeOpenSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </beforeOpenSchematicAsset>
+
+      <afterOpenSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </afterOpenSchematicAsset>
+
+      <beforeCloseSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="3" />
+
+      </settings>
+
+      </beforeCloseSchematicAsset>
+
+      <afterCloseSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </afterCloseSchematicAsset>
+
+      <focusGainedSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </focusGainedSchematicAsset>
+
+      <focusLostSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </focusLostSchematicAsset>
+
+      <inputs>
+
+      <_bool
+      inputSelectedContextOnly="False" inputAcceptedContextOnly="False" />
+
+      <inputSelectedSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputSelectedSchematicAsset>
+
+      <inputAcceptedSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputAcceptedSchematicAsset>
+
+      </inputs>
+
+      <_subarrays>
+
+      <inputSchematic>
+
+      </inputSchematic>
+
+      </_subarrays>
+
+      </schematics>
+
+      <overrideSettings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.BaseOverrideUIBoxSettings]]></_type>
+
+      </_string>
+
+      </overrideSettings>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: d6429a68350c95e41a20a215c49db5f0, type: 2}
+      - {fileID: 6122816915529121323, guid: f7c71e4693c143e4d8f5dc5c0bfdce97, type: 3}
+      - {fileID: 11400000, guid: 3b46061d2bf766240bbf6b42dd8a6cde, type: 2}
+      - {fileID: 11400000, guid: 72427f28104e24b42a12ff4982ad19d0, type: 2}
+    encrypted: 0
+  sortAtEnd: 0

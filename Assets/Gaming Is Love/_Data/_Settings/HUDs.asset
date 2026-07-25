@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: HUDs
+  m_EditorClassIdentifier: 
+  data:
+    name: HUDs
+    byteData: 
+    xmlData: '<xmldata hudMask="-1" >
+
+      <_float hudDistance="100" />
+
+      <schematics>
+
+      <_bool
+      beforeOpenWait="True" afterOpenWait="False" beforeCloseWait="True" afterCloseWait="False"
+      />
+
+      <beforeOpenSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </beforeOpenSchematicAsset>
+
+      <afterOpenSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </afterOpenSchematicAsset>
+
+      <beforeCloseSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </beforeCloseSchematicAsset>
+
+      <afterCloseSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </afterCloseSchematicAsset>
+
+      <_subarrays>
+
+      <conditionalSchematic>
+
+      </conditionalSchematic>
+
+      </_subarrays>
+
+      </schematics>
+
+      <_subarrays>
+
+      <assets>
+
+      <0>
+
+      <_asset
+      asset="2" />
+
+      </0>
+
+      <1>
+
+      <_asset asset="3" />
+
+      </1>
+
+      <2>
+
+      <_asset
+      asset="4" />
+
+      </2>
+
+      <3>
+
+      <_asset asset="5" />
+
+      </3>
+
+      <4>
+
+      <_asset
+      asset="6" />
+
+      </4>
+
+      <5>
+
+      <_asset asset="7" />
+
+      </5>
+
+      <6>
+
+      <_asset
+      asset="8" />
+
+      </6>
+
+      <7>
+
+      <_asset asset="9" />
+
+      </7>
+
+      <8>
+
+      <_asset
+      asset="10" />
+
+      </8>
+
+      <9>
+
+      <_asset asset="11" />
+
+      </9>
+
+      <10>
+
+      <_asset
+      asset="12" />
+
+      </10>
+
+      <11>
+
+      <_asset asset="13" />
+
+      </11>
+
+      <12>
+
+      <_asset
+      asset="14" />
+
+      </12>
+
+      <13>
+
+      <_asset asset="15" />
+
+      </13>
+
+      </assets>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 66592210994b15f4c873d136bead0237, type: 2}
+      - {fileID: 11400000, guid: 9ae3693272b16e24c96dfdbed63cbb97, type: 2}
+      - {fileID: 11400000, guid: 8c1bac4bf37b5ea4bb0b1ae862c0e363, type: 2}
+      - {fileID: 11400000, guid: db1baaa80aea02840b09eb814268cc2a, type: 2}
+      - {fileID: 11400000, guid: 7f15eb56bc7d3db459749b20b706db12, type: 2}
+      - {fileID: 11400000, guid: 422de1158bbd87d439ee774c6fefcccb, type: 2}
+      - {fileID: 11400000, guid: e4934cd740bcaf340978bd99f38467e8, type: 2}
+      - {fileID: 11400000, guid: 72332e32a9dc0a246a0bb50ec89ea5d3, type: 2}
+      - {fileID: 11400000, guid: 97983f2fbf5ea7a489368bb106544d11, type: 2}
+      - {fileID: 11400000, guid: d59753ca7c656ce459e94a1d2e236b6f, type: 2}
+      - {fileID: 11400000, guid: b6dbcc80f8cb903459e2f6115e79e5f3, type: 2}
+      - {fileID: 11400000, guid: ef81cfa1d33cc2040b2f7798e7de7255, type: 2}
+      - {fileID: 11400000, guid: 1456147c1a67a3e43b7538a9fb9711d9, type: 2}
+      - {fileID: 11400000, guid: 1fb301b1e0aeedd43a77d759395ad5ad, type: 2}
+      - {fileID: 11400000, guid: e723e1d1b7375d64498cc4baad47b928, type: 2}
+      - {fileID: 11400000, guid: 7ed3c569a0fce9e40b9f5e30b66a2d54, type: 2}
+    encrypted: 0

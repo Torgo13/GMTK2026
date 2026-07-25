@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1753358023, guid: 2f433824042009943be1767c00adb2ed, type: 3}
+  m_Name: 6 - Provoked
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata realID="6" >
+
+      <_string>
+
+      <guid><![CDATA[a336e03a-1125-43d0-b9a2-2d1f02eb7288]]></guid>
+
+      </_string>
+
+      <setting
+      startIndex="0" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool clearFoundTargets="False"
+      overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition 38 38
+      />
+
+      </_floatarrays>
+
+      <_string>
+
+      <name><![CDATA[Provoked]]></name>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.AI.BattleAISettings]]></_type>
+
+      </_string>
+
+      <_stringarrays>
+
+      <layer>
+
+      <0><![CDATA[Base
+      Layer]]></0>
+
+      </layer>
+
+      </_stringarrays>
+
+      <_subarrays>
+
+      <node>
+
+      <0
+      combatantScope="0" combatantsNeeded="0" nextFail="-1" next="-1" nodeLayer="0"
+      nodeGroup="-1" >
+
+      <_bool forceKnowledge="False" active="True" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition 266 38 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.AI.Nodes.CheckStatusNode]]></_type>
+
+      </_string>
+
+      <targetSettings
+      foundType="2" >
+
+      <_bool dontAddTargets="False" />
+
+      <targetSettings
+      targetType="2" includeBodyParts="0" >
+
+      <_bool targetExcludeSelf="False"
+      targetExcludeFoundTargets="False" />
+
+      </targetSettings>
+
+      </targetSettings>
+
+      <statusConditions
+      needed="0" >
+
+      <_subarrays>
+
+      <condition>
+
+      <0 conditionType="0"
+      needed="0" >
+
+      <status>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.ORKFramework.Conditions.StatusEffectStatusConditionType]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_bool
+      applied="True" checkStacked="False" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.Conditions.StatusEffectStatusConditionType]]></_type>
+
+      </_string>
+
+      <statusEffect>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </statusEffect>
+
+      <check type="0"
+      >
+
+      <value>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </value>
+
+      </check>
+
+      </settings>
+
+      </status>
+
+      <template>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </template>
+
+      </0>
+
+      </condition>
+
+      </_subarrays>
+
+      </statusConditions>
+
+      </0>
+
+      </node>
+
+      <group>
+
+      </group>
+
+      </_subarrays>
+
+      </setting>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 29b3ac285e41f5546b1522ee4311dbc7, type: 2}
+    encrypted: 0
+  sortAtEnd: 0

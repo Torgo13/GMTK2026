@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1521956270, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 2 - Turn Order HUDs
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata realID="2" >
+
+      <_string>
+
+      <name><![CDATA[Turn Order
+      HUDs]]></name>
+
+      <type><![CDATA[GamingIsLove.Makinom.UI.UIListLayoutSettings]]></type>
+
+      <guid><![CDATA[b6281644-85c7-44bb-aa72-b18cfb2f1eea]]></guid>
+
+      </_string>
+
+      <settings
+      anchor="0" fill="1" fillAnchor="0" >
+
+      <_float spacing="10" moveTime="0.2"
+      />
+
+      <_bool alignSize="False" invert="False" useMove="True" />
+
+      <_floatarrays>
+
+      <padding
+      100 100 0 0 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UIListLayoutSettings]]></_type>
+
+      </_string>
+
+      <moveInterpolation>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.QuadraticInOutInterpolation]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.QuadraticInOutInterpolation]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </moveInterpolation>
+
+      </settings>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+  sortAtEnd: 0

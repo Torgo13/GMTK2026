@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Music Clips
+  m_EditorClassIdentifier: 
+  data:
+    name: Music Clips
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_subarrays>
+
+      <assets>
+
+      <0>
+
+      <_asset
+      asset="0" />
+
+      </0>
+
+      <1>
+
+      <_asset asset="1" />
+
+      </1>
+
+      <2>
+
+      <_asset
+      asset="2" />
+
+      </2>
+
+      <3>
+
+      <_asset asset="3" />
+
+      </3>
+
+      <4>
+
+      <_asset
+      asset="4" />
+
+      </4>
+
+      <5>
+
+      <_asset asset="5" />
+
+      </5>
+
+      <6>
+
+      <_asset
+      asset="6" />
+
+      </6>
+
+      </assets>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 6c6e19c4542c408428e25947b62420d5, type: 2}
+      - {fileID: 11400000, guid: 82cc9796884e45445bcc30ca34bc32c8, type: 2}
+      - {fileID: 11400000, guid: e0c95835c708b214f83df4a2f855d22c, type: 2}
+      - {fileID: 11400000, guid: 0678dfaa29cdd6443ad07304f26b3f25, type: 2}
+      - {fileID: 11400000, guid: 8b3f3eb344773574d87ca3a5fc996193, type: 2}
+      - {fileID: 11400000, guid: 985e77dc1cbd7f04798190ee8fdb6b2f, type: 2}
+      - {fileID: 11400000, guid: 0aae91f9deb00fa40b7440aa1eca6749, type: 2}
+    encrypted: 0

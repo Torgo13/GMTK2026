@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1521956270, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 1 - Player HUDs
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata realID="1" >
+
+      <_string>
+
+      <name><![CDATA[Player
+      HUDs]]></name>
+
+      <type><![CDATA[GamingIsLove.Makinom.UI.UIListLayoutSettings]]></type>
+
+      <guid><![CDATA[f69ca559-62c0-4c52-891c-8dfbe983fe91]]></guid>
+
+      </_string>
+
+      <settings
+      anchor="8" fill="1" fillAnchor="8" >
+
+      <_float spacing="20" moveTime="0.3"
+      />
+
+      <_bool alignSize="False" invert="True" useMove="False" />
+
+      <_floatarrays>
+
+      <padding
+      0 0 20 20 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UIListLayoutSettings]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+  sortAtEnd: 0
