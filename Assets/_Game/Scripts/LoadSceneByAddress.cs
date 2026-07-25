@@ -15,26 +15,15 @@ namespace TCGE
         
 #if USING_ADDRESSABLES
         private AsyncOperationHandle<SceneInstance> loadHandle;
-        private float progress;
 
         void Start()
         {
             loadHandle = Addressables.LoadSceneAsync(key, priority: 1);
         }
 
-        void OnGUI()
+        void Update()
         {
             slider.value = loadHandle.PercentComplete;
-            var c = slider.colors;
-            if (progress != loadHandle.PercentComplete)
-            {
-                c.normalColor = Color.white;
-                progress = loadHandle.PercentComplete;
-            }
-            else
-            {
-                c.normalColor = Color.gray;
-            }
         }
 #endif // USING_ADDRESSABLES
     }

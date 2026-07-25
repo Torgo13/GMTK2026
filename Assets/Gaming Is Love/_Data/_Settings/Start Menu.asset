@@ -20,8 +20,8 @@ MonoBehaviour:
       <_float waitTime="0"
       />
 
-      <_bool autoCall="True" ownScreenFade="False" newGameSCBlockPlayerControl="False"
-      newGameSCBlockCameraControl="False" newGameStopMusic="True" setStartGroup="False"
+      <_bool autoCall="True" ownScreenFade="False" newGameSCBlockPlayerControl="True"
+      newGameSCBlockCameraControl="True" newGameStopMusic="True" setStartGroup="False"
       newGameOwnScreenFade="False" />
 
       <_string>
