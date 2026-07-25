@@ -72,7 +72,6 @@ MonoBehaviour:
       - rid: 3837009158693192216
       - rid: 3837009158693192217
       - rid: 3837009158693192218
-      - rid: 3837009158693192219
       - rid: 3837009158693192223
       - rid: 3837009158693192226
       - rid: 3837009158693192230
@@ -232,7 +231,7 @@ MonoBehaviour:
       type: {class: URPTerrainShaderSetting, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
         m_Version: 0
-        m_IncludeTerrainShaders: 1
+        m_IncludeTerrainShaders: 0
     - rid: 3837009158693192225
       type: {class: UniversalRenderPipelineEditorMaterials, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
