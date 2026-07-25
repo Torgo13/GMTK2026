@@ -15,28 +15,13 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: 47ce167bcedb1f84fa346e16d9642fb6
   m_SerializeEntries:
-  - m_GUID: 59aa33973c0e1d944b813425d414f313
-    m_Address: Swamp Battle Arena
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 62fe7d009787f7d4e836c0c36254e7a5
     m_Address: Start Menu
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 63d95937b65fbe34c995c1640509cb5a
-    m_Address: Forest Battle Arena
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 75a4d438a09154748a309234b9181b8f
     m_Address: UI Environment
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 77dfe87c63ad3014a942a0d4221e701a
-    m_Address: World
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -5,8 +5,10 @@ https://torgo13.github.io/GMTK2026/
 
 ## Controls
 - WASD: Movement
-- Left Click/Spacebar: Interact
 - Left Shift (Hold): Sprint
+- Left Click/Spacebar: Interact
+- Left Click (Hold): Look
+- 1 Key: Open menu
 
 ## Build Guide
 - Open in Unity 6.3.20f1

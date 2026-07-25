@@ -1,7 +1,4 @@
 <linker>
-  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="WaterMaterialMover" preserve="all" />
-  </assembly>
   <assembly fullname="CFX, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="CFX_AutoDestructShuriken" preserve="all" />
     <type fullname="CFX_AutoRotate" preserve="all" />
@@ -12,15 +9,9 @@
   </assembly>
   <assembly fullname="Makinom2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="GamingIsLove.Makinom.CameraPositionAsset" preserve="all" />
-    <type fullname="GamingIsLove.Makinom.Components.GameObjectManager" preserve="all" />
     <type fullname="GamingIsLove.Makinom.Components.InteractionController" preserve="all" />
-    <type fullname="GamingIsLove.Makinom.Components.InteractionMachineComponent" preserve="all" />
     <type fullname="GamingIsLove.Makinom.Components.MusicPlayer" preserve="all" />
-    <type fullname="GamingIsLove.Makinom.Components.ObjectVariablesComponent" preserve="all" />
     <type fullname="GamingIsLove.Makinom.Components.RadiusComponent" preserve="all" />
-    <type fullname="GamingIsLove.Makinom.Components.SavePointComponent" preserve="all" />
-    <type fullname="GamingIsLove.Makinom.Components.SceneChanger" preserve="all" />
-    <type fullname="GamingIsLove.Makinom.Components.SceneObjectComponent" preserve="all" />
     <type fullname="GamingIsLove.Makinom.Components.SpawnPoint" preserve="all" />
     <type fullname="GamingIsLove.Makinom.FormulaAsset" preserve="all" />
     <type fullname="GamingIsLove.Makinom.GameStateAsset" preserve="all" />
@@ -35,7 +26,6 @@
     <type fullname="GamingIsLove.Makinom.PluginAsset" preserve="all" />
     <type fullname="GamingIsLove.Makinom.PortraitTypeAsset" preserve="all" />
     <type fullname="GamingIsLove.Makinom.PrefabSaverAsset" preserve="all" />
-    <type fullname="GamingIsLove.Makinom.SceneObjectAsset" preserve="all" />
     <type fullname="GamingIsLove.Makinom.SoundTypeAsset" preserve="all" />
     <type fullname="GamingIsLove.Makinom.UIBoxAsset" preserve="all" />
     <type fullname="GamingIsLove.Makinom.UILayerAsset" preserve="all" />
@@ -44,8 +34,6 @@
     <type fullname="GamingIsLove.Makinom.ComponentDataFile" preserve="nothing" serialized="true" />
     <type fullname="GamingIsLove.Makinom.DataFile" preserve="nothing" serialized="true" />
     <type fullname="GamingIsLove.Makinom.MakinomProjectAssetBundleLoader" preserve="nothing" serialized="true" />
-    <type fullname="GamingIsLove.Makinom.Schematics.MachineActor" preserve="nothing" serialized="true" />
-    <type fullname="GamingIsLove.Makinom.Schematics.MachineResourcesSetting" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Makinom2.UnityUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="GamingIsLove.Makinom.Components.HUDComponent" preserve="all" />
@@ -92,19 +80,9 @@
     <type fullname="GamingIsLove.ORKFramework.ClassAsset" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.ClassSlotAsset" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.CombatantAsset" preserve="all" />
-    <type fullname="GamingIsLove.ORKFramework.CombatantGroupAsset" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.CombatantTypeAsset" preserve="all" />
-    <type fullname="GamingIsLove.ORKFramework.Components.AreaComponent" preserve="all" />
-    <type fullname="GamingIsLove.ORKFramework.Components.BattleComponent" preserve="all" />
-    <type fullname="GamingIsLove.ORKFramework.Components.CombatantSpawner" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.Components.EquipmentViewer" preserve="all" />
-    <type fullname="GamingIsLove.ORKFramework.Components.ItemCollector" preserve="all" />
-    <type fullname="GamingIsLove.ORKFramework.Components.LevelZone" preserve="all" />
-    <type fullname="GamingIsLove.ORKFramework.Components.MoveAIRangeComponent" preserve="all" />
-    <type fullname="GamingIsLove.ORKFramework.Components.ObjectHUDComponent" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.Components.ORKGameStarter" preserve="all" />
-    <type fullname="GamingIsLove.ORKFramework.Components.RandomBattleArea" preserve="all" />
-    <type fullname="GamingIsLove.ORKFramework.Components.ShopInteraction" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.ConsoleTypeAsset" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.ControlMapAsset" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.CraftingRecipeAsset" preserve="all" />
@@ -144,8 +122,6 @@
     <type fullname="GamingIsLove.ORKFramework.UI.CombatantSelectionAsset" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.UI.MenuScreenAsset" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.UI.QuantitySelectionAsset" preserve="all" />
-    <type fullname="GamingIsLove.ORKFramework.UI.ShopAsset" preserve="all" />
-    <type fullname="GamingIsLove.ORKFramework.UI.ShopLayoutAsset" preserve="all" />
   </assembly>
   <assembly fullname="ORKFramework3.UnityUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="GamingIsLove.Makinom.Components.ORK_HUDValueBarContentComponent" preserve="all" />
@@ -178,29 +154,27 @@
     <type fullname="UnityEngine.Rendering.VolumeProfile" preserve="all" />
     <type fullname="UnityEngine.Rendering.BoolParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.ClampedFloatParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.ColorParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.FloatParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Vector2Parameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.ClampedIntParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.ColorParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.MinFloatParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.NoInterpTextureParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.TextureParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.Vector2Parameter" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.ColorAdjustments" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.FilmGrain" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.Tonemapping" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.Vignette" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Universal.HDRACESPresetParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Universal.NeutralRangeReductionModeParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Universal.TonemappingModeParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.BloomFilterModeParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.DownscaleParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.FilmGrainLookupParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.Universal.HDRACESPresetParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.Universal.NeutralRangeReductionModeParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.Universal.TonemappingModeParameter" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
@@ -229,9 +203,6 @@
     <type fullname="TMPro.TMP_InputField/TextSelectionEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.AI.NavMeshData" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />
@@ -279,14 +250,6 @@
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
     <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
-  <assembly fullname="UnityEngine.TerrainModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Terrain" preserve="all" />
-    <type fullname="UnityEngine.TerrainData" preserve="all" />
-    <type fullname="UnityEngine.TerrainLayer" preserve="all" />
-  </assembly>
-  <assembly fullname="UnityEngine.TerrainPhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.TerrainCollider" preserve="all" />
-  </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
   </assembly>
@@ -321,9 +284,6 @@
     <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasGroup" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
-  </assembly>
-  <assembly fullname="UnityEngine.WindModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.WindZone" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
