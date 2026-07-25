@@ -2712,7 +2712,7 @@ MonoBehaviour:
       <settings>
 
       <_float
-      value="3" />
+      value="1.5" />
 
       <_string>
 
@@ -2755,7 +2755,7 @@ MonoBehaviour:
       <settings>
 
       <_float
-      value="8" />
+      value="4" />
 
       <_string>
 
@@ -2798,7 +2798,7 @@ MonoBehaviour:
       <settings>
 
       <_float
-      value="12" />
+      value="6" />
 
       <_string>
 
@@ -2836,29 +2836,37 @@ MonoBehaviour:
 
       <_string>
 
-      <type><![CDATA[GamingIsLove.Makinom.NavMeshAgentMovementComponentSetting]]></type>
+      <type><![CDATA[GamingIsLove.Makinom.SimpleMovementComponentSetting]]></type>
 
       </_string>
 
-      <settings
-      sampleAreaMask="-1" >
+      <settings>
 
-      <_float sampleDistance="5" />
-
-      <_bool compAdd="True"
-      stopImmediately="False" useRootMotion="False" />
+      <_bool
+      compAdd="True" />
 
       <_string>
 
-      <rootMotionMoveBoolParameter><![CDATA[]]></rootMotionMoveBoolParameter>
-
-      <rootMotionSpeedXParameter><![CDATA[]]></rootMotionSpeedXParameter>
-
-      <rootMotionSpeedYParameter><![CDATA[]]></rootMotionSpeedYParameter>
-
-      <_type><![CDATA[GamingIsLove.Makinom.NavMeshAgentMovementComponentSetting]]></_type>
+      <_type><![CDATA[GamingIsLove.Makinom.SimpleMovementComponentSetting]]></_type>
 
       </_string>
+
+      <settings>
+
+      <_float
+      speedSmoothing="10" rotationDamping="6" />
+
+      <_bool faceTarget="True"
+      smooth="True" />
+
+      <ignoreRotation>
+
+      <_bool x="False" y="False"
+      z="False" />
+
+      </ignoreRotation>
+
+      </settings>
 
       </settings>
 
@@ -2895,7 +2903,7 @@ MonoBehaviour:
       </moveAI>
 
       <findGround
-      type="0" rayLayerMask="-1" >
+      type="1" rayLayerMask="-1" >
 
       <_float rayDistance="0.1" />
 

@@ -29,7 +29,7 @@ MonoBehaviour:
       <startMenuScene><![CDATA[Start
       Menu]]></startMenuScene>
 
-      <newGameScene><![CDATA[World]]></newGameScene>
+      <newGameScene><![CDATA[SampleScene]]></newGameScene>
 
       </_string>
 

@@ -778,7 +778,7 @@ MonoBehaviour:
       <1>
 
       <_bool
-      reqHide="False" useRequirement="False" />
+      reqHide="True" useRequirement="True" />
 
       <_string>
 
@@ -965,6 +965,29 @@ MonoBehaviour:
 
       </button>
 
+      <requirement>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="3" />
+
+      </settings>
+
+      </requirement>
+
       <conditions>
 
       <_bool
@@ -1014,7 +1037,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="3" />
+      asset="4" />
 
       </settings>
 
@@ -1181,7 +1204,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="4" />
+      asset="5" />
 
       </settings>
 
@@ -1199,7 +1222,7 @@ MonoBehaviour:
       <3>
 
       <_bool
-      reqHide="False" useRequirement="False" />
+      reqHide="True" useRequirement="True" />
 
       <_string>
 
@@ -1236,7 +1259,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="5" />
+      asset="6" />
 
       </settings>
 
@@ -1386,6 +1409,29 @@ MonoBehaviour:
 
       </button>
 
+      <requirement>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="7" />
+
+      </settings>
+
+      </requirement>
+
       <conditions>
 
       <_bool
@@ -1398,7 +1444,7 @@ MonoBehaviour:
       <4>
 
       <_bool
-      reqHide="False" useRequirement="False" />
+      reqHide="True" useRequirement="True" />
 
       <_string>
 
@@ -1435,7 +1481,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="6" />
+      asset="8" />
 
       </settings>
 
@@ -1585,6 +1631,29 @@ MonoBehaviour:
 
       </button>
 
+      <requirement>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="9" />
+
+      </settings>
+
+      </requirement>
+
       <conditions>
 
       <_bool
@@ -1597,7 +1666,7 @@ MonoBehaviour:
       <5>
 
       <_bool
-      reqHide="False" useRequirement="False" />
+      reqHide="True" useRequirement="True" />
 
       <_string>
 
@@ -1634,7 +1703,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="7" />
+      asset="10" />
 
       </settings>
 
@@ -1785,6 +1854,29 @@ MonoBehaviour:
 
       </button>
 
+      <requirement>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="11" />
+
+      </settings>
+
+      </requirement>
+
       <conditions>
 
       <_bool
@@ -1797,7 +1889,7 @@ MonoBehaviour:
       <6>
 
       <_bool
-      reqHide="False" useRequirement="False" />
+      reqHide="True" useRequirement="True" />
 
       <_string>
 
@@ -1834,7 +1926,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="8" />
+      asset="12" />
 
       </settings>
 
@@ -1985,6 +2077,29 @@ MonoBehaviour:
 
       </button>
 
+      <requirement>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="13" />
+
+      </settings>
+
+      </requirement>
+
       <conditions>
 
       <_bool
@@ -2034,7 +2149,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="9" />
+      asset="14" />
 
       </settings>
 
@@ -2201,7 +2316,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="10" />
+      asset="15" />
 
       </settings>
 
@@ -2256,7 +2371,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="11" />
+      asset="16" />
 
       </settings>
 
@@ -2423,7 +2538,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="12" />
+      asset="17" />
 
       </settings>
 
@@ -2441,7 +2556,7 @@ MonoBehaviour:
       <9>
 
       <_bool
-      reqHide="False" useRequirement="False" />
+      reqHide="True" useRequirement="False" />
 
       <_string>
 
@@ -2634,7 +2749,7 @@ MonoBehaviour:
       </_string>
 
       <infoDisplay
-      scope="5" >
+      scope="3" >
 
       <_bool allowDragSort="False" selectUser="False" />
 
@@ -2660,7 +2775,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="13" />
+      asset="18" />
 
       </settings>
 
@@ -2739,7 +2854,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="14" />
+      asset="19" />
 
       </settings>
 
@@ -2858,7 +2973,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="15" />
+      asset="20" />
 
       </settings>
 
@@ -3005,7 +3120,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="16" />
+      asset="21" />
 
       </settings>
 
@@ -3151,20 +3266,9 @@ MonoBehaviour:
       <text><![CDATA[<area.current.name>
 
 
-      <currency.inventory=2f15e4fb-ec14-4ce4-aecc-e99d6d6149c4>
-      <currency.name=2f15e4fb-ec14-4ce4-aecc-e99d6d6149c4>
-
-
       <time>]]></text>
 
       </_string>
-
-      <assets>
-
-      <_asset
-      0="17" />
-
-      </assets>
 
       </text>
 
@@ -3258,12 +3362,17 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 0bc59f80a75d4ac4c9a96b7561b2c165, type: 2}
       - {fileID: 11400000, guid: 64458ad4075ee5f4e9d561e3481da365, type: 2}
       - {fileID: 11400000, guid: 3ac11858efd6c3047a7fd6acf701f262, type: 2}
+      - {fileID: 11400000, guid: f36ff8ccafe96af4882f23b5629fc759, type: 2}
       - {fileID: 11400000, guid: 4306f2df16ab6324f90e430430a606be, type: 2}
       - {fileID: 11400000, guid: f36ff8ccafe96af4882f23b5629fc759, type: 2}
       - {fileID: 11400000, guid: dbc25c2b90edb994f85de9b751e7bcb9, type: 2}
+      - {fileID: 11400000, guid: f36ff8ccafe96af4882f23b5629fc759, type: 2}
       - {fileID: 11400000, guid: 4f076845044d801419d49aeac5e5708e, type: 2}
+      - {fileID: 11400000, guid: a9ecace3bdf59284c8c2ccf2c408c1aa, type: 2}
       - {fileID: 11400000, guid: f8dd8458744bfec4b872ebbc9761059a, type: 2}
+      - {fileID: 11400000, guid: a9ecace3bdf59284c8c2ccf2c408c1aa, type: 2}
       - {fileID: 11400000, guid: 94dd685512b4d5a4880914543f4548dc, type: 2}
+      - {fileID: 11400000, guid: e9feff18f32be8e46b10af30fc1961bc, type: 2}
       - {fileID: 11400000, guid: 66dddb768855b1645bf709887bb2a1a8, type: 2}
       - {fileID: 11400000, guid: e9feff18f32be8e46b10af30fc1961bc, type: 2}
       - {fileID: 11400000, guid: 32649a6b253c05e46a3fd4fbf1b14af4, type: 2}
@@ -3272,6 +3381,5 @@ MonoBehaviour:
       - {fileID: 1166545963520827718, guid: b164db4bac0dd684a9f99bc80b0f7832, type: 3}
       - {fileID: 11400000, guid: d59753ca7c656ce459e94a1d2e236b6f, type: 2}
       - {fileID: 11400000, guid: 9f4e39c4a5db4d3408c8409d5cfc40c1, type: 2}
-      - {fileID: 11400000, guid: a5918cef35b2c9a42814f7dfd0ece916, type: 2}
     encrypted: 0
   sortAtEnd: 0
