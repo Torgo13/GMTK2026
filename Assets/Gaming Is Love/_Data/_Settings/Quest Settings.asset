@@ -276,7 +276,7 @@ MonoBehaviour:
       <questAdded>
 
       <_bool
-      playSound="False" ownSound="False" show="True" ownBox="False" blockPlayerControl="False"
+      playSound="False" ownSound="False" show="False" ownBox="False" blockPlayerControl="False"
       blockCameraControl="False" blockControlMaps="False" blockMoveAI="False" showPortrait="False"
       useTitle="False" titleUseContentIcon="False" useContentIcon="False" />
 
@@ -882,7 +882,7 @@ MonoBehaviour:
       <taskActive>
 
       <_bool
-      playSound="False" ownSound="False" show="False" ownBox="False" blockPlayerControl="False"
+      playSound="False" ownSound="False" show="True" ownBox="False" blockPlayerControl="False"
       blockCameraControl="False" blockControlMaps="False" blockMoveAI="False" showPortrait="False"
       useTitle="False" titleUseContentIcon="False" useContentIcon="False" />
 
@@ -905,8 +905,7 @@ MonoBehaviour:
 
       <_string>
 
-      <text><![CDATA[<name>
-      activated]]></text>
+      <text><![CDATA[<name>]]></text>
 
       </_string>
 

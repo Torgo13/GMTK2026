@@ -34,26 +34,6 @@ MonoBehaviour:
 
       </1>
 
-      <2>
-
-      <_asset
-      asset="2" />
-
-      </2>
-
-      <3>
-
-      <_asset asset="3" />
-
-      </3>
-
-      <4>
-
-      <_asset
-      asset="4" />
-
-      </4>
-
       </assets>
 
       </_subarrays>
@@ -64,8 +44,5 @@ MonoBehaviour:
     lookUp:
       assets:
       - {fileID: 11400000, guid: 2faef02c5e8b0af45acd4a0adc388ff1, type: 2}
-      - {fileID: 11400000, guid: e57e1fb4bd42f6e4196bad8b005c4b56, type: 2}
-      - {fileID: 11400000, guid: 8236bc9c26501eb49b6bcef7e936f13d, type: 2}
-      - {fileID: 11400000, guid: a242f1d736bcef041ba57e7c46337ea1, type: 2}
       - {fileID: 11400000, guid: 625253d22cb144142b75c489b2af6d81, type: 2}
     encrypted: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -326218779, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
   m_Name: StartGame
   m_EditorClassIdentifier: 
-  time: 26/07/2026 12:21:07
+  time: 26/07/2026 14:39:10
   version: 2.23.0
   data:
     name: settings
@@ -3543,7 +3543,7 @@ MonoBehaviour:
       </14>
 
       <15
-      changeType="3" next="-1" nodeLayer="0" nodeGroup="-1" >
+      changeType="3" next="16" nodeLayer="0" nodeGroup="-1" >
 
       <_bool close="False"
       changeUsers="False" active="True" executeOnStop="False" isBreakpoint="False"
@@ -3588,6 +3588,255 @@ MonoBehaviour:
       </hud>
 
       </15>
+
+      <16 nextFail="19"
+      next="19" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool useSelectedData="False"
+      ignoreRequirements="True" showNotification="False" showConsole="False" active="True"
+      executeOnStop="False" isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      1406 133 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.Schematics.Nodes.AddQuestNode]]></_type>
+
+      </_string>
+
+      <quest>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="26" />
+
+      </settings>
+
+      </quest>
+
+      </16>
+
+      <17 next="-1"
+      nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      2318 133 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.Schematics.Nodes.GameOverNode]]></_type>
+
+      </_string>
+
+      </17>
+
+      <18
+      next="20" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool random="False" active="True"
+      executeOnStop="False" isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      1862 133 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.WaitNode]]></_type>
+
+      </_string>
+
+      <time>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="180" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </time>
+
+      </18>
+
+      <19
+      next="18" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      1634 133 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.SetGameTimeNode]]></_type>
+
+      </_string>
+
+      <value>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </value>
+
+      </19>
+
+      <20
+      changeType="3" next="17" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool close="True"
+      changeUsers="False" active="True" executeOnStop="False" isBreakpoint="False"
+      overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition 2090
+      133 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.CallHUDNode]]></_type>
+
+      </_string>
+
+      <hud>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="27" />
+
+      </settings>
+
+      </hud>
+
+      </20>
 
       </node>
 
@@ -3658,5 +3907,7 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 395cc9833361a6440b2d1e90b8d402f1, type: 2}
       - {fileID: 11400000, guid: 2f7e5aaed372ef441bcd45aa68051d85, type: 2}
       - {fileID: 11400000, guid: 26072e02d5e98c94189f8976124f9f49, type: 2}
+      - {fileID: 11400000, guid: 1cd9ee719476f704ebe7377b3e944322, type: 2}
+      - {fileID: 11400000, guid: 2faef02c5e8b0af45acd4a0adc388ff1, type: 2}
       - {fileID: 11400000, guid: 1cd9ee719476f704ebe7377b3e944322, type: 2}
     encrypted: 0

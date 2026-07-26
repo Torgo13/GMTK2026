@@ -891,7 +891,7 @@ MonoBehaviour:
 
       <_string>
 
-      <text><![CDATA[Inventory]]></text>
+      <text><![CDATA[Information]]></text>
 
       </_string>
 
@@ -2447,7 +2447,7 @@ MonoBehaviour:
 
       <_string>
 
-      <text><![CDATA[Quests]]></text>
+      <text><![CDATA[Intel]]></text>
 
       </_string>
 
@@ -3368,9 +3368,9 @@ MonoBehaviour:
       - {fileID: 11400000, guid: dbc25c2b90edb994f85de9b751e7bcb9, type: 2}
       - {fileID: 11400000, guid: f36ff8ccafe96af4882f23b5629fc759, type: 2}
       - {fileID: 11400000, guid: 4f076845044d801419d49aeac5e5708e, type: 2}
-      - {fileID: 11400000, guid: a9ecace3bdf59284c8c2ccf2c408c1aa, type: 2}
+      - {fileID: 11400000, guid: e9feff18f32be8e46b10af30fc1961bc, type: 2}
       - {fileID: 11400000, guid: f8dd8458744bfec4b872ebbc9761059a, type: 2}
-      - {fileID: 11400000, guid: a9ecace3bdf59284c8c2ccf2c408c1aa, type: 2}
+      - {fileID: 11400000, guid: e9feff18f32be8e46b10af30fc1961bc, type: 2}
       - {fileID: 11400000, guid: 94dd685512b4d5a4880914543f4548dc, type: 2}
       - {fileID: 11400000, guid: e9feff18f32be8e46b10af30fc1961bc, type: 2}
       - {fileID: 11400000, guid: 66dddb768855b1645bf709887bb2a1a8, type: 2}

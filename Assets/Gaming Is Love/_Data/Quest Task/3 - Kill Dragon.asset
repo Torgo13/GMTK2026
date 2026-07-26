@@ -46,9 +46,6 @@ MonoBehaviour:
 
       </_string>
 
-      <_asset
-      asset="0" />
-
       </settings>
 
       </quest>
@@ -221,7 +218,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="1" />
+      asset="0" />
 
       </settings>
 
@@ -449,7 +446,6 @@ MonoBehaviour:
 '
     lookUp:
       assets:
-      - {fileID: 11400000, guid: a242f1d736bcef041ba57e7c46337ea1, type: 2}
       - {fileID: 11400000, guid: 50e8f5c058c161b4db6aabdeb3aaa29c, type: 2}
     encrypted: 0
   sortAtEnd: 0
