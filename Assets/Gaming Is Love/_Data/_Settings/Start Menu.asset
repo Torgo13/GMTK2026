@@ -938,7 +938,7 @@ MonoBehaviour:
       <settings>
 
       <_bool
-      hideInactive="False" autoSelect="True" usePortrait="False" />
+      hideInactive="True" autoSelect="True" usePortrait="False" />
 
       <_string>
 
@@ -1270,5 +1270,5 @@ MonoBehaviour:
     lookUp:
       assets:
       - {fileID: 11400000, guid: d67a98c5a59646b48bbd1ad2dcaa48be, type: 2}
-      - {fileID: 11400000, guid: a065c8fc48e863f4883225b763531821, type: 2}
+      - {fileID: 11400000, guid: afde3a4fe838e18479c68615750d2519, type: 2}
     encrypted: 0
