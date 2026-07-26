@@ -938,7 +938,7 @@ MonoBehaviour:
       <settings>
 
       <_bool
-      hideInactive="False" autoSelect="True" usePortrait="False" />
+      hideInactive="True" autoSelect="True" usePortrait="False" />
 
       <_string>
 
@@ -1094,6 +1094,341 @@ MonoBehaviour:
       </2>
 
       <3>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.ORKFramework.UI.InformationStartMenuOption]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_bool
+      usePortrait="False" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.UI.InformationStartMenuOption]]></_type>
+
+      </_string>
+
+      <dialogue>
+
+      <_bool
+      lockFocus="True" useTitle="False" />
+
+      <box>
+
+      <_bool ownSchematics="False"
+      />
+
+      <box>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </box>
+
+      <layout>
+
+      <_bool
+      sharedLayout="False" />
+
+      <layout>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </layout>
+
+      </layout>
+
+      </box>
+
+      <message>
+
+      <mainContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[<align="center">
+
+      Goof0
+
+      Coconut
+      Crab
+
+      elizabethy
+
+      00kay
+
+      SonicDirewolf
+
+      TW0
+
+      </align>]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </message>
+
+      </dialogue>
+
+      <button>
+
+      <_bool
+      addTooltip="False" addDescription="False" />
+
+      <customInput useHoldAccept="0"
+      >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      <content>
+
+      <mainContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[Credits]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </content>
+
+      </button>
+
+      </settings>
+
+      </3>
+
+      <4>
 
       <_string>
 
@@ -1256,7 +1591,7 @@ MonoBehaviour:
 
       </settings>
 
-      </3>
+      </4>
 
       </option>
 
@@ -1270,5 +1605,6 @@ MonoBehaviour:
     lookUp:
       assets:
       - {fileID: 11400000, guid: d67a98c5a59646b48bbd1ad2dcaa48be, type: 2}
-      - {fileID: 11400000, guid: a065c8fc48e863f4883225b763531821, type: 2}
+      - {fileID: 11400000, guid: afde3a4fe838e18479c68615750d2519, type: 2}
+      - {fileID: 11400000, guid: 7cb4dda14ac8fe445ab3bf8a323ac47c, type: 2}
     encrypted: 0

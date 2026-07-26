@@ -9,9 +9,13 @@
   </assembly>
   <assembly fullname="Makinom2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="GamingIsLove.Makinom.CameraPositionAsset" preserve="all" />
+    <type fullname="GamingIsLove.Makinom.Components.GameObjectManager" preserve="all" />
     <type fullname="GamingIsLove.Makinom.Components.InteractionController" preserve="all" />
+    <type fullname="GamingIsLove.Makinom.Components.InteractionMachineComponent" preserve="all" />
     <type fullname="GamingIsLove.Makinom.Components.MusicPlayer" preserve="all" />
+    <type fullname="GamingIsLove.Makinom.Components.ObjectVariablesComponent" preserve="all" />
     <type fullname="GamingIsLove.Makinom.Components.RadiusComponent" preserve="all" />
+    <type fullname="GamingIsLove.Makinom.Components.SceneObjectComponent" preserve="all" />
     <type fullname="GamingIsLove.Makinom.Components.SpawnPoint" preserve="all" />
     <type fullname="GamingIsLove.Makinom.FormulaAsset" preserve="all" />
     <type fullname="GamingIsLove.Makinom.GameStateAsset" preserve="all" />
@@ -26,6 +30,7 @@
     <type fullname="GamingIsLove.Makinom.PluginAsset" preserve="all" />
     <type fullname="GamingIsLove.Makinom.PortraitTypeAsset" preserve="all" />
     <type fullname="GamingIsLove.Makinom.PrefabSaverAsset" preserve="all" />
+    <type fullname="GamingIsLove.Makinom.SceneObjectAsset" preserve="all" />
     <type fullname="GamingIsLove.Makinom.SoundTypeAsset" preserve="all" />
     <type fullname="GamingIsLove.Makinom.UIBoxAsset" preserve="all" />
     <type fullname="GamingIsLove.Makinom.UILayerAsset" preserve="all" />
@@ -34,6 +39,8 @@
     <type fullname="GamingIsLove.Makinom.ComponentDataFile" preserve="nothing" serialized="true" />
     <type fullname="GamingIsLove.Makinom.DataFile" preserve="nothing" serialized="true" />
     <type fullname="GamingIsLove.Makinom.MakinomProjectAssetBundleLoader" preserve="nothing" serialized="true" />
+    <type fullname="GamingIsLove.Makinom.Schematics.MachineActor" preserve="nothing" serialized="true" />
+    <type fullname="GamingIsLove.Makinom.Schematics.MachineResourcesSetting" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Makinom2.UnityUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="GamingIsLove.Makinom.Components.HUDComponent" preserve="all" />
@@ -82,7 +89,10 @@
     <type fullname="GamingIsLove.ORKFramework.CombatantAsset" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.CombatantTypeAsset" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.Components.EquipmentViewer" preserve="all" />
+    <type fullname="GamingIsLove.ORKFramework.Components.ItemCollector" preserve="all" />
+    <type fullname="GamingIsLove.ORKFramework.Components.ObjectHUDComponent" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.Components.ORKGameStarter" preserve="all" />
+    <type fullname="GamingIsLove.ORKFramework.Components.ShopInteraction" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.ConsoleTypeAsset" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.ControlMapAsset" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.CraftingRecipeAsset" preserve="all" />
@@ -122,6 +132,8 @@
     <type fullname="GamingIsLove.ORKFramework.UI.CombatantSelectionAsset" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.UI.MenuScreenAsset" preserve="all" />
     <type fullname="GamingIsLove.ORKFramework.UI.QuantitySelectionAsset" preserve="all" />
+    <type fullname="GamingIsLove.ORKFramework.UI.ShopAsset" preserve="all" />
+    <type fullname="GamingIsLove.ORKFramework.UI.ShopLayoutAsset" preserve="all" />
   </assembly>
   <assembly fullname="ORKFramework3.UnityUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="GamingIsLove.Makinom.Components.ORK_HUDValueBarContentComponent" preserve="all" />
@@ -211,6 +223,7 @@
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AudioClip" preserve="all" />
     <type fullname="UnityEngine.AudioListener" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />

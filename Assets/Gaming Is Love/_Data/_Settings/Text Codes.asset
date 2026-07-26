@@ -21,6 +21,47 @@ MonoBehaviour:
 
       <textCode>
 
+      <0>
+
+      <_string>
+
+      <textCode><![CDATA[<remaining>]]></textCode>
+
+      </_string>
+
+      <value
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<time>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </value>
+
+      </0>
+
       </textCode>
 
       </_subarrays>

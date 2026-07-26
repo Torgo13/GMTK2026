@@ -54,7 +54,8 @@ PlayerSettings:
   m_MTRendering: 1
   mipStripping: 1
   numberOfMipsStripped: 3
-  numberOfMipsStrippedPerMipmapLimitGroup: {}
+  numberOfMipsStrippedPerMipmapLimitGroup:
+    FullResolution: 0
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
   iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: 0
@@ -865,7 +866,7 @@ PlayerSettings:
   webGLMemorySize: 16
   webGLExceptionSupport: 0
   webGLNameFilesAsHashes: 0
-  webGLShowDiagnostics: 1
+  webGLShowDiagnostics: 0
   webGLDataCaching: 1
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 

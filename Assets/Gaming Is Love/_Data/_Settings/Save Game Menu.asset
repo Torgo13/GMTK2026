@@ -28,7 +28,7 @@ MonoBehaviour:
       storeOptionTextSpeed="False" ownScreenFade="False" saveTime="True" saveVolumes="True"
       savePlayerPosition="True" saveMusic="True" saveBlockStates="True" saveInputID="True"
       saveScenePosition="True" gameObjectSaversAutoRemove="False" prefabSaversAutoRemove="False"
-      showAutoSaveMessage="False" pauseGame="True" pauseTime="False" freezePause="True"
+      showAutoSaveMessage="False" pauseGame="True" pauseTime="True" freezePause="True"
       setTimeScale="False" setMakinomScale="False" showSPChoice="True" />
 
       <_string>

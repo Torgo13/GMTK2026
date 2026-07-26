@@ -425,6 +425,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "6996ef9c606b8d8aa6d6fd0e61a4c234"
+                },
+                "m_SlotId": 2
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "bf17fcff0c03548093d2aa2ed5ab3c81"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "7a10bf01dc83028ea180efe9f245d590"
                 },
                 "m_SlotId": 2
@@ -476,20 +490,6 @@
                     "m_Id": "6996ef9c606b8d8aa6d6fd0e61a4c234"
                 },
                 "m_SlotId": 1
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "98afb07129f9f083a6fa9a936145770a"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "bf17fcff0c03548093d2aa2ed5ab3c81"
-                },
-                "m_SlotId": 0
             }
         },
         {
@@ -1995,10 +1995,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 775.9999389648438,
-            "y": 105.99999237060547,
-            "width": 140.0,
-            "height": 118.00000762939453
+            "x": 777.0,
+            "y": 161.0,
+            "width": 130.0,
+            "height": 118.0
         }
     },
     "m_Slots": [
@@ -3704,7 +3704,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Saturation",
     "m_StageCapability": 3,
-    "m_Value": 0.0,
+    "m_Value": 0.5,
     "m_DefaultValue": 1.0,
     "m_Labels": [
         "X"
@@ -5381,10 +5381,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 548.0,
-            "y": 105.00000762939453,
-            "width": 193.00001525878907,
-            "height": 118.00000762939453
+            "x": 527.0,
+            "y": 296.0,
+            "width": 208.0,
+            "height": 302.0
         }
     },
     "m_Slots": [
@@ -6038,7 +6038,7 @@
     "m_PerRendererData": false,
     "m_customAttributes": [],
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"06c2eeeac64dd40489afb7e56fea07fa\",\"type\":3}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "isMainTexture": false,

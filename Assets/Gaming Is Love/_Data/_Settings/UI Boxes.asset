@@ -447,9 +447,9 @@ MonoBehaviour:
       <audio
       channel="0" >
 
-      <_float cursorMoveVolume="1" acceptVolume="1" cancelVolume="1"
-      failVolume="0.4" valueInputVolume="1" valueInputInterval="0.1" changeVolume="1"
-      tabChangeAudioVolume="1" pageChangeAudioVolume="1" />
+      <_float cursorMoveVolume="0.25" acceptVolume="0.25" cancelVolume="0.25"
+      failVolume="0.1" valueInputVolume="0.25" valueInputInterval="0.1" changeVolume="0.25"
+      tabChangeAudioVolume="0.25" pageChangeAudioVolume="1" />
 
       <cursorMoveAudio>
 

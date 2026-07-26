@@ -46,15 +46,12 @@ MonoBehaviour:
 
       </_string>
 
-      <_asset
-      asset="0" />
-
       </settings>
 
       </quest>
 
-      <text exportID="-1"
-      >
+      <text
+      exportID="-1" >
 
       <_bool export="True" />
 
@@ -180,7 +177,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="1" />
+      asset="0" />
 
       </settings>
 
@@ -461,7 +458,6 @@ MonoBehaviour:
 '
     lookUp:
       assets:
-      - {fileID: 11400000, guid: a242f1d736bcef041ba57e7c46337ea1, type: 2}
       - {fileID: 11400000, guid: ae9888b431cbad1479f9a465d7deb8bf, type: 2}
     encrypted: 0
   sortAtEnd: 0

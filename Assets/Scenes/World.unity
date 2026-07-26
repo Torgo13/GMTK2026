@@ -20318,28 +20318,6 @@ MonoBehaviour:
 
       <_bool reloadScene="True" />
 
-      <sceneName>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <value><![CDATA[]]></value>
-
-      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </sceneName>
-
       <spawnID>
 
       <_string>

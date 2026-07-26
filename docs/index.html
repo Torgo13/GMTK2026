@@ -7,8 +7,6 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="TemplateData/diagnostics.css">
-    <script src="TemplateData/diagnostics.js"></script>
   </head>
   <body>
     <div id="unity-container">
@@ -20,9 +18,6 @@
         </div>
       </div>
       <div id="unity-warning"> </div>
-    <div id="unity-footer">
-        <img id="diagnostics-icon" src="TemplateData/webmemd-icon.png">
-    </div>
     </div>
     <script>
       window.addEventListener("load", function () {
@@ -96,12 +91,6 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
-        // position the diagnostics icon in the corner on the canvas
-        let diagnostics_icon = document.getElementById("diagnostics-icon");
-        diagnostics_icon.style.position = "fixed";
-        diagnostics_icon.style.bottom = "10px";
-        diagnostics_icon.style.right = "0px";
-        canvas.after(diagnostics_icon);
 
       loadingBar.style.display = "block";
 
@@ -112,9 +101,6 @@
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
           loadingBar.style.display = "none";
-          document.getElementById("diagnostics-icon").onclick = () => {
-              unityDiagnostics.openDiagnosticsDiv(unityInstance.GetMetricsInfo);
-          };
         }).catch((message) => {
           alert(message);
         });

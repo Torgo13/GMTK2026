@@ -19,8 +19,8 @@ MonoBehaviour:
 
       <_float clickTimeout="0.2" />
 
-      <_bool pauseTime="False"
-      freezePause="False" pauseBlockPlayerControls="True" pauseBlockCameraControls="True"
+      <_bool pauseTime="True"
+      freezePause="True" pauseBlockPlayerControls="True" pauseBlockCameraControls="True"
       />
 
       <pauseKeySettings>

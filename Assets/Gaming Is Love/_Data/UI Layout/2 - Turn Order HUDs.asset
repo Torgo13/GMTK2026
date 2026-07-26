@@ -29,7 +29,7 @@ MonoBehaviour:
       </_string>
 
       <settings
-      anchor="0" fill="1" fillAnchor="0" >
+      anchor="1" fill="1" fillAnchor="0" >
 
       <_float spacing="10" moveTime="0.2"
       />
