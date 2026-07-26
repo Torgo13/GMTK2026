@@ -93,9 +93,6 @@ MonoBehaviour:
 
       </_string>
 
-      <_asset
-      asset="0" />
-
       </settings>
 
       </axisKey>
@@ -164,9 +161,6 @@ MonoBehaviour:
       <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
 
       </_string>
-
-      <_asset
-      asset="1" />
 
       </settings>
 
@@ -251,7 +245,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="2" />
+      asset="0" />
 
       </settings>
 
@@ -967,7 +961,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="3" />
+      asset="1" />
 
       </settings>
 
@@ -1105,7 +1099,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="4" />
+      asset="2" />
 
       </settings>
 
@@ -1669,7 +1663,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="5" />
+      asset="3" />
 
       </settings>
 
@@ -2085,8 +2079,6 @@ MonoBehaviour:
 '
     lookUp:
       assets:
-      - {fileID: 11400000, guid: c1b6916fc6c86c0429ccd25528a955ee, type: 2}
-      - {fileID: 11400000, guid: d698083deaf6a5d4ab51d3479a17e5f6, type: 2}
       - {fileID: 11400000, guid: ca07f44baaf47d349a742b9712a12111, type: 2}
       - {fileID: 11400000, guid: 944c5a7e151d4b240a16854e5df038d5, type: 2}
       - {fileID: 11400000, guid: 3fbee9ef1d80e5944963de8ffa017b70, type: 2}
