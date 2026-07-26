@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -326218779, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
   m_Name: StartGame
   m_EditorClassIdentifier: 
-  time: 24/07/2026 13:50:50
+  time: 26/07/2026 12:21:07
   version: 2.23.0
   data:
     name: settings
@@ -976,7 +976,7 @@ MonoBehaviour:
       </1>
 
       <2
-      memberIndex="0" target="0" id="0" next="1" nodeLayer="0" nodeGroup="-1" >
+      memberIndex="0" target="0" id="0" next="15" nodeLayer="0" nodeGroup="-1" >
 
       <_bool
       useMember="False" onlyBattle="False" setRotation="False" setScale="False" active="True"
@@ -3542,6 +3542,53 @@ MonoBehaviour:
 
       </14>
 
+      <15
+      changeType="3" next="-1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool close="False"
+      changeUsers="False" active="True" executeOnStop="False" isBreakpoint="False"
+      overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition 1178
+      133 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.CallHUDNode]]></_type>
+
+      </_string>
+
+      <hud>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="25" />
+
+      </settings>
+
+      </hud>
+
+      </15>
+
       </node>
 
       <group>
@@ -3611,4 +3658,5 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 395cc9833361a6440b2d1e90b8d402f1, type: 2}
       - {fileID: 11400000, guid: 2f7e5aaed372ef441bcd45aa68051d85, type: 2}
       - {fileID: 11400000, guid: 26072e02d5e98c94189f8976124f9f49, type: 2}
+      - {fileID: 11400000, guid: 1cd9ee719476f704ebe7377b3e944322, type: 2}
     encrypted: 0

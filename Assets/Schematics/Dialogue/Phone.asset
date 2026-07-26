@@ -1,0 +1,2905 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -326218779, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Phone
+  m_EditorClassIdentifier: Makinom2.dll::GamingIsLove.Makinom.MakinomSchematicAsset
+  time: 26/07/2026 12:19:53
+  version: 2.23.0
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata maxNodes="100" startIndex="0" stopIndex="-1" endIndex="-1"
+      nodeLayer="0" nodeGroup="-1" >
+
+      <_bool limitNodes="False" closeAllDialogues="False"
+      blockPlayer="True" blockCamera="False" clearBlocks="False" storeInitialCameraPosition="False"
+      mainCamera="True" cameraTag="False" clearActors="True" clearPrefabs="True"
+      clearVariables="False" clearSelectedData="False" useUnityTimeScale="True" useMakinomTimeScale="True"
+      initVarsEachRun="False" destroyPrefabs="False" removePrefabSaver="True" useEndSlots="False"
+      overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition 266
+      38 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <cameraName><![CDATA[]]></cameraName>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.SchematicSettings]]></_type>
+
+      </_string>
+
+      <_stringarrays>
+
+      <layer>
+
+      <0><![CDATA[Base
+      Layer]]></0>
+
+      </layer>
+
+      </_stringarrays>
+
+      <initialVariables>
+
+      <_subarrays>
+
+      <variable>
+
+      </variable>
+
+      </_subarrays>
+
+      </initialVariables>
+
+      <_subarrays>
+
+      <machineStartVariable>
+
+      </machineStartVariable>
+
+      <actor>
+
+      </actor>
+
+      <prefab>
+
+      </prefab>
+
+      <audioClip>
+
+      </audioClip>
+
+      <audioMixer>
+
+      </audioMixer>
+
+      <audioMixerGroup>
+
+      </audioMixerGroup>
+
+      <sprite>
+
+      </sprite>
+
+      <texture>
+
+      </texture>
+
+      <material>
+
+      </material>
+
+      <physicMaterial>
+
+      </physicMaterial>
+
+      <physicsMaterial2D>
+
+      </physicsMaterial2D>
+
+      <node>
+
+      <0
+      next="-1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      494 38 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.ShowDialogueNode]]></_type>
+
+      </_string>
+
+      <dialogue
+      type="1" inPause="0" notificationQueue="2" notificationQueueMaxDisplayCount="1"
+      cancelNext="-1" actorID="0" channel="0" >
+
+      <_float updateInterval="1"
+      time="0" />
+
+      <_bool waitClose="True" waitCloseKeepOpen="False" waitCloseNotControlable="False"
+      lockFocus="True" useUpdate="False" blockAccept="False" afterAudio="False" wait="False"
+      ignoreHiddenAutoclose="False" allowCancel="False" useSpeaker="False" atActorPosition="False"
+      speakerName="False" useTitle="False" showPortraits="False" useAudio="False"
+      stopAudio="True" onSpeaker="False" repeatChoiceConditionChecks="False" storeSelection="False"
+      useDefaultSelection="False" />
+
+      <_floatarrays>
+
+      <posOff 0 0 />
+
+      </_floatarrays>
+
+      <box>
+
+      <_bool
+      ownSchematics="False" />
+
+      <box>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </box>
+
+      <layout>
+
+      <_bool
+      sharedLayout="False" />
+
+      <layout>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </layout>
+
+      </layout>
+
+      </box>
+
+      <textVariable
+      origin="1" objectScope="1" >
+
+      </textVariable>
+
+      <childObject type="0"
+      >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      <message>
+
+      <mainContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[Choose
+      who to call:]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </message>
+
+      <audioChildObject
+      type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </audioChildObject>
+
+      <headerTexts>
+
+      <_bool
+      useHeaders="False" />
+
+      </headerTexts>
+
+      <_subarrays>
+
+      <choiceOption>
+
+      <0
+      next="1" clickDragCount="1" >
+
+      <_bool enableDrag="False" enableClickDrag="False"
+      useCondition="True" showInactive="False" addSchematicContext="False" />
+
+      <content>
+
+      <_bool
+      addTooltip="False" addDescription="False" />
+
+      <customInput useHoldAccept="0"
+      >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      <content>
+
+      <mainContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[The
+      President]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </content>
+
+      </content>
+
+      <conditions
+      needed="0" >
+
+      <_subarrays>
+
+      <condition>
+
+      <0>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.VariableGeneralCondition`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.VariableGeneralCondition`1]]></_type>
+
+      </_string>
+
+      <variableCondition
+      needed="0" >
+
+      <_subarrays>
+
+      <variable>
+
+      <0 conditionType="0"
+      >
+
+      <_bool templateIsValid="True" />
+
+      <checkVariable type="1" axisType="0"
+      stringCheck="0" >
+
+      <_bool isValid="False" exists="False" />
+
+      <variable
+      origin="1" objectScope="1" listOrigin="0" >
+
+      <_bool removeFromList="False"
+      />
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[presidentIsDead]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </variable>
+
+      </checkVariable>
+
+      </0>
+
+      </variable>
+
+      </_subarrays>
+
+      </variableCondition>
+
+      </settings>
+
+      </0>
+
+      </condition>
+
+      </_subarrays>
+
+      </conditions>
+
+      </0>
+
+      <1
+      next="2" clickDragCount="1" >
+
+      <_bool enableDrag="False" enableClickDrag="False"
+      useCondition="False" showInactive="False" addSchematicContext="False" />
+
+      <content>
+
+      <_bool
+      addTooltip="False" addDescription="False" />
+
+      <customInput useHoldAccept="0"
+      >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      <content>
+
+      <mainContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[The
+      General]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </content>
+
+      </content>
+
+      </1>
+
+      <2
+      next="3" clickDragCount="1" >
+
+      <_bool enableDrag="False" enableClickDrag="False"
+      useCondition="True" showInactive="False" addSchematicContext="False" />
+
+      <content>
+
+      <_bool
+      addTooltip="False" addDescription="False" />
+
+      <customInput useHoldAccept="0"
+      >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      <content>
+
+      <mainContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[The
+      Deputy]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </content>
+
+      </content>
+
+      <conditions
+      needed="0" >
+
+      <_subarrays>
+
+      <condition>
+
+      <0>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.VariableGeneralCondition`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.VariableGeneralCondition`1]]></_type>
+
+      </_string>
+
+      <variableCondition
+      needed="0" >
+
+      <_subarrays>
+
+      <variable>
+
+      <0 conditionType="0"
+      >
+
+      <_bool templateIsValid="True" />
+
+      <checkVariable type="1" axisType="0"
+      stringCheck="0" >
+
+      <_bool isValid="True" exists="False" />
+
+      <variable
+      origin="1" objectScope="1" listOrigin="0" >
+
+      <_bool removeFromList="False"
+      />
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[deputyIsCalling]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </variable>
+
+      </checkVariable>
+
+      </0>
+
+      </variable>
+
+      </_subarrays>
+
+      </variableCondition>
+
+      </settings>
+
+      </0>
+
+      </condition>
+
+      </_subarrays>
+
+      </conditions>
+
+      </2>
+
+      <3
+      next="5" clickDragCount="1" >
+
+      <_bool enableDrag="False" enableClickDrag="False"
+      useCondition="True" showInactive="False" addSchematicContext="False" />
+
+      <content>
+
+      <_bool
+      addTooltip="False" addDescription="False" />
+
+      <customInput useHoldAccept="0"
+      >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      <content>
+
+      <mainContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[The
+      Enemy]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </content>
+
+      </content>
+
+      <conditions
+      needed="0" >
+
+      <_subarrays>
+
+      <condition>
+
+      <0>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.VariableGeneralCondition`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.VariableGeneralCondition`1]]></_type>
+
+      </_string>
+
+      <variableCondition
+      needed="0" >
+
+      <_subarrays>
+
+      <variable>
+
+      <0 conditionType="0"
+      >
+
+      <_bool templateIsValid="True" />
+
+      <checkVariable type="1" axisType="0"
+      stringCheck="0" >
+
+      <_bool isValid="True" exists="False" />
+
+      <variable
+      origin="1" objectScope="1" listOrigin="0" >
+
+      <_bool removeFromList="False"
+      />
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[enemyIsCalling]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </variable>
+
+      </checkVariable>
+
+      </0>
+
+      </variable>
+
+      </_subarrays>
+
+      </variableCondition>
+
+      </settings>
+
+      </0>
+
+      </condition>
+
+      </_subarrays>
+
+      </conditions>
+
+      </3>
+
+      <4
+      next="7" clickDragCount="1" >
+
+      <_bool enableDrag="False" enableClickDrag="False"
+      useCondition="True" showInactive="False" addSchematicContext="False" />
+
+      <content>
+
+      <_bool
+      addTooltip="False" addDescription="False" />
+
+      <customInput useHoldAccept="0"
+      >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      <content>
+
+      <mainContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[The
+      Engineer]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </content>
+
+      </content>
+
+      <conditions
+      needed="0" >
+
+      <_subarrays>
+
+      <condition>
+
+      <0>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.VariableGeneralCondition`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.VariableGeneralCondition`1]]></_type>
+
+      </_string>
+
+      <variableCondition
+      needed="0" >
+
+      <_subarrays>
+
+      <variable>
+
+      <0 conditionType="0"
+      >
+
+      <_bool templateIsValid="True" />
+
+      <checkVariable type="1" axisType="0"
+      stringCheck="0" >
+
+      <_bool isValid="True" exists="False" />
+
+      <variable
+      origin="1" objectScope="1" listOrigin="0" >
+
+      <_bool removeFromList="False"
+      />
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[engineerIsCalling]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </variable>
+
+      </checkVariable>
+
+      </0>
+
+      </variable>
+
+      </_subarrays>
+
+      </variableCondition>
+
+      </settings>
+
+      </0>
+
+      </condition>
+
+      </_subarrays>
+
+      </conditions>
+
+      </4>
+
+      <5
+      next="-1" clickDragCount="1" >
+
+      <_bool enableDrag="False" enableClickDrag="False"
+      useCondition="False" showInactive="False" addSchematicContext="False" />
+
+      <content>
+
+      <_bool
+      addTooltip="False" addDescription="False" />
+
+      <customInput useHoldAccept="0"
+      >
+
+      <_bool highlightInput="False" />
+
+      <_floatarrays>
+
+      <highlightColor
+      1 1 1 1 />
+
+      </_floatarrays>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      <content>
+
+      <mainContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[Hang
+      up]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </content>
+
+      </content>
+
+      </5>
+
+      </choiceOption>
+
+      </_subarrays>
+
+      </dialogue>
+
+      </0>
+
+      <1
+      startsPerFrame="100" next="-1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool
+      waitBetween="True" wait="True" limitStartsPerFrame="False" setCounter="False"
+      startWithoutObjects="False" useSameObject="False" active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      722 38 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.StartMachineNode]]></_type>
+
+      </_string>
+
+      <machineStart
+      executionType="0" updateType="0" priority="0" >
+
+      <_bool inPause="False"
+      setPriority="False" shareVariables="False" copyVariables="False" shareSelectedData="False"
+      />
+
+      <schematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </schematicAsset>
+
+      <inputID>
+
+      <_bool
+      overrideID="False" />
+
+      </inputID>
+
+      </machineStart>
+
+      <timeBetweenValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </timeBetweenValue>
+
+      <usedObject
+      type="3" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="False" />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </usedObject>
+
+      <usedObject2
+      type="3" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="False" />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </usedObject2>
+
+      <resourceOverrides>
+
+      <_subarrays>
+
+      <prefab>
+
+      </prefab>
+
+      <audioClip>
+
+      </audioClip>
+
+      </_subarrays>
+
+      </resourceOverrides>
+
+      </1>
+
+      <2
+      startsPerFrame="100" next="-1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool
+      waitBetween="True" wait="True" limitStartsPerFrame="False" setCounter="False"
+      startWithoutObjects="False" useSameObject="False" active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      722 114 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.StartMachineNode]]></_type>
+
+      </_string>
+
+      <machineStart
+      executionType="0" updateType="0" priority="0" >
+
+      <_bool inPause="False"
+      setPriority="False" shareVariables="False" copyVariables="False" shareSelectedData="False"
+      />
+
+      <schematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </schematicAsset>
+
+      <inputID>
+
+      <_bool
+      overrideID="False" />
+
+      </inputID>
+
+      </machineStart>
+
+      <timeBetweenValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </timeBetweenValue>
+
+      <usedObject
+      type="3" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="False" />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </usedObject>
+
+      <usedObject2
+      type="3" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="False" />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </usedObject2>
+
+      <resourceOverrides>
+
+      <_subarrays>
+
+      <prefab>
+
+      </prefab>
+
+      <audioClip>
+
+      </audioClip>
+
+      </_subarrays>
+
+      </resourceOverrides>
+
+      </2>
+
+      <3
+      next="4" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      722 190 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.ChangeVariablesNode]]></_type>
+
+      </_string>
+
+      <change>
+
+      <_subarrays>
+
+      <variable>
+
+      <0
+      changeType="0" >
+
+      <variable removeType="0" type="1" axisType="0" >
+
+      <_bool
+      remove="False" normalize="False" />
+
+      <variable origin="1" objectScope="1"
+      listChange="0" >
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[deputyIsCalling]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </variable>
+
+      <stringOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetStringOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetStringOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </stringOperator>
+
+      <boolValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_bool
+      value="False" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </boolValue>
+
+      <floatOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </floatOperator>
+
+      <vector3Operator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetVector3Operator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetVector3Operator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </vector3Operator>
+
+      </variable>
+
+      </0>
+
+      </variable>
+
+      </_subarrays>
+
+      </change>
+
+      </3>
+
+      <4
+      startsPerFrame="100" next="-1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool
+      waitBetween="True" wait="True" limitStartsPerFrame="False" setCounter="False"
+      startWithoutObjects="False" useSameObject="False" active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      950 190 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.StartMachineNode]]></_type>
+
+      </_string>
+
+      <machineStart
+      executionType="0" updateType="0" priority="0" >
+
+      <_bool inPause="False"
+      setPriority="False" shareVariables="False" copyVariables="False" shareSelectedData="False"
+      />
+
+      <schematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="3" />
+
+      </settings>
+
+      </schematicAsset>
+
+      <inputID>
+
+      <_bool
+      overrideID="False" />
+
+      </inputID>
+
+      </machineStart>
+
+      <timeBetweenValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </timeBetweenValue>
+
+      <usedObject
+      type="3" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="False" />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </usedObject>
+
+      <usedObject2
+      type="3" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="False" />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </usedObject2>
+
+      <resourceOverrides>
+
+      <_subarrays>
+
+      <prefab>
+
+      </prefab>
+
+      <audioClip>
+
+      </audioClip>
+
+      </_subarrays>
+
+      </resourceOverrides>
+
+      </4>
+
+      <5
+      next="6" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      722 266 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.ChangeVariablesNode]]></_type>
+
+      </_string>
+
+      <change>
+
+      <_subarrays>
+
+      <variable>
+
+      <0
+      changeType="0" >
+
+      <variable removeType="0" type="1" axisType="0" >
+
+      <_bool
+      remove="False" normalize="False" />
+
+      <variable origin="1" objectScope="1"
+      listChange="0" >
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[enemyIsCalling]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </variable>
+
+      <stringOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetStringOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetStringOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </stringOperator>
+
+      <boolValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_bool
+      value="False" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </boolValue>
+
+      <floatOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </floatOperator>
+
+      <vector3Operator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetVector3Operator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetVector3Operator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </vector3Operator>
+
+      </variable>
+
+      </0>
+
+      </variable>
+
+      </_subarrays>
+
+      </change>
+
+      </5>
+
+      <6
+      startsPerFrame="100" next="-1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool
+      waitBetween="True" wait="True" limitStartsPerFrame="False" setCounter="False"
+      startWithoutObjects="False" useSameObject="False" active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      950 266 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.StartMachineNode]]></_type>
+
+      </_string>
+
+      <machineStart
+      executionType="0" updateType="0" priority="0" >
+
+      <_bool inPause="False"
+      setPriority="False" shareVariables="False" copyVariables="False" shareSelectedData="False"
+      />
+
+      <schematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="4" />
+
+      </settings>
+
+      </schematicAsset>
+
+      <inputID>
+
+      <_bool
+      overrideID="False" />
+
+      </inputID>
+
+      </machineStart>
+
+      <timeBetweenValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </timeBetweenValue>
+
+      <usedObject
+      type="3" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="False" />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </usedObject>
+
+      <usedObject2
+      type="3" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="False" />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </usedObject2>
+
+      <resourceOverrides>
+
+      <_subarrays>
+
+      <prefab>
+
+      </prefab>
+
+      <audioClip>
+
+      </audioClip>
+
+      </_subarrays>
+
+      </resourceOverrides>
+
+      </6>
+
+      <7
+      next="8" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      722 342 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.ChangeVariablesNode]]></_type>
+
+      </_string>
+
+      <change>
+
+      <_subarrays>
+
+      <variable>
+
+      <0
+      changeType="0" >
+
+      <variable removeType="0" type="1" axisType="0" >
+
+      <_bool
+      remove="False" normalize="False" />
+
+      <variable origin="1" objectScope="1"
+      listChange="0" >
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[engineerIsCalling]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </variable>
+
+      <stringOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetStringOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetStringOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </stringOperator>
+
+      <boolValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_bool
+      value="False" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </boolValue>
+
+      <floatOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </floatOperator>
+
+      <vector3Operator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetVector3Operator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetVector3Operator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </vector3Operator>
+
+      </variable>
+
+      </0>
+
+      </variable>
+
+      </_subarrays>
+
+      </change>
+
+      </7>
+
+      <8
+      startsPerFrame="100" next="-1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool
+      waitBetween="True" wait="True" limitStartsPerFrame="False" setCounter="False"
+      startWithoutObjects="False" useSameObject="False" active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      950 342 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.StartMachineNode]]></_type>
+
+      </_string>
+
+      <machineStart
+      executionType="0" updateType="0" priority="0" >
+
+      <_bool inPause="False"
+      setPriority="False" shareVariables="False" copyVariables="False" shareSelectedData="False"
+      />
+
+      <schematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="5" />
+
+      </settings>
+
+      </schematicAsset>
+
+      <inputID>
+
+      <_bool
+      overrideID="False" />
+
+      </inputID>
+
+      </machineStart>
+
+      <timeBetweenValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </timeBetweenValue>
+
+      <usedObject
+      type="3" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="False" />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </usedObject>
+
+      <usedObject2
+      type="3" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="False" />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </usedObject2>
+
+      <resourceOverrides>
+
+      <_subarrays>
+
+      <prefab>
+
+      </prefab>
+
+      <audioClip>
+
+      </audioClip>
+
+      </_subarrays>
+
+      </resourceOverrides>
+
+      </8>
+
+      </node>
+
+      <group>
+
+      </group>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}
+      - {fileID: 11400000, guid: 5e955544b716270489ede6d9acbe4660, type: 2}
+      - {fileID: 11400000, guid: e3f649a2b40355c41803970a0f5c38dd, type: 2}
+      - {fileID: 11400000, guid: 8c6ef42b74ddefb44839936db41fb575, type: 2}
+      - {fileID: 11400000, guid: 10356955c37b8f14d8056722822d1682, type: 2}
+      - {fileID: 11400000, guid: 74dcbcf74588ded4db1dc5000f28ebda, type: 2}
+    encrypted: 0

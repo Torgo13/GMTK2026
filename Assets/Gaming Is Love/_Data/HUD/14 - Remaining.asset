@@ -17,7 +17,7 @@ MonoBehaviour:
     byteData: 
     xmlData: '<xmldata realID="14" >
 
-      <_bool autoDisplay="True" ownSchematics="False"
+      <_bool autoDisplay="False" ownSchematics="False"
       />
 
       <_string>
