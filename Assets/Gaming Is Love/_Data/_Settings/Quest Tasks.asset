@@ -177,6 +177,19 @@ MonoBehaviour:
 
       </23>
 
+      <24>
+
+      <_asset
+      asset="24" />
+
+      </24>
+
+      <25>
+
+      <_asset asset="25" />
+
+      </25>
+
       </assets>
 
       </_subarrays>
@@ -200,6 +213,7 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 853bc7e53b6c11f4db31a20e15d5c57d, type: 2}
       - {fileID: 11400000, guid: f75250b2e6643454d9096c504e220a21, type: 2}
       - {fileID: 11400000, guid: 2fafbd02c5882574ba1e80cbffc66c75, type: 2}
+      - {fileID: 11400000, guid: c72b45f0b5e9a2c4a920f199011be432, type: 2}
       - {fileID: 11400000, guid: 675a7b78654af444c850bdd3c49962ab, type: 2}
       - {fileID: 11400000, guid: 980b52e5b89ed8649ac5856724a23100, type: 2}
       - {fileID: 11400000, guid: e137fbb7e5949144487af671247a9922, type: 2}
@@ -210,4 +224,5 @@ MonoBehaviour:
       - {fileID: 11400000, guid: f65aa0d5ab0b63e45a87de328a521dfa, type: 2}
       - {fileID: 11400000, guid: 1b787758c3525be458535a1ba7bbb185, type: 2}
       - {fileID: 11400000, guid: ead7d45f94e94934cb613ae467a8322c, type: 2}
+      - {fileID: 11400000, guid: be34970277ab7684684372989187d474, type: 2}
     encrypted: 0

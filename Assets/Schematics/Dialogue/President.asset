@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -326218779, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
   m_Name: President
   m_EditorClassIdentifier: Makinom2.dll::GamingIsLove.Makinom.MakinomSchematicAsset
-  time: 26/07/2026 14:40:38
+  time: 26/07/2026 14:56:25
   version: 2.23.0
   data:
     name: settings
@@ -366,7 +366,7 @@ MonoBehaviour:
       <_bool waitClose="True" waitCloseKeepOpen="False" waitCloseNotControlable="False"
       lockFocus="False" useUpdate="False" blockAccept="False" afterAudio="False"
       wait="False" ignoreHiddenAutoclose="False" allowCancel="False" useSpeaker="True"
-      atActorPosition="False" speakerName="True" useTitle="False" showPortraits="True"
+      atActorPosition="False" speakerName="True" useTitle="False" showPortraits="False"
       useAudio="False" stopAudio="True" onSpeaker="False" repeatChoiceConditionChecks="False"
       storeSelection="False" useDefaultSelection="False" />
 
@@ -544,46 +544,6 @@ MonoBehaviour:
       </_subarrays>
 
       </message>
-
-      <portraits>
-
-      <mainPortrait
-      actorID="1" >
-
-      <portraitType>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
-
-      </_string>
-
-      <_asset
-      asset="3" />
-
-      </settings>
-
-      </portraitType>
-
-      </mainPortrait>
-
-      <_subarrays>
-
-      <additionalPortrait>
-
-      </additionalPortrait>
-
-      </_subarrays>
-
-      </portraits>
 
       <audioChildObject
       type="0" >
@@ -1571,7 +1531,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="4" />
+      asset="3" />
 
       </settings>
 
@@ -1793,7 +1753,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="5" />
+      asset="4" />
 
       </settings>
 
@@ -2332,7 +2292,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="6" />
+      asset="5" />
 
       </settings>
 
@@ -2554,7 +2514,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="7" />
+      asset="6" />
 
       </settings>
 
@@ -2971,7 +2931,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="8" />
+      asset="7" />
 
       </settings>
 
@@ -3335,7 +3295,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="9" />
+      asset="8" />
 
       </settings>
 
@@ -3519,46 +3479,33 @@ MonoBehaviour:
 
       <_string>
 
-      <type><![CDATA[GamingIsLove.Makinom.VariableGeneralCondition`1]]></type>
+      <type><![CDATA[GamingIsLove.ORKFramework.QuestTaskGeneralCondition`1]]></type>
 
       </_string>
 
-      <settings>
+      <settings
+      needed="0" >
 
       <_string>
 
-      <_type><![CDATA[GamingIsLove.Makinom.VariableGeneralCondition`1]]></_type>
+      <_type><![CDATA[GamingIsLove.ORKFramework.QuestTaskGeneralCondition`1]]></_type>
 
       </_string>
-
-      <variableCondition
-      needed="0" >
 
       <_subarrays>
 
-      <variable>
+      <taskStatus>
 
-      <0 conditionType="0"
-      >
+      <0
+      type="4" >
 
-      <_bool templateIsValid="True" />
+      <_bool isValid="True" questActive="True" />
 
-      <checkVariable type="1" axisType="0"
-      stringCheck="0" >
-
-      <_bool isValid="True" exists="False" />
-
-      <variable
-      origin="1" objectScope="1" listOrigin="0" >
-
-      <_bool removeFromList="False"
-      />
-
-      <key>
+      <task>
 
       <_string>
 
-      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
 
       </_string>
 
@@ -3566,27 +3513,22 @@ MonoBehaviour:
 
       <_string>
 
-      <value><![CDATA[enemyInnocentProof]]></value>
-
-      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
 
       </_string>
 
+      <_asset
+      asset="9" />
+
       </settings>
 
-      </key>
-
-      </variable>
-
-      </checkVariable>
+      </task>
 
       </0>
 
-      </variable>
+      </taskStatus>
 
       </_subarrays>
-
-      </variableCondition>
 
       </settings>
 
@@ -5300,7 +5242,7 @@ MonoBehaviour:
       <17
       next="-1" nodeLayer="0" nodeGroup="-1" >
 
-      <_bool active="True" executeOnStop="False"
+      <_bool active="False" executeOnStop="False"
       isBreakpoint="False" overrideNodeName="False" />
 
       <_floatarrays>
@@ -6106,46 +6048,33 @@ MonoBehaviour:
 
       <_string>
 
-      <type><![CDATA[GamingIsLove.Makinom.VariableGeneralCondition`1]]></type>
+      <type><![CDATA[GamingIsLove.ORKFramework.QuestTaskGeneralCondition`1]]></type>
 
       </_string>
 
-      <settings>
+      <settings
+      needed="0" >
 
       <_string>
 
-      <_type><![CDATA[GamingIsLove.Makinom.VariableGeneralCondition`1]]></_type>
+      <_type><![CDATA[GamingIsLove.ORKFramework.QuestTaskGeneralCondition`1]]></_type>
 
       </_string>
-
-      <variableCondition
-      needed="0" >
 
       <_subarrays>
 
-      <variable>
+      <taskStatus>
 
-      <0 conditionType="0"
-      >
+      <0
+      type="4" >
 
-      <_bool templateIsValid="True" />
+      <_bool isValid="True" questActive="True" />
 
-      <checkVariable type="1" axisType="0"
-      stringCheck="0" >
-
-      <_bool isValid="False" exists="False" />
-
-      <variable
-      origin="1" objectScope="1" listOrigin="0" >
-
-      <_bool removeFromList="False"
-      />
-
-      <key>
+      <task>
 
       <_string>
 
-      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
 
       </_string>
 
@@ -6153,27 +6082,22 @@ MonoBehaviour:
 
       <_string>
 
-      <value><![CDATA[enemyDeniedLaunch]]></value>
-
-      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
 
       </_string>
 
+      <_asset
+      asset="21" />
+
       </settings>
 
-      </key>
-
-      </variable>
-
-      </checkVariable>
+      </task>
 
       </0>
 
-      </variable>
+      </taskStatus>
 
       </_subarrays>
-
-      </variableCondition>
 
       </settings>
 
@@ -6234,7 +6158,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="21" />
+      asset="22" />
 
       </settings>
 
@@ -6281,7 +6205,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="22" />
+      asset="23" />
 
       </settings>
 
@@ -6328,7 +6252,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="23" />
+      asset="24" />
 
       </settings>
 
@@ -6352,12 +6276,12 @@ MonoBehaviour:
       - {fileID: 11400000, guid: f5c88493ce721ad4cb1a590d0901076e, type: 2}
       - {fileID: 21300000, guid: 6e89dd1bca3c32d40a9eb33b57010fd6, type: 3}
       - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}
-      - {fileID: 11400000, guid: f5c88493ce721ad4cb1a590d0901076e, type: 2}
       - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}
       - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}
       - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}
       - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}
       - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}
+      - {fileID: 11400000, guid: fdf88855914fd8848b00579aa7339173, type: 2}
       - {fileID: 11400000, guid: fdf88855914fd8848b00579aa7339173, type: 2}
       - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}
       - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}
@@ -6369,6 +6293,7 @@ MonoBehaviour:
       - {fileID: 8300000, guid: fcbf90368c12a324ab33ab6d3b63e799, type: 3}
       - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}
       - {fileID: 11400000, guid: f5c88493ce721ad4cb1a590d0901076e, type: 2}
+      - {fileID: 11400000, guid: 6097fbdf21946a343ac522aadf8caecc, type: 2}
       - {fileID: 11400000, guid: 6097fbdf21946a343ac522aadf8caecc, type: 2}
       - {fileID: 11400000, guid: 3fcc0006f38a51d4997e1d94f017882b, type: 2}
       - {fileID: 11400000, guid: 675a7b78654af444c850bdd3c49962ab, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -326218779, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
   m_Name: General
   m_EditorClassIdentifier: Makinom2.dll::GamingIsLove.Makinom.MakinomSchematicAsset
-  time: 26/07/2026 14:42:37
+  time: 26/07/2026 14:57:07
   version: 2.23.0
   data:
     name: settings
@@ -1225,46 +1225,33 @@ MonoBehaviour:
 
       <_string>
 
-      <type><![CDATA[GamingIsLove.Makinom.VariableGeneralCondition`1]]></type>
+      <type><![CDATA[GamingIsLove.ORKFramework.QuestTaskGeneralCondition`1]]></type>
 
       </_string>
 
-      <settings>
+      <settings
+      needed="0" >
 
       <_string>
 
-      <_type><![CDATA[GamingIsLove.Makinom.VariableGeneralCondition`1]]></_type>
+      <_type><![CDATA[GamingIsLove.ORKFramework.QuestTaskGeneralCondition`1]]></_type>
 
       </_string>
-
-      <variableCondition
-      needed="0" >
 
       <_subarrays>
 
-      <variable>
+      <taskStatus>
 
-      <0 conditionType="0"
-      >
+      <0
+      type="1" >
 
-      <_bool templateIsValid="True" />
+      <_bool isValid="True" questActive="True" />
 
-      <checkVariable type="1" axisType="0"
-      stringCheck="0" >
-
-      <_bool isValid="True" exists="False" />
-
-      <variable
-      origin="1" objectScope="1" listOrigin="0" >
-
-      <_bool removeFromList="False"
-      />
-
-      <key>
+      <task>
 
       <_string>
 
-      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
 
       </_string>
 
@@ -1272,27 +1259,22 @@ MonoBehaviour:
 
       <_string>
 
-      <value><![CDATA[codePink]]></value>
-
-      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
 
       </_string>
 
+      <_asset
+      asset="1" />
+
       </settings>
 
-      </key>
-
-      </variable>
-
-      </checkVariable>
+      </task>
 
       </0>
 
-      </variable>
+      </taskStatus>
 
       </_subarrays>
-
-      </variableCondition>
 
       </settings>
 
@@ -1529,7 +1511,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="1" />
+      asset="2" />
 
       </settings>
 
@@ -1751,7 +1733,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="2" />
+      asset="3" />
 
       </settings>
 
@@ -1974,7 +1956,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="3" />
+      asset="4" />
 
       </settings>
 
@@ -2196,7 +2178,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="4" />
+      asset="5" />
 
       </settings>
 
@@ -2419,7 +2401,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="5" />
+      asset="6" />
 
       </settings>
 
@@ -2641,7 +2623,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="6" />
+      asset="7" />
 
       </settings>
 
@@ -3108,7 +3090,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="7" />
+      asset="8" />
 
       </settings>
 
@@ -3331,7 +3313,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="8" />
+      asset="9" />
 
       </settings>
 
@@ -3553,7 +3535,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="9" />
+      asset="10" />
 
       </settings>
 
@@ -3897,7 +3879,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="10" />
+      asset="11" />
 
       </settings>
 
@@ -4120,7 +4102,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="11" />
+      asset="12" />
 
       </settings>
 
@@ -4342,7 +4324,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="12" />
+      asset="13" />
 
       </settings>
 
@@ -4809,7 +4791,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="13" />
+      asset="14" />
 
       </settings>
 
@@ -5032,7 +5014,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="14" />
+      asset="15" />
 
       </settings>
 
@@ -5255,7 +5237,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="15" />
+      asset="16" />
 
       </settings>
 
@@ -5478,7 +5460,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="16" />
+      asset="17" />
 
       </settings>
 
@@ -5701,7 +5683,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="17" />
+      asset="18" />
 
       </settings>
 
@@ -6020,7 +6002,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="18" />
+      asset="19" />
 
       </settings>
 
@@ -6067,7 +6049,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="19" />
+      asset="20" />
 
       </settings>
 
@@ -6114,7 +6096,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="20" />
+      asset="21" />
 
       </settings>
 
@@ -6161,7 +6143,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="21" />
+      asset="22" />
 
       </settings>
 
@@ -6208,7 +6190,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="22" />
+      asset="23" />
 
       </settings>
 
@@ -6230,6 +6212,7 @@ MonoBehaviour:
     lookUp:
       assets:
       - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}
+      - {fileID: 11400000, guid: 3fcc0006f38a51d4997e1d94f017882b, type: 2}
       - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}
       - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}
       - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}

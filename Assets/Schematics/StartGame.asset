@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -326218779, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
   m_Name: StartGame
   m_EditorClassIdentifier: 
-  time: 26/07/2026 14:39:10
+  time: 26/07/2026 15:15:51
   version: 2.23.0
   data:
     name: settings
@@ -3726,7 +3726,7 @@ MonoBehaviour:
       </18>
 
       <19
-      next="18" nodeLayer="0" nodeGroup="-1" >
+      next="21" nodeLayer="0" nodeGroup="-1" >
 
       <_bool active="True" executeOnStop="False"
       isBreakpoint="False" overrideNodeName="False" />
@@ -3837,6 +3837,690 @@ MonoBehaviour:
       </hud>
 
       </20>
+
+      <21 next="22"
+      nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      1672 -133 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.ChanceNode]]></_type>
+
+      </_string>
+
+      <_subarrays>
+
+      <range>
+
+      <0
+      next="24" >
+
+      <minimum>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </minimum>
+
+      <maximum>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="33" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </maximum>
+
+      </0>
+
+      <1
+      next="23" >
+
+      <minimum>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="33" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </minimum>
+
+      <maximum>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="67" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </maximum>
+
+      </1>
+
+      </range>
+
+      </_subarrays>
+
+      </21>
+
+      <22
+      next="18" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      2052 -133 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.ChangeVariablesNode]]></_type>
+
+      </_string>
+
+      <change>
+
+      <_subarrays>
+
+      <variable>
+
+      <0
+      changeType="0" >
+
+      <variable removeType="0" type="1" axisType="0" >
+
+      <_bool
+      remove="False" normalize="False" />
+
+      <variable origin="1" objectScope="1"
+      listChange="0" >
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[deputyIsCalling]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </variable>
+
+      <stringOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetStringOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetStringOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </stringOperator>
+
+      <boolValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_bool
+      value="True" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </boolValue>
+
+      <floatOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </floatOperator>
+
+      <vector3Operator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetVector3Operator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetVector3Operator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </vector3Operator>
+
+      </variable>
+
+      </0>
+
+      </variable>
+
+      </_subarrays>
+
+      </change>
+
+      </22>
+
+      <23
+      next="18" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      2052 19 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.ChangeVariablesNode]]></_type>
+
+      </_string>
+
+      <change>
+
+      <_subarrays>
+
+      <variable>
+
+      <0
+      changeType="0" >
+
+      <variable removeType="0" type="1" axisType="0" >
+
+      <_bool
+      remove="False" normalize="False" />
+
+      <variable origin="1" objectScope="1"
+      listChange="0" >
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[enemyIsCalling]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </variable>
+
+      <stringOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetStringOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetStringOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </stringOperator>
+
+      <boolValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_bool
+      value="True" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </boolValue>
+
+      <floatOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </floatOperator>
+
+      <vector3Operator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetVector3Operator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetVector3Operator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </vector3Operator>
+
+      </variable>
+
+      </0>
+
+      </variable>
+
+      </_subarrays>
+
+      </change>
+
+      </23>
+
+      <24
+      next="18" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool active="True" executeOnStop="False"
+      isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      2052 -57 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.ChangeVariablesNode]]></_type>
+
+      </_string>
+
+      <change>
+
+      <_subarrays>
+
+      <variable>
+
+      <0
+      changeType="0" >
+
+      <variable removeType="0" type="1" axisType="0" >
+
+      <_bool
+      remove="False" normalize="False" />
+
+      <variable origin="1" objectScope="1"
+      listChange="0" >
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[engineerIsCalling]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </variable>
+
+      <stringOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetStringOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetStringOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </stringOperator>
+
+      <boolValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_bool
+      value="True" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </boolValue>
+
+      <floatOperator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </floatOperator>
+
+      <vector3Operator>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.SetVector3Operator]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.SetVector3Operator]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </vector3Operator>
+
+      </variable>
+
+      </0>
+
+      </variable>
+
+      </_subarrays>
+
+      </change>
+
+      </24>
 
       </node>
 

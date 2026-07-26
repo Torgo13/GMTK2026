@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -326218779, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
   m_Name: Deputy
   m_EditorClassIdentifier: Makinom2.dll::GamingIsLove.Makinom.MakinomSchematicAsset
-  time: 26/07/2026 11:25:06
+  time: 26/07/2026 14:59:28
   version: 2.23.0
   data:
     name: settings
@@ -2060,7 +2060,7 @@ MonoBehaviour:
       </5>
 
       <6
-      next="7" nodeLayer="0" nodeGroup="-1" >
+      next="10" nodeLayer="0" nodeGroup="-1" >
 
       <_bool active="True" executeOnStop="False"
       isBreakpoint="False" overrideNodeName="False" />
@@ -2282,7 +2282,7 @@ MonoBehaviour:
       </6>
 
       <7
-      next="2" nodeLayer="0" nodeGroup="-1" >
+      next="12" nodeLayer="0" nodeGroup="-1" >
 
       <_bool active="True" executeOnStop="False"
       isBreakpoint="False" overrideNodeName="False" />
@@ -2847,6 +2847,147 @@ MonoBehaviour:
 
       </9>
 
+      <10
+      status="1" next="11" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool showNotification="True"
+      showConsole="True" getRewards="True" checkQuestFinished="False" active="True"
+      executeOnStop="False" isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      1292 -38 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.Schematics.Nodes.ChangeTaskStatusNode]]></_type>
+
+      </_string>
+
+      <questTask>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="9" />
+
+      </settings>
+
+      </questTask>
+
+      </10>
+
+      <11
+      status="1" next="7" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool showNotification="True"
+      showConsole="True" getRewards="True" checkQuestFinished="False" active="True"
+      executeOnStop="False" isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      1520 -38 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.Schematics.Nodes.ChangeTaskStatusNode]]></_type>
+
+      </_string>
+
+      <questTask>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="10" />
+
+      </settings>
+
+      </questTask>
+
+      </11>
+
+      <12
+      status="1" next="2" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool showNotification="True"
+      showConsole="True" getRewards="True" checkQuestFinished="False" active="True"
+      executeOnStop="False" isBreakpoint="False" overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition
+      1767 -38 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.Schematics.Nodes.ChangeTaskStatusNode]]></_type>
+
+      </_string>
+
+      <questTask>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="11" />
+
+      </settings>
+
+      </questTask>
+
+      </12>
+
       </node>
 
       <group>
@@ -2869,4 +3010,7 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}
       - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}
       - {fileID: 11400000, guid: 31f1379fa90d5614ca5974e7466ec294, type: 2}
+      - {fileID: 11400000, guid: 980b52e5b89ed8649ac5856724a23100, type: 2}
+      - {fileID: 11400000, guid: c72b45f0b5e9a2c4a920f199011be432, type: 2}
+      - {fileID: 11400000, guid: fca27dd5abb833a4db71e9c4975f923a, type: 2}
     encrypted: 0
