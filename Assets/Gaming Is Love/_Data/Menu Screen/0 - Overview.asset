@@ -24,7 +24,7 @@ MonoBehaviour:
       <_bool rememberSelection="True" allClosedResetSelection="False" singleScreen="True"
       closeOn2nd="True" close2ndFocused="False" closeFocusLost="False" blockControl="True"
       blockControlMaps="True" pauseNotifications="True" blockNotifications="True"
-      blockFlyingTexts="True" pauseGame="True" pauseTime="False" freezePause="True"
+      blockFlyingTexts="True" pauseGame="True" pauseTime="True" freezePause="True"
       setTimeScale="False" setMakinomScale="False" useKey="True" useMultiInputID="False"
       allowInMenuCall="False" useRequirement="False" useCloseKey="False" closeKeyNoReturn="False"
       closeKeyAll="False" closeScreensOpeningExcept="False" closeScreensClosingExcept="False"
